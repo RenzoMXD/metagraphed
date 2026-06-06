@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-github-readme-creativebuilds-sn77-subnet-api-1",
-      "kind": "subnet-api",
-      "name": "Liquidity API surface",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/creativebuilds/sn77/blob/master/README.md",
-      "source_urls": [
-        "https://github.com/creativebuilds/sn77/blob/master/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://thegraph.com/studio/apikeys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-github-readme-creativebuilds-sn77-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "Liquidity API surface",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/creativebuilds/sn77/blob/master/README.md",
-      "source_urls": [
-        "https://github.com/creativebuilds/sn77/blob/master/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://thegraph.com/docs/en/subgraphs/querying/managing-api-keys"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-77-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/77",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/77",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/77/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/77"
       ],
       "state": "schema-valid",
       "url": "https://github.com/creativebuilds/sn77"
@@ -116,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -126,179 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/77"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-api",
-      "kind": "subnet-api",
-      "name": "Liquidity API",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-docs",
-      "kind": "docs",
-      "name": "Liquidity docs",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-health",
-      "kind": "subnet-api",
-      "name": "Liquidity health endpoint",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Liquidity OpenAPI JSON",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-swagger",
-      "kind": "openapi",
-      "name": "Liquidity Swagger UI",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Liquidity Swagger JSON",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/swagger.json"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-github-readme-creativebuilds-sn77-subnet-api-1",
-      "kind": "subnet-api",
-      "name": "Liquidity API surface",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/creativebuilds/sn77/blob/master/README.md",
-      "source_urls": [
-        "https://github.com/creativebuilds/sn77/blob/master/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://thegraph.com/studio/apikeys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-github-readme-creativebuilds-sn77-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "Liquidity API surface",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/creativebuilds/sn77/blob/master/README.md",
-      "source_urls": [
-        "https://github.com/creativebuilds/sn77/blob/master/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://thegraph.com/docs/en/subgraphs/querying/managing-api-keys"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-77-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -334,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/77",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/77",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/77/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/77"
       ],
       "state": "schema-valid",
       "url": "https://github.com/creativebuilds/sn77"
@@ -371,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -381,143 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/77"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-api",
-      "kind": "subnet-api",
-      "name": "Liquidity API",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-docs",
-      "kind": "docs",
-      "name": "Liquidity docs",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-health",
-      "kind": "subnet-api",
-      "name": "Liquidity health endpoint",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Liquidity OpenAPI JSON",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-swagger",
-      "kind": "openapi",
-      "name": "Liquidity Swagger UI",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-77-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Liquidity Swagger JSON",
-      "netuid": 77,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://sn77.xyz/",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn77.xyz/swagger.json"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -525,7 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
+      "source-repo",
       "website"
     ]
   },
@@ -533,14 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 12,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -549,19 +211,19 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:49.657Z"
+      "verified_at": "2026-06-06T07:44:04.061Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/77",
-    "docs_url": "https://sn77.xyz/docs",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/77",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -569,7 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
+        "source-repo",
         "website"
       ]
     },
@@ -594,7 +256,7 @@
     },
     "registered_at_block": 5128460,
     "slug": "sn-77",
-    "source_repo": null,
+    "source_repo": "https://github.com/creativebuilds/sn77",
     "status": "active",
     "subnet_type": "application",
     "surface_count": 4,
@@ -619,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/77"
@@ -628,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/77",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 126,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.468Z"
+        "verified_at": "2026-06-06T07:44:04.034Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-77-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Liquidity source repository",
+      "netuid": 77,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/77"
+      ],
+      "subnet_name": "Liquidity",
+      "subnet_slug": "sn-77",
+      "url": "https://github.com/creativebuilds/sn77",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/creativebuilds/sn77",
+        "latency_ms": 610,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:04.049Z"
       }
     },
     {
@@ -652,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/77"
@@ -661,78 +383,55 @@
       "url": "https://sn77.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 109,
+        "latency_ms": 136,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.547Z"
+        "verified_at": "2026-06-06T07:44:04.050Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-77-website-common-docs",
+      "id": "sn-77-tensorplex-docs",
       "kind": "docs",
-      "name": "Liquidity docs",
+      "name": "Liquidity Tensorplex subnet docs",
       "netuid": 77,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "subnet_name": "Liquidity",
-      "subnet_slug": "sn-77",
-      "url": "https://sn77.xyz/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 182,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.641Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-77-website-common-swagger",
-      "kind": "openapi",
-      "name": "Liquidity Swagger UI",
-      "netuid": 77,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://sn77.xyz/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/77/subnet.json"
       ],
       "subnet_name": "Liquidity",
       "subnet_slug": "sn-77",
-      "url": "https://sn77.xyz/swagger",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/77",
       "verification": {
         "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 179,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 392,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.657Z"
+        "verified_at": "2026-06-06T07:44:04.061Z"
       }
     }
   ],
@@ -753,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/77"
@@ -762,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/77",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 126,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.468Z"
+        "verified_at": "2026-06-06T07:44:04.034Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-77-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Liquidity source repository",
+      "netuid": 77,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/77"
+      ],
+      "subnet_name": "Liquidity",
+      "subnet_slug": "sn-77",
+      "url": "https://github.com/creativebuilds/sn77",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/creativebuilds/sn77",
+        "latency_ms": 610,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:04.049Z"
       }
     },
     {
@@ -786,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/77"
@@ -795,78 +554,55 @@
       "url": "https://sn77.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 109,
+        "latency_ms": 136,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.547Z"
+        "verified_at": "2026-06-06T07:44:04.050Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-77-website-common-docs",
+      "id": "sn-77-tensorplex-docs",
       "kind": "docs",
-      "name": "Liquidity docs",
+      "name": "Liquidity Tensorplex subnet docs",
       "netuid": 77,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://sn77.xyz/"
-      ],
-      "subnet_name": "Liquidity",
-      "subnet_slug": "sn-77",
-      "url": "https://sn77.xyz/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 182,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.641Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-77-website-common-swagger",
-      "kind": "openapi",
-      "name": "Liquidity Swagger UI",
-      "netuid": 77,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://sn77.xyz/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/77/subnet.json"
       ],
       "subnet_name": "Liquidity",
       "subnet_slug": "sn-77",
-      "url": "https://sn77.xyz/swagger",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/77",
       "verification": {
         "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 179,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 392,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:49.657Z"
+        "verified_at": "2026-06-06T07:44:04.061Z"
       }
     }
   ]

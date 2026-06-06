@@ -4,9 +4,8 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified project docs surface yet.",
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
@@ -14,17 +13,59 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:18:10.441Z"
+    "verified_at": "2026-06-06T07:44:10.855Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/127",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/127",
   "links": [],
   "name": "Astrid",
   "netuid": 127,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-127",
+  "source_repo": "https://github.com/astridintelligence/sn-127",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-127-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Astrid source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/127"
+      ],
+      "url": "https://github.com/astridintelligence/sn-127",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/astridintelligence/sn-127",
+        "latency_ms": 519,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:10.854Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -40,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/127"
@@ -47,12 +96,52 @@
       "url": "https://www.astrid.global/",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 373,
+        "latency_ms": 367,
         "method_tested": "HEAD",
         "redirect_target": "https://astrid.global/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:10.441Z"
+        "verified_at": "2026-06-06T07:44:10.854Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-127-tensorplex-docs",
+      "kind": "docs",
+      "name": "Astrid Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/127/subnet.json"
+      ],
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/127",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 427,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:10.855Z"
       }
     },
     {
@@ -70,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/127"
@@ -77,42 +174,13 @@
       "url": "https://taomarketcap.com/subnets/127",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 144,
+        "latency_ms": 141,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:10.400Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-127-github-readme-astridintelligence-sn-127-subnet-api-1",
-      "kind": "subnet-api",
-      "name": "Astrid API surface",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/astridintelligence/sn-127/blob/master/README.md"
-      ],
-      "url": "https://api.astrid.global/v1",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/json; charset=utf-8",
-        "latency_ms": 348,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:10.397Z"
+        "verified_at": "2026-06-06T07:44:10.853Z"
       }
     }
   ],

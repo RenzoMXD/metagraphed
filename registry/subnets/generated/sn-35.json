@@ -4,6 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -11,8 +12,8 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 5,
-    "verified_at": "2026-06-06T07:17:33.448Z"
+    "source_count": 3,
+    "verified_at": "2026-06-06T07:43:56.444Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/35",
   "docs_url": "https://docs.learnbittensor.org/keys/working-with-keys",
@@ -40,22 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/35"
       ],
       "url": "https://github.com/General-Tao-Ventures/cartha-validator",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/General-Tao-Ventures/cartha-validator",
-        "homepage": null,
-        "last_push_at": "2026-05-06T05:41:19Z",
+        "latency_ms": 409,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:33.262Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:56.349Z"
       }
     },
     {
@@ -64,7 +72,7 @@
       "id": "sn-35-tensorplex-source-repo-1",
       "kind": "source-repo",
       "name": "OxMarkets source repository",
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -73,52 +81,29 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/35/subnet.json"
       ],
       "url": "https://github.com/General-Tao-Ventures/cartha-cli",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/General-Tao-Ventures/cartha-cli",
-        "homepage": null,
-        "last_push_at": "2026-03-17T15:44:46Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:33.263Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-35-github-readme-general-tao-ventures-cartha-validator-website-1",
-      "kind": "website",
-      "name": "OxMarkets website page",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/General-Tao-Ventures/cartha-validator/blob/main/README.md"
-      ],
-      "url": "https://github.com/astral-sh/uv",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 1377,
+        "latency_ms": 561,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.257Z"
+        "verified_at": "2026-06-06T07:43:56.444Z"
       }
     },
     {
@@ -136,6 +121,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/35"
@@ -143,12 +136,13 @@
       "url": "https://www.0xmarkets.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 315,
+        "latency_ms": 303,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.262Z"
+        "verified_at": "2026-06-06T07:43:56.360Z"
       }
     },
     {
@@ -157,7 +151,7 @@
       "id": "sn-35-github-readme-general-tao-ventures-cartha-cli-docs-1",
       "kind": "docs",
       "name": "OxMarkets docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -166,6 +160,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/General-Tao-Ventures/cartha-cli/blob/main/README.md"
@@ -173,12 +175,13 @@
       "url": "https://docs.learnbittensor.org/keys/working-with-keys",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
         "latency_ms": 39,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.225Z"
+        "verified_at": "2026-06-06T07:43:56.321Z"
       }
     },
     {
@@ -187,7 +190,7 @@
       "id": "sn-35-tensorplex-docs",
       "kind": "docs",
       "name": "OxMarkets Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -196,6 +199,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/35/subnet.json"
@@ -203,42 +214,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/35",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 423,
+        "latency_ms": 352,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.263Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-35-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "OxMarkets docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/astral-sh/uv"
-      ],
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 125,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.284Z"
+        "verified_at": "2026-06-06T07:43:56.433Z"
       }
     },
     {
@@ -256,6 +238,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/35"
@@ -263,44 +253,15 @@
       "url": "https://taomarketcap.com/subnets/35",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 244,
+        "latency_ms": 176,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.262Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-35-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "OxMarkets Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/astral-sh/uv"
-      ],
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 396,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:33.448Z"
+        "verified_at": "2026-06-06T07:43:56.332Z"
       }
     }
   ],
-  "website_url": "https://github.com/astral-sh/uv"
+  "website_url": "https://www.0xmarkets.io/"
 }

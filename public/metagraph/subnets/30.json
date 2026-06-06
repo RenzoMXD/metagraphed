@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -62,174 +62,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/30"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-api",
-      "kind": "subnet-api",
-      "name": "Endure Network API",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-docs",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-health",
-      "kind": "subnet-api",
-      "name": "Endure Network health endpoint",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Endure Network OpenAPI JSON",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-swagger",
-      "kind": "openapi",
-      "name": "Endure Network Swagger UI",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Endure Network Swagger JSON",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-link-endure-network-docs-1",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.endure.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-link-endure-network-website-2",
-      "kind": "website",
-      "name": "Endure Network website page",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/cdn-cgi/l/email-protection"
     }
   ],
   "candidates": [
@@ -285,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -295,174 +127,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/30"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-api",
-      "kind": "subnet-api",
-      "name": "Endure Network API",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-docs",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-health",
-      "kind": "subnet-api",
-      "name": "Endure Network health endpoint",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Endure Network OpenAPI JSON",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-swagger",
-      "kind": "openapi",
-      "name": "Endure Network Swagger UI",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Endure Network Swagger JSON",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-link-endure-network-docs-1",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.endure.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-30-website-link-endure-network-website-2",
-      "kind": "website",
-      "name": "Endure Network website page",
-      "netuid": 30,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://endure.network/",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://endure.network/cdn-cgi/l/email-protection"
     }
   ],
   "gaps": {
@@ -490,7 +154,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 11,
+    "candidate_count": 3,
     "categories": [
       "baseline-curated"
     ],
@@ -506,8 +170,8 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:31.399Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:56.069Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/30",
     "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/30",
@@ -540,7 +204,7 @@
     "netuid": 30,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 4,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -556,7 +220,7 @@
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 4,
+    "surface_count": 3,
     "symbol": "ו",
     "tempo": 360,
     "website_url": "https://endure.network/"
@@ -578,6 +242,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/30"
@@ -587,12 +259,13 @@
       "url": "https://taomarketcap.com/subnets/30",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 155,
+        "latency_ms": 150,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.360Z"
+        "verified_at": "2026-06-06T07:43:56.029Z"
       }
     },
     {
@@ -611,6 +284,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/30"
@@ -620,12 +301,13 @@
       "url": "https://endure.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 934,
+        "latency_ms": 858,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.360Z"
+        "verified_at": "2026-06-06T07:43:56.052Z"
       }
     },
     {
@@ -635,7 +317,7 @@
       "kind": "docs",
       "name": "Endure Network Tensorplex subnet docs",
       "netuid": 30,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -644,6 +326,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/30/subnet.json"
@@ -653,45 +343,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/30",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 375,
+        "latency_ms": 364,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.361Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-30-website-link-endure-network-docs-1",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "subnet_name": "Endure Network",
-      "subnet_slug": "sn-30",
-      "url": "https://docs.endure.network/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 916,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.399Z"
+        "verified_at": "2026-06-06T07:43:56.069Z"
       }
     }
   ],
@@ -712,6 +370,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/30"
@@ -721,12 +387,13 @@
       "url": "https://taomarketcap.com/subnets/30",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 155,
+        "latency_ms": 150,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.360Z"
+        "verified_at": "2026-06-06T07:43:56.029Z"
       }
     },
     {
@@ -745,6 +412,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/30"
@@ -754,12 +429,13 @@
       "url": "https://endure.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 934,
+        "latency_ms": 858,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.360Z"
+        "verified_at": "2026-06-06T07:43:56.052Z"
       }
     },
     {
@@ -769,7 +445,7 @@
       "kind": "docs",
       "name": "Endure Network Tensorplex subnet docs",
       "netuid": 30,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -778,6 +454,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/30/subnet.json"
@@ -787,45 +471,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/30",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 375,
+        "latency_ms": 364,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.361Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-30-website-link-endure-network-docs-1",
-      "kind": "docs",
-      "name": "Endure Network docs",
-      "netuid": 30,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://endure.network/"
-      ],
-      "subnet_name": "Endure Network",
-      "subnet_slug": "sn-30",
-      "url": "https://docs.endure.network/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 916,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.399Z"
+        "verified_at": "2026-06-06T07:43:56.069Z"
       }
     }
   ]

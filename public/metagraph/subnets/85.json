@@ -2,90 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-data-artifact-2",
-      "kind": "data-artifact",
-      "name": "Vidaio data artifact",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/vidaio-subnet/video2x"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-docs-4",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.bittensor.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/vidaio-subnet/vmaf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-website-3",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/richzhang/PerceptualSimilarity"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-85-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -121,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/85",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/85",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/85/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/85"
       ],
       "state": "schema-valid",
       "url": "https://github.com/vidaio-subnet/vidaio-subnet"
@@ -158,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -168,740 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-api",
-      "kind": "subnet-api",
-      "name": "Vidaio API",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Vidaio API",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-docs",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-health",
-      "kind": "subnet-api",
-      "name": "Vidaio health endpoint",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Vidaio health endpoint",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Vidaio OpenAPI JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Vidaio OpenAPI JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Vidaio Swagger JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Vidaio Swagger JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvidaio-subnet%2Fvmaf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-2-1b5oxkh",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/richzhang/PerceptualSimilarity",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Frichzhang%2FPerceptualSimilarity"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-4",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard/upscaling"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-5",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard/compression"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/beta-program"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-2",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/sign-in"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-6",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/vidaio@vidaio.io"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-7",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/subnet"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-data-artifact-2",
-      "kind": "data-artifact",
-      "name": "Vidaio data artifact",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/vidaio-subnet/video2x"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-docs-4",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.bittensor.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/vidaio-subnet/vmaf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-website-3",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/richzhang/PerceptualSimilarity"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-85-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -937,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/85",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/85",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/85/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/85"
       ],
       "state": "schema-valid",
       "url": "https://github.com/vidaio-subnet/vidaio-subnet"
@@ -974,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -984,662 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-api",
-      "kind": "subnet-api",
-      "name": "Vidaio API",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Vidaio API",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-docs",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-health",
-      "kind": "subnet-api",
-      "name": "Vidaio health endpoint",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Vidaio health endpoint",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Vidaio OpenAPI JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Vidaio OpenAPI JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Vidaio Swagger JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Vidaio Swagger JSON",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvidaio-subnet%2Fvmaf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-2-1b5oxkh",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/richzhang/PerceptualSimilarity",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Frichzhang%2FPerceptualSimilarity"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/vidaio-subnet/vmaf",
-      "source_urls": [
-        "https://github.com/richzhang/PerceptualSimilarity",
-        "https://github.com/vidaio-subnet/vmaf"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-4",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard/upscaling"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-dashboard-5",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/dashboard/compression"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-1",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/beta-program"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-2",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/sign-in"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-6",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/vidaio@vidaio.io"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-85-website-link-vidaio-io-website-7",
-      "kind": "website",
-      "name": "Vidaio website page",
-      "netuid": 85,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://vidaio.io/",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://vidaio.io/subnet"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1647,7 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
+      "source-repo",
       "website"
     ]
   },
@@ -1655,14 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 38,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1670,20 +210,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:53.455Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:05.909Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/85",
-    "docs_url": "https://docs.bittensor.com/",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1691,7 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
+        "source-repo",
         "website"
       ]
     },
@@ -1703,7 +243,7 @@
     "netuid": 85,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 7,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1716,10 +256,10 @@
     },
     "registered_at_block": 5258781,
     "slug": "sn-85",
-    "source_repo": null,
+    "source_repo": "https://github.com/vidaio-subnet/vidaio-subnet",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 7,
+    "surface_count": 4,
     "symbol": "ᚱ",
     "tempo": 360,
     "website_url": "https://vidaio.io/"
@@ -1728,39 +268,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-docs-4",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://docs.bittensor.com/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 92,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.learnbittensor.org/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.997Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-85-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Vidaio TaoMarketCap dashboard",
@@ -1774,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -1783,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/85",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 126,
+        "latency_ms": 136,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.004Z"
+        "verified_at": "2026-06-06T07:44:05.891Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-85-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Vidaio source repository",
+      "netuid": 85,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/85"
+      ],
+      "subnet_name": "Vidaio",
+      "subnet_slug": "sn-85",
+      "url": "https://github.com/vidaio-subnet/vidaio-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/vidaio-subnet/vidaio-subnet",
+        "latency_ms": 566,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:05.897Z"
       }
     },
     {
@@ -1807,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -1816,144 +383,55 @@
       "url": "https://vidaio.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 277,
+        "latency_ms": 336,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.006Z"
+        "verified_at": "2026-06-06T07:44:05.905Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-85-website-common-docs",
+      "id": "sn-85-tensorplex-docs",
       "kind": "docs",
-      "name": "Vidaio docs",
+      "name": "Vidaio Tensorplex subnet docs",
       "netuid": 85,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 780,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fdocs",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.095Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-common-swagger",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://vidaio.io/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/85/subnet.json"
       ],
       "subnet_name": "Vidaio",
       "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/swagger",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 326,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fswagger",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.161Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/dashboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 368,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.396Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-4",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/dashboard/upscaling",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 296,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.455Z"
+        "verified_at": "2026-06-06T07:44:05.909Z"
       }
     }
   ],
@@ -1961,39 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-docs-4",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "netuid": 85,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://docs.bittensor.com/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 92,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.learnbittensor.org/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.997Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-85-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Vidaio TaoMarketCap dashboard",
@@ -2007,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -2016,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/85",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 126,
+        "latency_ms": 136,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.004Z"
+        "verified_at": "2026-06-06T07:44:05.891Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-85-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Vidaio source repository",
+      "netuid": 85,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/85"
+      ],
+      "subnet_name": "Vidaio",
+      "subnet_slug": "sn-85",
+      "url": "https://github.com/vidaio-subnet/vidaio-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/vidaio-subnet/vidaio-subnet",
+        "latency_ms": 566,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:05.897Z"
       }
     },
     {
@@ -2040,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -2049,144 +554,55 @@
       "url": "https://vidaio.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 277,
+        "latency_ms": 336,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.006Z"
+        "verified_at": "2026-06-06T07:44:05.905Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-85-website-common-docs",
+      "id": "sn-85-tensorplex-docs",
       "kind": "docs",
-      "name": "Vidaio docs",
+      "name": "Vidaio Tensorplex subnet docs",
       "netuid": 85,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 780,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fdocs",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.095Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-common-swagger",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "netuid": 85,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://vidaio.io/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/85/subnet.json"
       ],
       "subnet_name": "Vidaio",
       "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/swagger",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 326,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fswagger",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.161Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/dashboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 368,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.396Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-4",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "netuid": 85,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "subnet_name": "Vidaio",
-      "subnet_slug": "sn-85",
-      "url": "https://vidaio.io/dashboard/upscaling",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 296,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.455Z"
+        "verified_at": "2026-06-06T07:44:05.909Z"
       }
     }
   ]

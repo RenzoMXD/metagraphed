@@ -1,0 +1,197 @@
+{
+  "candidates": [
+    {
+      "candidate_api_count": 0,
+      "curation_level": "adapter-backed",
+      "name": "Allways",
+      "netuid": 7,
+      "operational_kinds": [
+        "openapi",
+        "sse",
+        "subnet-api"
+      ],
+      "operational_surface_count": 12,
+      "priority_score": 255,
+      "slug": "allways"
+    },
+    {
+      "candidate_api_count": 8,
+      "curation_level": "machine-verified",
+      "name": "Pending",
+      "netuid": 58,
+      "operational_kinds": [
+        "subnet-api"
+      ],
+      "operational_surface_count": 3,
+      "priority_score": 70,
+      "slug": "sn-58"
+    },
+    {
+      "candidate_api_count": 15,
+      "curation_level": "machine-verified",
+      "name": "Zipcode",
+      "netuid": 46,
+      "operational_kinds": [
+        "data-artifact"
+      ],
+      "operational_surface_count": 1,
+      "priority_score": 29,
+      "slug": "sn-46"
+    },
+    {
+      "candidate_api_count": 0,
+      "curation_level": "adapter-backed",
+      "name": "Gittensor",
+      "netuid": 74,
+      "operational_kinds": [
+        "data-artifact"
+      ],
+      "operational_surface_count": 1,
+      "priority_score": 27,
+      "slug": "gittensor"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "Cacheon",
+      "netuid": 14,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 11,
+      "slug": "sn-14"
+    },
+    {
+      "candidate_api_count": 8,
+      "curation_level": "machine-verified",
+      "name": "Dojo",
+      "netuid": 52,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 10,
+      "slug": "sn-52"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "deprecated",
+      "netuid": 3,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 9,
+      "slug": "sn-3"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "404—GEN",
+      "netuid": 17,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 9,
+      "slug": "sn-17"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "MVTRX",
+      "netuid": 79,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 9,
+      "slug": "sn-79"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "Ditto",
+      "netuid": 118,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 9,
+      "slug": "sn-118"
+    },
+    {
+      "candidate_api_count": 4,
+      "curation_level": "machine-verified",
+      "name": "Chutes",
+      "netuid": 64,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 8,
+      "slug": "sn-64"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "Hippius",
+      "netuid": 75,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 8,
+      "slug": "sn-75"
+    },
+    {
+      "candidate_api_count": 7,
+      "curation_level": "machine-verified",
+      "name": "ansuz",
+      "netuid": 84,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 8,
+      "slug": "sn-84"
+    },
+    {
+      "candidate_api_count": 1,
+      "curation_level": "machine-verified",
+      "name": "Albedo",
+      "netuid": 97,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 8,
+      "slug": "sn-97"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "deprecated",
+      "netuid": 81,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 7,
+      "slug": "sn-81"
+    },
+    {
+      "candidate_api_count": 1,
+      "curation_level": "machine-verified",
+      "name": "Minos",
+      "netuid": 107,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 7,
+      "slug": "sn-107"
+    },
+    {
+      "candidate_api_count": 5,
+      "curation_level": "machine-verified",
+      "name": "Unknown",
+      "netuid": 117,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 6,
+      "slug": "sn-117"
+    },
+    {
+      "candidate_api_count": 1,
+      "curation_level": "machine-verified",
+      "name": "gamma_small",
+      "netuid": 122,
+      "operational_kinds": [],
+      "operational_surface_count": 0,
+      "priority_score": 3,
+      "slug": "sn-122"
+    }
+  ],
+  "contract_version": "2026-06-06.1",
+  "generated_at": "1970-01-01T00:00:00.000Z",
+  "schema_version": 1
+}

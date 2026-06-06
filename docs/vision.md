@@ -1,6 +1,6 @@
 # Metagraphed Vision
 
-Metagraphed starts as a registry and status layer, not a node-ops business.
+Metagraphed starts as a registry, status, and indexer layer, not a generic node-ops business.
 
 The wedge is simple: Bittensor has a native metagraph for subnet state, but builders still need to know how to consume subnet interfaces in practice. That means public APIs, OpenAPI/Swagger surfaces, dashboards, docs, repositories, endpoint health, schema drift, freshness, and access metadata.
 
@@ -10,25 +10,22 @@ Metagraphed extends the native Bittensor metagraph with public interface and hea
 
 It does not replace protocol state, explorer analytics, subnet docs, validator dashboards, or RPC providers. It sits beside them as an operational interface registry.
 
-## Registry Coverage
+## Current Backend State
 
-The registry is chain-first. Every active Finney netuid should appear from decoded native Bittensor/Subtensor data before any custom subnet integration exists.
+The backend currently covers all active Finney netuids:
 
-This gives Metagraphed complete coverage without pretending every subnet has verified public APIs. Native-only entries are useful as indexable stubs, and curated overlays add interfaces only when they have been reviewed.
-
-Coverage levels:
-
-- `native-only`: active chain subnet with no verified public interface metadata yet;
-- `manifested`: curated interface metadata exists;
-- `probed`: curated interface metadata exists and at least one safe probe is configured.
-
-Third-party APIs can enrich candidates, labels, and cross-check counts, but they are not canonical for active subnet existence.
+- `129` active netuids: root `0` plus `128` application subnets.
+- `0` native-only entries.
+- Every active netuid has a curated overlay.
+- Allways SN7 and Gittensor SN74 are adapter-backed pilots.
+- Root netuid `0` is the home for Bittensor base-layer Subtensor RPC/WSS endpoints.
+- Health, badge, status, adapter, review, schema, and RPC artifacts all live under `metagraph.sh/metagraph/*`.
 
 ## Product Layers
 
 ### Native Metagraph Layer
 
-Universal Bittensor state for every subnet:
+Universal Bittensor state for every active subnet:
 
 - netuid;
 - subnet identity;
@@ -58,31 +55,22 @@ Declarative metadata for public interfaces:
 
 Observed status metadata:
 
-- uptime;
+- uptime samples;
 - latency;
 - status code;
 - schema hash;
 - schema drift;
-- method support;
-- archive support;
+- JSON-RPC method support;
+- archive probe support;
 - freshness;
 - error class;
 - probe history.
 
-## Domains
-
-- `metagraph.sh` is the primary product surface.
-- `subnet.health` is the dedicated health/status/badge surface.
-
-`subnet.health` should be useful on its own, not just a redirect. It can expose short URLs, badges, status JSON, and later provider-health comparisons for each subnet.
-
 ## Pilot
 
-The pilot is Allways SN7 plus Gittensor SN74.
+Allways SN7 provides a concrete public API surface: swaps, events, crown data, miners, leaderboard, reliability, protocol state, OpenAPI, and SSE.
 
-Allways gives Metagraphed a concrete public API surface: swaps, events, crown data, miners, leaderboard, reliability, protocol state, and SSE.
-
-Gittensor gives Metagraphed a different operational shape: repositories, bounties, contribution surfaces, emissions metadata, maintainer-cut metadata, mirror freshness, and public-safe aggregate metrics.
+Gittensor SN74 provides a different operational shape: repositories, bounties, contribution rules, emissions metadata, maintainer-cut metadata, mirror freshness, and public-safe aggregate metrics.
 
 ## Funding Path
 

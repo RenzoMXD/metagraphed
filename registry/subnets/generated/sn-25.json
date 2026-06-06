@@ -4,6 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -11,10 +12,10 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 5,
-    "verified_at": "2026-06-06T07:17:30.430Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:43:55.640Z"
   },
-  "dashboard_url": "https://www.macrocosmos.ai/sn25/dashboard",
+  "dashboard_url": "https://taomarketcap.com/subnets/25",
   "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/25",
   "links": [],
   "name": "Mainframe",
@@ -40,59 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/25",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/25/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/25"
       ],
       "url": "https://github.com/macrocosm-os/mainframe",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/macrocosm-os/mainframe",
-        "homepage": "https://www.macrocosmos.ai/sn25",
-        "last_push_at": "2025-09-29T14:26:59Z",
-        "redirect_target": null,
-        "topics": [
-          "bittensor",
-          "crypto",
-          "decentralized",
-          "dft",
-          "molecular-dynamics"
-        ],
-        "verified_at": "2026-06-06T07:17:30.103Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-github-readme-macrocosm-os-mainframe-website-2",
-      "kind": "website",
-      "name": "Mainframe website page",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/mainframe/blob/main/README.md"
-      ],
-      "url": "https://github.com/macrocosm-os/macrocosmos-py",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 484,
+        "latency_ms": 470,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.044Z"
+        "verified_at": "2026-06-06T07:43:55.616Z"
       }
     },
     {
@@ -110,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/25"
@@ -117,12 +96,13 @@
       "url": "https://macrocosmos.ai/sn25",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 206,
+        "latency_ms": 423,
         "method_tested": "HEAD",
         "redirect_target": "https://www.macrocosmos.ai/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.110Z"
+        "verified_at": "2026-06-06T07:43:55.628Z"
       }
     },
     {
@@ -131,7 +111,7 @@
       "id": "sn-25-tensorplex-docs",
       "kind": "docs",
       "name": "Mainframe Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -140,6 +120,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/25/subnet.json"
@@ -147,132 +135,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/25",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 375,
+        "latency_ms": 285,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.116Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Mainframe docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/macrocosmos-py"
-      ],
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 83,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.148Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-website-link-macrocosmos-ai-docs-3",
-      "kind": "docs",
-      "name": "Mainframe docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://macrocosmos.ai/sn25"
-      ],
-      "url": "https://docs.macrocosmos.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 106,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.420Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-website-link-macrocosmos-ai-docs-6",
-      "kind": "docs",
-      "name": "Mainframe docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://macrocosmos.ai/sn25"
-      ],
-      "url": "https://macrocosmos.ai/delegation-guide",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 186,
-        "method_tested": "HEAD",
-        "redirect_target": "https://www.macrocosmos.ai/delegation-guide",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.430Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-github-readme-macrocosm-os-mainframe-dashboard-1",
-      "kind": "dashboard",
-      "name": "Mainframe dashboard",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/mainframe/blob/main/README.md"
-      ],
-      "url": "https://www.macrocosmos.ai/sn25/dashboard",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 175,
-        "method_tested": "HEAD",
-        "redirect_target": "https://www.macrocosmos.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:29.928Z"
+        "verified_at": "2026-06-06T07:43:55.640Z"
       }
     },
     {
@@ -290,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/25"
@@ -297,44 +174,15 @@
       "url": "https://taomarketcap.com/subnets/25",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 140,
+        "latency_ms": 155,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.077Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-25-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Mainframe Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/macrocosmos-py"
-      ],
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 93,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.230Z"
+        "verified_at": "2026-06-06T07:43:55.601Z"
       }
     }
   ],
-  "website_url": "https://github.com/macrocosm-os/macrocosmos-py"
+  "website_url": "https://macrocosmos.ai/sn25"
 }

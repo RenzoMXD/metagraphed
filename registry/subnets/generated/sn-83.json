@@ -4,7 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -13,18 +13,59 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:17:52.531Z"
+    "verified_at": "2026-06-06T07:44:05.365Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/83",
-  "docs_url": "https://cliqueai.toptensor.ai/docs",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/83",
   "links": [],
   "name": "CliqueAI",
   "netuid": 83,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-83",
+  "source_repo": "https://github.com/toptensor/CliqueAI",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-83-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "CliqueAI source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/83"
+      ],
+      "url": "https://github.com/toptensor/CliqueAI",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/toptensor/CliqueAI",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:05.333Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -40,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/83"
@@ -47,42 +96,52 @@
       "url": "https://cliqueai.toptensor.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 471,
+        "latency_ms": 484,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.518Z"
+        "verified_at": "2026-06-06T07:44:05.345Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-83-website-common-docs",
+      "id": "sn-83-tensorplex-docs",
       "kind": "docs",
-      "name": "CliqueAI docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "name": "CliqueAI Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://cliqueai.toptensor.ai/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/83/subnet.json"
       ],
-      "url": "https://cliqueai.toptensor.ai/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/83",
       "verification": {
         "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 460,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 413,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.529Z"
+        "verified_at": "2026-06-06T07:44:05.365Z"
       }
     },
     {
@@ -100,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/83"
@@ -107,42 +174,13 @@
       "url": "https://taomarketcap.com/subnets/83",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 167,
+        "latency_ms": 161,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.487Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-83-website-common-swagger",
-      "kind": "openapi",
-      "name": "CliqueAI Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://cliqueai.toptensor.ai/"
-      ],
-      "url": "https://cliqueai.toptensor.ai/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 465,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.531Z"
+        "verified_at": "2026-06-06T07:44:05.303Z"
       }
     }
   ],

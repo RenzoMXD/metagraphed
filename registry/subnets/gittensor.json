@@ -1,82 +1,32 @@
 {
-  "schema_version": 1,
-  "netuid": 74,
-  "name": "Gittensor",
-  "slug": "gittensor",
-  "status": "active",
   "categories": [
     "developer-tools",
     "repositories",
     "pilot"
   ],
-  "docs_url": "https://docs.gittensor.io/",
-  "source_repo": "https://github.com/entrius/gittensor",
-  "dashboard_url": null,
-  "website_url": "https://gittensor.io/",
-  "notes": "Pilot manifest. This tracks public-safe registry concepts only; validator credential flows and private scoring internals are out of scope.",
   "curation": {
-    "level": "adapter-backed",
-    "review_state": "maintainer-reviewed",
-    "reviewed_at": null,
-    "verified_at": null,
-    "source_count": 3,
     "gap_notes": [
       "No verified dashboard surface yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified SSE/event stream yet.",
-      "No verified data artifact yet."
-    ]
+      "Bounty state is documented through public CLI flows, but no unauthenticated public API has been verified yet."
+    ],
+    "level": "adapter-backed",
+    "review_state": "maintainer-reviewed",
+    "reviewed_at": "2026-06-06T00:00:00.000Z",
+    "source_count": 5,
+    "verified_at": null
   },
-  "links": [],
-  "surfaces": [
-    {
-      "id": "gittensor-docs",
-      "name": "Gittensor docs",
-      "kind": "docs",
-      "url": "https://docs.gittensor.io/",
-      "provider": "gittensor",
-      "auth_required": false,
-      "authority": "provider-claimed",
-      "public_safe": true,
-      "probe": {
-        "enabled": true,
-        "method": "GET",
-        "expect": "html"
-      }
-    },
-    {
-      "id": "gittensor-registration-docs",
-      "name": "Gittensor repository registration docs",
-      "kind": "docs",
-      "url": "https://docs.gittensor.io/register-repository.html",
-      "provider": "gittensor",
-      "auth_required": false,
-      "authority": "provider-claimed",
-      "public_safe": true,
-      "probe": {
-        "enabled": true,
-        "method": "GET",
-        "expect": "html"
-      }
-    },
-    {
-      "id": "gittensor-hyperparameters-docs",
-      "name": "Gittensor repository hyperparameters docs",
-      "kind": "docs",
-      "url": "https://docs.gittensor.io/repository-hyperparameters",
-      "provider": "gittensor",
-      "auth_required": false,
-      "authority": "provider-claimed",
-      "public_safe": true,
-      "probe": {
-        "enabled": true,
-        "method": "GET",
-        "expect": "html"
-      }
-    }
-  ],
+  "dashboard_url": null,
+  "docs_url": "https://docs.gittensor.io/",
   "extensions": {
     "gittensor": {
+      "excluded_dimensions": [
+        "credentialed_github_flows",
+        "private_validator_inputs",
+        "private_dashboards",
+        "wallet_data"
+      ],
       "tracked_dimensions": [
         "repositories",
         "bounties",
@@ -85,13 +35,130 @@
         "maintainer_cuts",
         "mirror_freshness",
         "public_safe_aggregates"
-      ],
-      "excluded_dimensions": [
-        "credentialed_github_flows",
-        "private_validator_inputs",
-        "private_dashboards",
-        "wallet_data"
       ]
     }
-  }
+  },
+  "links": [],
+  "name": "Gittensor",
+  "netuid": 74,
+  "notes": "Pilot manifest. This tracks public-safe registry concepts only; validator credential flows and private scoring internals are out of scope.",
+  "schema_version": 1,
+  "slug": "gittensor",
+  "source_repo": "https://github.com/entrius/gittensor",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-docs",
+      "kind": "docs",
+      "name": "Gittensor docs",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "url": "https://docs.gittensor.io/"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-website",
+      "kind": "website",
+      "name": "Gittensor website",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "url": "https://gittensor.io/"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-source-repo",
+      "kind": "source-repo",
+      "name": "Gittensor source repository",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "url": "https://github.com/entrius/gittensor"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-registration-docs",
+      "kind": "docs",
+      "name": "Gittensor repository registration docs",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "url": "https://docs.gittensor.io/register-repository.html"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-hyperparameters-docs",
+      "kind": "docs",
+      "name": "Gittensor repository hyperparameters docs",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "url": "https://docs.gittensor.io/repository-hyperparameters"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-repositories-registry",
+      "kind": "repo-registry",
+      "name": "Gittensor public repositories registry",
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/register-repository.html"
+      ],
+      "url": "https://gittensor.io/repositories"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-master-repositories",
+      "kind": "data-artifact",
+      "name": "Gittensor master repository weights",
+      "notes": "Documented source for public repository emission_share, issue_discovery_share, and maintainer_cut config.",
+      "probe": {
+        "enabled": true,
+        "expect": "json",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/repository-hyperparameters"
+      ],
+      "url": "https://raw.githubusercontent.com/entrius/gittensor/main/gittensor/validator/weights/master_repositories.json"
+    }
+  ],
+  "website_url": "https://gittensor.io/"
 }

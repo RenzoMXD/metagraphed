@@ -14,7 +14,7 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:17:35.981Z"
+    "verified_at": "2026-06-06T07:43:57.104Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/43",
   "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/43",
@@ -42,23 +42,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/43",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/43/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/43"
       ],
       "url": "https://github.com/GraphiteAI/Graphite-Subnet",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/GraphiteAI/Graphite-Subnet",
-        "homepage": null,
-        "last_push_at": "2025-10-12T15:50:57Z",
+        "latency_ms": 613,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:35.975Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:57.104Z"
       }
     },
     {
@@ -67,7 +73,7 @@
       "id": "sn-43-tensorplex-docs",
       "kind": "docs",
       "name": "Graphite Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -76,6 +82,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/43/subnet.json"
@@ -83,12 +97,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/43",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 435,
+        "latency_ms": 478,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.981Z"
+        "verified_at": "2026-06-06T07:43:57.104Z"
       }
     },
     {
@@ -106,6 +121,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/43"
@@ -113,12 +136,13 @@
       "url": "https://taomarketcap.com/subnets/43",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 319,
+        "latency_ms": 269,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.964Z"
+        "verified_at": "2026-06-06T07:43:57.089Z"
       }
     }
   ]

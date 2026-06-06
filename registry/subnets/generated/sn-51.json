@@ -4,33 +4,35 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 6,
-    "verified_at": "2026-06-06T07:17:39.793Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:43:59.790Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/51",
-  "docs_url": "https://docs.lium.io/bittensor-subnet/overview",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/51",
   "links": [],
   "name": "lium.io",
   "netuid": 51,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-51",
+  "source_repo": "https://github.com/Datura-ai/lium-io",
   "status": "active",
   "surfaces": [
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-51-github-readme-datura-ai-lium-io-website-2",
-      "kind": "website",
-      "name": "lium.io website page",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "id": "sn-51-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "lium.io source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -39,19 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Datura-ai/lium-io/blob/main/README.md"
+        "https://api.taomarketcap.com/public/v1/subnets/51"
       ],
-      "url": "https://github.com/Datura-ai/lium-cli",
+      "url": "https://github.com/Datura-ai/lium-io",
       "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 551,
-        "method_tested": "GET",
-        "redirect_target": "https://github.com/Datura-ai/lium",
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/Datura-ai/lium-io",
+        "latency_ms": 502,
+        "method_tested": "HEAD",
+        "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.363Z"
+        "verified_at": "2026-06-06T07:43:59.663Z"
       }
     },
     {
@@ -69,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/51"
@@ -76,42 +96,13 @@
       "url": "https://lium.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 2278,
+        "latency_ms": 2036,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.378Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-51-github-readme-datura-ai-lium-io-docs-1",
-      "kind": "docs",
-      "name": "lium.io docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Datura-ai/lium-io/blob/main/README.md"
-      ],
-      "url": "https://docs.lium.io/bittensor-subnet/overview",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 432,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.lium.io/intro",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.361Z"
+        "verified_at": "2026-06-06T07:43:59.737Z"
       }
     },
     {
@@ -120,7 +111,7 @@
       "id": "sn-51-tensorplex-docs",
       "kind": "docs",
       "name": "lium.io Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -129,6 +120,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/51/subnet.json"
@@ -136,73 +135,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/51",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 413,
+        "latency_ms": 368,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.380Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-51-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "lium.io docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Datura-ai/lium-cli",
-        "https://github.com/user-attachments/assets/69550b83-91a9-492a-bd7a-09d35c6106d3"
-      ],
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 96,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.406Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-51-website-link-lium-io-docs-8",
-      "kind": "docs",
-      "name": "lium.io docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://lium.io/"
-      ],
-      "url": "https://docs.lium.io/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 190,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.793Z"
+        "verified_at": "2026-06-06T07:43:59.790Z"
       }
     },
     {
@@ -220,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/51"
@@ -227,75 +174,15 @@
       "url": "https://taomarketcap.com/subnets/51",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 149,
+        "latency_ms": 134,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.364Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-51-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "lium.io Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Datura-ai/lium-cli",
-        "https://github.com/user-attachments/assets/69550b83-91a9-492a-bd7a-09d35c6106d3"
-      ],
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 87,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.513Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-51-website-common-api",
-      "kind": "subnet-api",
-      "name": "lium.io API",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://lium.io/"
-      ],
-      "url": "https://lium.io/api",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "application/json",
-        "latency_ms": 494,
-        "method_tested": "GET",
-        "redirect_target": "https://lium.io/api/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.383Z"
+        "verified_at": "2026-06-06T07:43:59.662Z"
       }
     }
   ],
-  "website_url": "https://github.com/Datura-ai/lium-cli"
+  "website_url": "https://lium.io/"
 }

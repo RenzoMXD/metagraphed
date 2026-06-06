@@ -44,8 +44,24 @@ jobs:
       - name: Curate baseline overlays
         run: npm run curate:baseline
 
+      - name: Apply maintainer review decisions
+        run: npm run review:promote
+
+      - name: Snapshot subnet adapters
+        run: npm run adapters:snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build artifacts
         run: npm run build
+
+      - name: Snapshot OpenAPI schemas
+        run: npm run schemas:snapshot
+
+      - name: Probe curated surfaces
+        run: npm run probes:smoke
+        env:
+          METAGRAPH_WRITE_PROBE_RESULTS: "1"
 
       - name: Validate registry
         run: npm run validate
@@ -56,6 +72,9 @@ jobs:
       - name: Public-safety scan
         run: npm run scan:public-safety
 
+      - name: Generate sync summary
+        run: npm run sync:summary > "$RUNNER_TEMP/metagraphed-sync-summary.md"
+
       - name: Open sync pull request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -63,14 +82,4 @@ jobs:
           delete-branch: true
           title: "chore(sync): refresh subnet registry data"
           commit-message: "chore(sync): refresh subnet registry data"
-          body: |
-            ## Summary
-            - refresh the native Finney subnet snapshot
-            - refresh generated public-source candidate surfaces
-            - rebuild deterministic public artifacts
-
-            ## Validation
-            - npm run validate
-            - npm test
-            - npm run build
-            - npm run scan:public-safety
+          body-path: ${{ runner.temp }}/metagraphed-sync-summary.md

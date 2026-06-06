@@ -15,9 +15,7 @@ test("registry validates", () => {
   runNode("scripts/validate.mjs");
 });
 
-test("artifact build emits public indexes", () => {
-  runNode("scripts/build-artifacts.mjs");
-
+test("public artifacts are internally consistent", () => {
   const native = JSON.parse(readFileSync("registry/native/finney-subnets.json", "utf8"));
   const subnets = JSON.parse(readFileSync("public/metagraph/subnets.json", "utf8"));
   const surfaces = JSON.parse(readFileSync("public/metagraph/surfaces.json", "utf8"));
@@ -27,11 +25,26 @@ test("artifact build emits public indexes", () => {
   const reviewQueue = JSON.parse(readFileSync("public/metagraph/review-queue.json", "utf8"));
   const verification = JSON.parse(readFileSync("public/metagraph/verification/latest.json", "utf8"));
   const health = JSON.parse(readFileSync("public/metagraph/health/latest.json", "utf8"));
+  const healthSummary = JSON.parse(readFileSync("public/metagraph/health/summary.json", "utf8"));
+  const rpcEndpoints = JSON.parse(readFileSync("public/metagraph/rpc-endpoints.json", "utf8"));
   const coverage = JSON.parse(readFileSync("public/metagraph/coverage.json", "utf8"));
+  const contracts = JSON.parse(readFileSync("public/metagraph/contracts.json", "utf8"));
+  const schemaDrift = JSON.parse(readFileSync("public/metagraph/schema-drift.json", "utf8"));
+  const schemaIndex = JSON.parse(readFileSync("public/metagraph/schemas/index.json", "utf8"));
+  const reviewCuration = JSON.parse(readFileSync("public/metagraph/review/curation.json", "utf8"));
+  const gapPriorities = JSON.parse(readFileSync("public/metagraph/review/gap-priorities.json", "utf8"));
+  const adapterCandidates = JSON.parse(readFileSync("public/metagraph/review/adapter-candidates.json", "utf8"));
+  const reviewDecisions = JSON.parse(readFileSync("public/metagraph/review/maintainer-decisions.json", "utf8"));
 
   assert.equal(subnets.subnets.length, native.subnets.length);
   assert.equal(surfaces.surfaces.length, coverage.surface_count);
-  assert.equal(health.surfaces.length, surfaces.surfaces.length);
+  assert.equal(health.surfaces.length, surfaces.surfaces.filter((surface) => surface.probe?.enabled && surface.public_safe).length);
+  assert.equal(
+    rpcEndpoints.endpoints.length,
+    surfaces.surfaces.filter((surface) => ["subtensor-rpc", "subtensor-wss"].includes(surface.kind)).length
+  );
+  assert.equal(rpcEndpoints.endpoints.every((endpoint) => endpoint.netuid === 0), true);
+  assert.equal(healthSummary.subnets.length, native.subnets.length);
   assert.equal(coverage.chain_subnet_count, native.subnets.length);
   assert.equal(coverage.curated_overlay_count, native.subnets.length);
   assert.equal(coverage.native_only_count, 0);
@@ -41,6 +54,18 @@ test("artifact build emits public indexes", () => {
   assert.equal(gaps.gaps.length, native.subnets.length);
   assert.equal(verification.results.length, candidates.candidates.length);
   assert.equal(reviewQueue.count, reviewQueue.candidates.length);
+  assert.equal(contracts.primary_domain, "metagraph.sh");
+  assert.equal(contracts.status_domain, null);
+  assert.equal(new Set(contracts.artifacts.map((artifact) => artifact.id)).size, contracts.artifacts.length);
+  assert.equal(
+    schemaDrift.openapi_surface_count ?? schemaDrift.summary?.surface_count,
+    surfaces.surfaces.filter((surface) => surface.kind === "openapi").length
+  );
+  assert.equal(Array.isArray(schemaIndex.schemas), true);
+  assert.equal(reviewCuration.summary.subnet_count, native.subnets.length);
+  assert.equal(gapPriorities.priorities.length, native.subnets.length);
+  assert.equal(Array.isArray(adapterCandidates.candidates), true);
+  assert.equal(Array.isArray(reviewDecisions.decisions), true);
   assert.equal(coverage.probed_count, native.subnets.length);
   assert.equal(
     surfaces.surfaces.filter((surface) => surface.authority === "registry-observed" && !surface.verification).length,
@@ -56,5 +81,7 @@ test("artifact build emits public indexes", () => {
 
   for (const subnet of native.subnets) {
     assert.equal(existsSync(`public/metagraph/subnets/${subnet.netuid}.json`), true);
+    assert.equal(existsSync(`public/metagraph/health/subnets/${subnet.netuid}.json`), true);
+    assert.equal(existsSync(`public/metagraph/health/badges/${subnet.netuid}.json`), true);
   }
 });

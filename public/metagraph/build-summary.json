@@ -1,15 +1,1021 @@
 {
   "adapter_count": 2,
-  "candidate_count": 2973,
+  "artifact_count": 411,
+  "artifact_size_bytes": 11006642,
+  "artifacts": [
+    {
+      "path": "adapters/allways.json",
+      "size_bytes": 8275
+    },
+    {
+      "path": "adapters/gittensor.json",
+      "size_bytes": 4993
+    },
+    {
+      "path": "candidates.json",
+      "size_bytes": 1845806
+    },
+    {
+      "path": "contracts.json",
+      "size_bytes": 4926
+    },
+    {
+      "path": "coverage.json",
+      "size_bytes": 981
+    },
+    {
+      "path": "curation.json",
+      "size_bytes": 151847
+    },
+    {
+      "path": "gaps.json",
+      "size_bytes": 88072
+    },
+    {
+      "path": "health/badges/0.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/1.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/10.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/100.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/101.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/102.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/103.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/104.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/105.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/106.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/107.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/108.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/109.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/11.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/110.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/111.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/112.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/113.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/114.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/115.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/116.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/117.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/118.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/119.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/12.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/120.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/121.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/122.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/123.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/124.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/125.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/126.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/127.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/128.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/13.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/14.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/15.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/16.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/17.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/18.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/19.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/2.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/20.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/21.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/22.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/23.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/24.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/25.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/26.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/27.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/28.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/29.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/3.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/30.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/31.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/32.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/33.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/34.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/35.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/36.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/37.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/38.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/39.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/4.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/40.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/41.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/42.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/43.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/44.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/45.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/46.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/47.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/48.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/49.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/5.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/50.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/51.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/52.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/53.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/54.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/55.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/56.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/57.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/58.json",
+      "size_bytes": 300
+    },
+    {
+      "path": "health/badges/59.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/6.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/60.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/61.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/62.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/63.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/64.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/65.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/66.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/67.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/68.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/69.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/7.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/70.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/71.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/72.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/73.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/74.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/75.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/76.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/77.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/78.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/79.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/8.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/80.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/81.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/82.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/83.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/84.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/85.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/86.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/87.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/88.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/89.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/9.json",
+      "size_bytes": 296
+    },
+    {
+      "path": "health/badges/90.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/91.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/92.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/93.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/94.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/95.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/96.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/97.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/98.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/badges/99.json",
+      "size_bytes": 298
+    },
+    {
+      "path": "health/history/2026-06-06.json",
+      "size_bytes": 485303
+    },
+    {
+      "path": "health/latest.json",
+      "size_bytes": 330594
+    },
+    {
+      "path": "health/subnets/0.json",
+      "size_bytes": 7019
+    },
+    {
+      "path": "health/subnets/1.json",
+      "size_bytes": 3255
+    },
+    {
+      "path": "health/subnets/10.json",
+      "size_bytes": 2681
+    },
+    {
+      "path": "health/subnets/100.json",
+      "size_bytes": 3863
+    },
+    {
+      "path": "health/subnets/101.json",
+      "size_bytes": 1601
+    },
+    {
+      "path": "health/subnets/102.json",
+      "size_bytes": 2717
+    },
+    {
+      "path": "health/subnets/103.json",
+      "size_bytes": 2688
+    },
+    {
+      "path": "health/subnets/104.json",
+      "size_bytes": 1681
+    },
+    {
+      "path": "health/subnets/105.json",
+      "size_bytes": 2695
+    },
+    {
+      "path": "health/subnets/106.json",
+      "size_bytes": 2693
+    },
+    {
+      "path": "health/subnets/107.json",
+      "size_bytes": 4470
+    },
+    {
+      "path": "health/subnets/108.json",
+      "size_bytes": 2724
+    },
+    {
+      "path": "health/subnets/109.json",
+      "size_bytes": 2181
+    },
+    {
+      "path": "health/subnets/11.json",
+      "size_bytes": 2724
+    },
+    {
+      "path": "health/subnets/110.json",
+      "size_bytes": 2771
+    },
+    {
+      "path": "health/subnets/111.json",
+      "size_bytes": 2189
+    },
+    {
+      "path": "health/subnets/112.json",
+      "size_bytes": 2726
+    },
+    {
+      "path": "health/subnets/113.json",
+      "size_bytes": 2718
+    },
+    {
+      "path": "health/subnets/114.json",
+      "size_bytes": 3848
+    },
+    {
+      "path": "health/subnets/115.json",
+      "size_bytes": 2190
+    },
+    {
+      "path": "health/subnets/116.json",
+      "size_bytes": 1625
+    },
+    {
+      "path": "health/subnets/117.json",
+      "size_bytes": 3902
+    },
+    {
+      "path": "health/subnets/118.json",
+      "size_bytes": 5612
+    },
+    {
+      "path": "health/subnets/119.json",
+      "size_bytes": 1613
+    },
+    {
+      "path": "health/subnets/12.json",
+      "size_bytes": 2206
+    },
+    {
+      "path": "health/subnets/120.json",
+      "size_bytes": 2707
+    },
+    {
+      "path": "health/subnets/121.json",
+      "size_bytes": 2738
+    },
+    {
+      "path": "health/subnets/122.json",
+      "size_bytes": 2208
+    },
+    {
+      "path": "health/subnets/123.json",
+      "size_bytes": 2170
+    },
+    {
+      "path": "health/subnets/124.json",
+      "size_bytes": 2699
+    },
+    {
+      "path": "health/subnets/125.json",
+      "size_bytes": 1613
+    },
+    {
+      "path": "health/subnets/126.json",
+      "size_bytes": 2710
+    },
+    {
+      "path": "health/subnets/127.json",
+      "size_bytes": 2713
+    },
+    {
+      "path": "health/subnets/128.json",
+      "size_bytes": 3298
+    },
+    {
+      "path": "health/subnets/13.json",
+      "size_bytes": 2746
+    },
+    {
+      "path": "health/subnets/14.json",
+      "size_bytes": 6745
+    },
+    {
+      "path": "health/subnets/15.json",
+      "size_bytes": 2658
+    },
+    {
+      "path": "health/subnets/16.json",
+      "size_bytes": 2684
+    },
+    {
+      "path": "health/subnets/17.json",
+      "size_bytes": 5738
+    },
+    {
+      "path": "health/subnets/18.json",
+      "size_bytes": 2674
+    },
+    {
+      "path": "health/subnets/19.json",
+      "size_bytes": 2724
+    },
+    {
+      "path": "health/subnets/2.json",
+      "size_bytes": 3287
+    },
+    {
+      "path": "health/subnets/20.json",
+      "size_bytes": 2158
+    },
+    {
+      "path": "health/subnets/21.json",
+      "size_bytes": 2125
+    },
+    {
+      "path": "health/subnets/22.json",
+      "size_bytes": 2694
+    },
+    {
+      "path": "health/subnets/23.json",
+      "size_bytes": 4456
+    },
+    {
+      "path": "health/subnets/24.json",
+      "size_bytes": 2687
+    },
+    {
+      "path": "health/subnets/25.json",
+      "size_bytes": 2711
+    },
+    {
+      "path": "health/subnets/26.json",
+      "size_bytes": 2691
+    },
+    {
+      "path": "health/subnets/27.json",
+      "size_bytes": 1601
+    },
+    {
+      "path": "health/subnets/28.json",
+      "size_bytes": 1585
+    },
+    {
+      "path": "health/subnets/29.json",
+      "size_bytes": 3303
+    },
+    {
+      "path": "health/subnets/3.json",
+      "size_bytes": 5702
+    },
+    {
+      "path": "health/subnets/30.json",
+      "size_bytes": 2172
+    },
+    {
+      "path": "health/subnets/31.json",
+      "size_bytes": 1601
+    },
+    {
+      "path": "health/subnets/32.json",
+      "size_bytes": 2680
+    },
+    {
+      "path": "health/subnets/33.json",
+      "size_bytes": 2191
+    },
+    {
+      "path": "health/subnets/34.json",
+      "size_bytes": 2166
+    },
+    {
+      "path": "health/subnets/35.json",
+      "size_bytes": 3907
+    },
+    {
+      "path": "health/subnets/36.json",
+      "size_bytes": 2677
+    },
+    {
+      "path": "health/subnets/37.json",
+      "size_bytes": 3282
+    },
+    {
+      "path": "health/subnets/38.json",
+      "size_bytes": 2725
+    },
+    {
+      "path": "health/subnets/39.json",
+      "size_bytes": 2182
+    },
+    {
+      "path": "health/subnets/4.json",
+      "size_bytes": 3811
+    },
+    {
+      "path": "health/subnets/40.json",
+      "size_bytes": 1609
+    },
+    {
+      "path": "health/subnets/41.json",
+      "size_bytes": 2690
+    },
+    {
+      "path": "health/subnets/42.json",
+      "size_bytes": 1605
+    },
+    {
+      "path": "health/subnets/43.json",
+      "size_bytes": 2172
+    },
+    {
+      "path": "health/subnets/44.json",
+      "size_bytes": 3270
+    },
+    {
+      "path": "health/subnets/45.json",
+      "size_bytes": 2720
+    },
+    {
+      "path": "health/subnets/46.json",
+      "size_bytes": 5601
+    },
+    {
+      "path": "health/subnets/47.json",
+      "size_bytes": 3897
+    },
+    {
+      "path": "health/subnets/48.json",
+      "size_bytes": 2760
+    },
+    {
+      "path": "health/subnets/49.json",
+      "size_bytes": 2204
+    },
+    {
+      "path": "health/subnets/5.json",
+      "size_bytes": 3248
+    },
+    {
+      "path": "health/subnets/50.json",
+      "size_bytes": 2684
+    },
+    {
+      "path": "health/subnets/51.json",
+      "size_bytes": 2683
+    },
+    {
+      "path": "health/subnets/52.json",
+      "size_bytes": 6201
+    },
+    {
+      "path": "health/subnets/53.json",
+      "size_bytes": 1645
+    },
+    {
+      "path": "health/subnets/54.json",
+      "size_bytes": 2717
+    },
+    {
+      "path": "health/subnets/55.json",
+      "size_bytes": 2685
+    },
+    {
+      "path": "health/subnets/56.json",
+      "size_bytes": 3268
+    },
+    {
+      "path": "health/subnets/57.json",
+      "size_bytes": 2157
+    },
+    {
+      "path": "health/subnets/58.json",
+      "size_bytes": 6236
+    },
+    {
+      "path": "health/subnets/59.json",
+      "size_bytes": 2700
+    },
+    {
+      "path": "health/subnets/6.json",
+      "size_bytes": 3278
+    },
+    {
+      "path": "health/subnets/60.json",
+      "size_bytes": 3829
+    },
+    {
+      "path": "health/subnets/61.json",
+      "size_bytes": 2697
+    },
+    {
+      "path": "health/subnets/62.json",
+      "size_bytes": 2151
+    },
+    {
+      "path": "health/subnets/63.json",
+      "size_bytes": 2697
+    },
+    {
+      "path": "health/subnets/64.json",
+      "size_bytes": 5017
+    },
+    {
+      "path": "health/subnets/65.json",
+      "size_bytes": 2765
+    },
+    {
+      "path": "health/subnets/66.json",
+      "size_bytes": 2674
+    },
+    {
+      "path": "health/subnets/67.json",
+      "size_bytes": 3261
+    },
+    {
+      "path": "health/subnets/68.json",
+      "size_bytes": 2679
+    },
+    {
+      "path": "health/subnets/69.json",
+      "size_bytes": 1589
+    },
+    {
+      "path": "health/subnets/7.json",
+      "size_bytes": 8501
+    },
+    {
+      "path": "health/subnets/70.json",
+      "size_bytes": 2698
+    },
+    {
+      "path": "health/subnets/71.json",
+      "size_bytes": 2694
+    },
+    {
+      "path": "health/subnets/72.json",
+      "size_bytes": 2813
+    },
+    {
+      "path": "health/subnets/73.json",
+      "size_bytes": 1601
+    },
+    {
+      "path": "health/subnets/74.json",
+      "size_bytes": 4394
+    },
+    {
+      "path": "health/subnets/75.json",
+      "size_bytes": 5001
+    },
+    {
+      "path": "health/subnets/76.json",
+      "size_bytes": 1613
+    },
+    {
+      "path": "health/subnets/77.json",
+      "size_bytes": 2698
+    },
+    {
+      "path": "health/subnets/78.json",
+      "size_bytes": 3826
+    },
+    {
+      "path": "health/subnets/79.json",
+      "size_bytes": 5577
+    },
+    {
+      "path": "health/subnets/8.json",
+      "size_bytes": 3263
+    },
+    {
+      "path": "health/subnets/80.json",
+      "size_bytes": 2705
+    },
+    {
+      "path": "health/subnets/81.json",
+      "size_bytes": 4510
+    },
+    {
+      "path": "health/subnets/82.json",
+      "size_bytes": 4413
+    },
+    {
+      "path": "health/subnets/83.json",
+      "size_bytes": 2704
+    }
+  ],
+  "candidate_count": 845,
+  "contract_version": "2026-06-06.1",
   "coverage": {
     "application_subnet_count": 128,
-    "candidate_count": 2973,
+    "candidate_count": 845,
     "candidate_subnet_count": 129,
     "chain_subnet_count": 129,
     "curated_overlay_count": 129,
     "curation_level_counts": {
       "adapter-backed": 2,
-      "machine-verified": 127
+      "machine-verified": 126,
+      "maintainer-reviewed": 1
     },
     "generated_at": "1970-01-01T00:00:00.000Z",
     "manifested_count": 0,
@@ -19,7 +1025,7 @@
     "native_snapshot_captured_at": "2026-06-06T01:19:40Z",
     "network": "finney",
     "probed_count": 129,
-    "probed_surface_count": 695,
+    "probed_surface_count": 588,
     "root_subnet_count": 1,
     "schema_version": 1,
     "source": {
@@ -33,11 +1039,15 @@
       },
       "overlays": "registry/subnets"
     },
-    "surface_count": 696
+    "surface_count": 589
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
-  "provider_count": 6,
+  "provider_count": 14,
+  "public_contract": {
+    "url": "/metagraph/contracts.json",
+    "version": "2026-06-06.1"
+  },
   "schema_version": 1,
   "subnet_count": 129,
-  "surface_count": 696
+  "surface_count": 589
 }

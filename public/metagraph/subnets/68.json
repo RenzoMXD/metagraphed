@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-github-readme-metanova-labs-nova-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/metanova-labs/nova/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/settings/personal-access-tokens/new"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-github-readme-metanova-labs-nova-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/metanova-labs/nova/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/metanova-labs/nova.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-68-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/68",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/68",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/68/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/68"
       ],
       "state": "schema-valid",
       "url": "https://github.com/metanova-labs/nova"
@@ -116,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -126,752 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/68"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-api",
-      "kind": "subnet-api",
-      "name": "NOVA API",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "NOVA API",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-docs",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-health",
-      "kind": "subnet-api",
-      "name": "NOVA health endpoint",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "NOVA health endpoint",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "NOVA OpenAPI JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "NOVA OpenAPI JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger",
-      "kind": "openapi",
-      "name": "NOVA Swagger UI",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "NOVA Swagger UI",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "NOVA Swagger JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "NOVA Swagger JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-4",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-5",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/password_reset"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-1-1tv67re",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/signup?return_to=https%3A%2F%2Fgithub.com%2Fsettings%2Fpersonal-access-tokens%2Fnew&amp;source=login"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-2-wd8zmz",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmetanova-labs%2Fnova"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://support.github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-6-2liewl",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-dashboard-5",
-      "kind": "dashboard",
-      "name": "NOVA dashboard",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-data-artifact-4",
-      "kind": "data-artifact",
-      "name": "NOVA data artifact",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/models"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/whitepapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/nova"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-github-readme-metanova-labs-nova-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/metanova-labs/nova/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/settings/personal-access-tokens/new"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-github-readme-metanova-labs-nova-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/metanova-labs/nova/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/metanova-labs/nova.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-68-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -907,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/68",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/68",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/68/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/68"
       ],
       "state": "schema-valid",
       "url": "https://github.com/metanova-labs/nova"
@@ -944,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -954,724 +169,25 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/68"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-api",
-      "kind": "subnet-api",
-      "name": "NOVA API",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "NOVA API",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-docs",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-health",
-      "kind": "subnet-api",
-      "name": "NOVA health endpoint",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "NOVA health endpoint",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "NOVA OpenAPI JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "NOVA OpenAPI JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger",
-      "kind": "openapi",
-      "name": "NOVA Swagger UI",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "NOVA Swagger UI",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "NOVA Swagger JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "NOVA Swagger JSON",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git",
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-4",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-docs-5",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/password_reset"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-1-1tv67re",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/signup?return_to=https%3A%2F%2Fgithub.com%2Fsettings%2Fpersonal-access-tokens%2Fnew&amp;source=login"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-2-wd8zmz",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmetanova-labs%2Fnova"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/settings/personal-access-tokens/new",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "state": "schema-valid",
-      "url": "https://support.github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-6-2liewl",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/metanova-labs/nova.git",
-      "source_urls": [
-        "https://github.com/metanova-labs/nova.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-dashboard-5",
-      "kind": "dashboard",
-      "name": "NOVA dashboard",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-data-artifact-4",
-      "kind": "data-artifact",
-      "name": "NOVA data artifact",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/models"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/whitepapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-website-1",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-68-website-link-www-metanova-labs-ai-website-2",
-      "kind": "website",
-      "name": "NOVA website page",
-      "netuid": 68,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.metanova-labs.ai/",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.metanova-labs.ai/nova"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
-      "No verified SSE/event stream yet."
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
       "openapi",
       "subnet-api",
-      "sse"
+      "sse",
+      "data-artifact"
     ],
     "supported_kinds": [
       "dashboard",
-      "data-artifact",
       "docs",
+      "source-repo",
       "website"
     ]
   },
@@ -1679,43 +195,43 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 39,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
-        "No verified SSE/event stream yet."
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
       ],
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:47.174Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:02.998Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/68",
-    "docs_url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/68",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
-        "No verified SSE/event stream yet."
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
         "openapi",
         "subnet-api",
-        "sse"
+        "sse",
+        "data-artifact"
       ],
       "supported_kinds": [
         "dashboard",
-        "data-artifact",
         "docs",
+        "source-repo",
         "website"
       ]
     },
@@ -1727,7 +243,7 @@
     "netuid": 68,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 64,
-    "probed_surface_count": 8,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1740,10 +256,10 @@
     },
     "registered_at_block": 4972413,
     "slug": "sn-68",
-    "source_repo": null,
+    "source_repo": "https://github.com/metanova-labs/nova",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 8,
+    "surface_count": 4,
     "symbol": "ظ",
     "tempo": 360,
     "website_url": "https://www.metanova-labs.ai/"
@@ -1765,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/68"
@@ -1774,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/68",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 169,
+        "latency_ms": 188,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.469Z"
+        "verified_at": "2026-06-06T07:44:02.923Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-68-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "NOVA source repository",
+      "netuid": 68,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/68"
+      ],
+      "subnet_name": "NOVA",
+      "subnet_slug": "sn-68",
+      "url": "https://github.com/metanova-labs/nova",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/metanova-labs/nova",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.962Z"
       }
     },
     {
@@ -1798,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/68"
@@ -1807,210 +383,55 @@
       "url": "https://www.metanova-labs.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 221,
+        "latency_ms": 239,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.506Z"
+        "verified_at": "2026-06-06T07:44:02.964Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-3",
+      "id": "sn-68-tensorplex-docs",
       "kind": "docs",
-      "name": "NOVA docs",
+      "name": "NOVA Tensorplex subnet docs",
       "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 170,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.876Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-4",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/68/subnet.json"
       ],
       "subnet_name": "NOVA",
       "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 197,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.884Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-5",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 190,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.890Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-dashboard-5",
-      "kind": "dashboard",
-      "name": "NOVA dashboard",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/dashboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/68",
       "verification": {
         "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 56,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 347,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.139Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-data-artifact-4",
-      "kind": "data-artifact",
-      "name": "NOVA data artifact",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/models",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 64,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.164Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/whitepapers",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 61,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.174Z"
+        "verified_at": "2026-06-06T07:44:02.998Z"
       }
     }
   ],
@@ -2031,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/68"
@@ -2040,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/68",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 169,
+        "latency_ms": 188,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.469Z"
+        "verified_at": "2026-06-06T07:44:02.923Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-68-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "NOVA source repository",
+      "netuid": 68,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/68"
+      ],
+      "subnet_name": "NOVA",
+      "subnet_slug": "sn-68",
+      "url": "https://github.com/metanova-labs/nova",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/metanova-labs/nova",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.962Z"
       }
     },
     {
@@ -2064,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/68"
@@ -2073,210 +554,55 @@
       "url": "https://www.metanova-labs.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 221,
+        "latency_ms": 239,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.506Z"
+        "verified_at": "2026-06-06T07:44:02.964Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-3",
+      "id": "sn-68-tensorplex-docs",
       "kind": "docs",
-      "name": "NOVA docs",
+      "name": "NOVA Tensorplex subnet docs",
       "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 170,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.876Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-4",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/68/subnet.json"
       ],
       "subnet_name": "NOVA",
       "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 197,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.884Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-github-com-docs-5",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/settings/personal-access-tokens/new"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://docs.github.com/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 190,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.github.com/en",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.890Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-dashboard-5",
-      "kind": "dashboard",
-      "name": "NOVA dashboard",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/dashboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/68",
       "verification": {
         "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 56,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 347,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.139Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-data-artifact-4",
-      "kind": "data-artifact",
-      "name": "NOVA data artifact",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/models",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 64,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.164Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-68-website-link-www-metanova-labs-ai-docs-3",
-      "kind": "docs",
-      "name": "NOVA docs",
-      "netuid": 68,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://www.metanova-labs.ai/"
-      ],
-      "subnet_name": "NOVA",
-      "subnet_slug": "sn-68",
-      "url": "https://www.metanova-labs.ai/whitepapers",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 61,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.174Z"
+        "verified_at": "2026-06-06T07:44:02.998Z"
       }
     }
   ]

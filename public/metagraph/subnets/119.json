@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -117,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -131,7 +131,6 @@
   ],
   "gaps": {
     "gap_notes": [
-      "No verified project docs surface yet.",
       "No verified source repository yet.",
       "No verified project website yet.",
       "No verified OpenAPI/Swagger surface yet.",
@@ -140,7 +139,6 @@
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "docs",
       "source-repo",
       "website",
       "openapi",
@@ -149,7 +147,8 @@
       "data-artifact"
     ],
     "supported_kinds": [
-      "dashboard"
+      "dashboard",
+      "docs"
     ]
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
@@ -163,7 +162,6 @@
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified project docs surface yet.",
         "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
@@ -174,14 +172,13 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 1,
-      "verified_at": "2026-06-06T07:18:07.641Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:10.267Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/119",
-    "docs_url": null,
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/119",
     "gaps": {
       "gap_notes": [
-        "No verified project docs surface yet.",
         "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
@@ -190,7 +187,6 @@
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "docs",
         "source-repo",
         "website",
         "openapi",
@@ -199,7 +195,8 @@
         "data-artifact"
       ],
       "supported_kinds": [
-        "dashboard"
+        "dashboard",
+        "docs"
       ]
     },
     "links": [],
@@ -210,7 +207,7 @@
     "netuid": 119,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 1,
+    "probed_surface_count": 2,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -226,7 +223,7 @@
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 1,
+    "surface_count": 2,
     "symbol": "Ⲃ",
     "tempo": 360,
     "website_url": null
@@ -248,6 +245,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/119"
@@ -257,12 +262,55 @@
       "url": "https://taomarketcap.com/subnets/119",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 151,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:07.641Z"
+        "verified_at": "2026-06-06T07:44:10.252Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-119-tensorplex-docs",
+      "kind": "docs",
+      "name": "Satori Tensorplex subnet docs",
+      "netuid": 119,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/119/subnet.json"
+      ],
+      "subnet_name": "Satori",
+      "subnet_slug": "sn-119",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/119",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 405,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:10.267Z"
       }
     }
   ],
@@ -283,6 +331,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/119"
@@ -292,12 +348,55 @@
       "url": "https://taomarketcap.com/subnets/119",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
+        "latency_ms": 151,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:07.641Z"
+        "verified_at": "2026-06-06T07:44:10.252Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-119-tensorplex-docs",
+      "kind": "docs",
+      "name": "Satori Tensorplex subnet docs",
+      "netuid": 119,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/119/subnet.json"
+      ],
+      "subnet_name": "Satori",
+      "subnet_slug": "sn-119",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/119",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 405,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:10.267Z"
       }
     }
   ]

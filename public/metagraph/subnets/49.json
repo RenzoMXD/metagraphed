@@ -2,69 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-docs-2",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.nepher.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API surface",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://tournament-api.nepher.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/nepher-ai/nepher-subnet.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-49-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -136,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -146,536 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/49"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-api",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-docs",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-health",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics health endpoint",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics health endpoint",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Nepher Robotics OpenAPI JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Nepher Robotics OpenAPI JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnepher-ai%2Fnepher-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-docs-2",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.nepher.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API surface",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://tournament-api.nepher.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/nepher-ai/nepher-subnet.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-49-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -747,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -757,477 +169,19 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/49"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-api",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics API",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-docs",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-health",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics health endpoint",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Nepher Robotics health endpoint",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Nepher Robotics OpenAPI JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Nepher Robotics OpenAPI JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.nepher.ai/",
-      "source_urls": [
-        "https://www.nepher.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.nepher.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger JSON",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnepher-ai%2Fnepher-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-49-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "website",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1235,22 +189,22 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
-      "source-repo",
-      "website"
+      "source-repo"
     ]
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 29,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1258,18 +212,22 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 4,
-      "verified_at": "2026-06-06T07:17:38.596Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:59.654Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/49",
-    "docs_url": "https://docs.nepher.ai/",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/49",
     "gaps": {
       "gap_notes": [
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "website",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1277,9 +235,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
-        "source-repo",
-        "website"
+        "source-repo"
       ]
     },
     "links": [],
@@ -1290,7 +246,7 @@
     "netuid": 49,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 7,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1306,78 +262,12 @@
     "source_repo": "https://github.com/nepher-ai/nepher-subnet",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 7,
+    "surface_count": 3,
     "symbol": "ר",
     "tempo": 360,
-    "website_url": "https://github.com/nepher-ai/nepher-subnet.git"
+    "website_url": null
   },
   "surfaces": [
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-docs-2",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://docs.nepher.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 312,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.394Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 584,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/nepher-ai/nepher-subnet",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.418Z"
-      }
-    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -1394,6 +284,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/49"
@@ -1403,12 +301,13 @@
       "url": "https://taomarketcap.com/subnets/49",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 158,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.427Z"
+        "verified_at": "2026-06-06T07:43:59.596Z"
       }
     },
     {
@@ -1427,6 +326,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/49"
@@ -1436,13 +343,14 @@
       "url": "https://github.com/nepher-ai/nepher-subnet",
       "verification": {
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
         "github_api_url": "https://api.github.com/repos/nepher-ai/nepher-subnet",
-        "latency_ms": 78,
+        "latency_ms": 597,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.438Z"
+        "verified_at": "2026-06-06T07:43:59.651Z"
       }
     },
     {
@@ -1452,7 +360,7 @@
       "kind": "docs",
       "name": "Nepher Robotics Tensorplex subnet docs",
       "netuid": 49,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1461,6 +369,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/49/subnet.json"
@@ -1470,78 +386,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/49",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 453,
+        "latency_ms": 391,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.482Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 97,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.488Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 81,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.596Z"
+        "verified_at": "2026-06-06T07:43:59.654Z"
       }
     }
   ],
@@ -1549,72 +400,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-docs-2",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://docs.nepher.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 312,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.394Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-github-readme-nepher-ai-nepher-subnet-website-1",
-      "kind": "website",
-      "name": "Nepher Robotics website page",
-      "netuid": 49,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/nepher-ai/nepher-subnet.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 584,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/nepher-ai/nepher-subnet",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.418Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-49-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Nepher Robotics TaoMarketCap dashboard",
@@ -1628,6 +413,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/49"
@@ -1637,12 +430,13 @@
       "url": "https://taomarketcap.com/subnets/49",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 158,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.427Z"
+        "verified_at": "2026-06-06T07:43:59.596Z"
       }
     },
     {
@@ -1661,6 +455,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/49"
@@ -1670,13 +472,14 @@
       "url": "https://github.com/nepher-ai/nepher-subnet",
       "verification": {
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
         "github_api_url": "https://api.github.com/repos/nepher-ai/nepher-subnet",
-        "latency_ms": 78,
+        "latency_ms": 597,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.438Z"
+        "verified_at": "2026-06-06T07:43:59.651Z"
       }
     },
     {
@@ -1686,7 +489,7 @@
       "kind": "docs",
       "name": "Nepher Robotics Tensorplex subnet docs",
       "netuid": 49,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1695,6 +498,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/49/subnet.json"
@@ -1704,78 +515,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/49",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 453,
+        "latency_ms": 391,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.482Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Nepher Robotics docs",
-      "netuid": 49,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 97,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.488Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-49-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Nepher Robotics Swagger UI",
-      "netuid": 49,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/nepher-ai/nepher-subnet.git"
-      ],
-      "subnet_name": "Nepher Robotics",
-      "subnet_slug": "sn-49",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 81,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.596Z"
+        "verified_at": "2026-06-06T07:43:59.654Z"
       }
     }
   ]

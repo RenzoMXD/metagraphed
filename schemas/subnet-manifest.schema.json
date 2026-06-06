@@ -155,6 +155,13 @@
           "type": "string",
           "format": "uri"
         },
+        "schema_status": {
+          "enum": [
+            "machine-readable",
+            "ui-only",
+            "not-captured"
+          ]
+        },
         "source_urls": {
           "type": "array",
           "items": {
@@ -165,6 +172,10 @@
         },
         "verification": {
           "$ref": "#/$defs/verification"
+        },
+        "quality_signals": {
+          "type": "object",
+          "additionalProperties": true
         },
         "rate_limit_notes": {
           "type": "string"
@@ -192,7 +203,9 @@
         "method": {
           "enum": [
             "GET",
-            "HEAD"
+            "HEAD",
+            "JSON-RPC",
+            "WSS-RPC"
           ]
         },
         "expect": {
@@ -297,7 +310,11 @@
             "auth-required",
             "dead",
             "unsafe",
-            "unsupported"
+            "unsupported",
+            "rate-limited",
+            "transient",
+            "timeout",
+            "content-mismatch"
           ]
         },
         "verified_at": {
@@ -308,6 +325,11 @@
         },
         "latency_ms": {
           "type": "integer"
+        },
+        "confidence_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
         },
         "content_type": {
           "type": [

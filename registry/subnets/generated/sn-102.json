@@ -4,7 +4,6 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
@@ -14,18 +13,59 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:18:01.388Z"
+    "verified_at": "2026-06-06T07:44:07.928Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/102",
-  "docs_url": "https://connito.ai/docs",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/102",
   "links": [],
   "name": "ConnitoAI",
   "netuid": 102,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-102",
+  "source_repo": "https://github.com/Connito-AI/Connito",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "ConnitoAI source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "url": "https://github.com/Connito-AI/Connito",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/Connito-AI/Connito",
+        "latency_ms": 362,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.845Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -41,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/102"
@@ -48,102 +96,52 @@
       "url": "https://connito.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 209,
+        "latency_ms": 155,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:01.242Z"
+        "verified_at": "2026-06-06T07:44:07.913Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-102-website-common-docs",
+      "id": "sn-102-tensorplex-docs",
       "kind": "docs",
-      "name": "ConnitoAI docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "name": "ConnitoAI Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://connito.ai/"
-      ],
-      "url": "https://connito.ai/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 208,
-        "method_tested": "HEAD",
-        "redirect_target": "https://connito.ai/docs/miner/prerequisites",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:01.311Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-102-website-link-connito-ai-docs-1",
-      "kind": "docs",
-      "name": "ConnitoAI docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://connito.ai/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/102/subnet.json"
       ],
-      "url": "https://connito.ai/docs/miner/prerequisites",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/102",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 152,
+        "latency_ms": 429,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:01.366Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-102-website-link-connito-ai-docs-3",
-      "kind": "docs",
-      "name": "ConnitoAI docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://connito.ai/"
-      ],
-      "url": "https://connito.ai/whitepaper",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 168,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:01.388Z"
+        "verified_at": "2026-06-06T07:44:07.928Z"
       }
     },
     {
@@ -161,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/102"
@@ -168,12 +174,13 @@
       "url": "https://taomarketcap.com/subnets/102",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 168,
+        "latency_ms": 132,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:01.240Z"
+        "verified_at": "2026-06-06T07:44:07.795Z"
       }
     }
   ],

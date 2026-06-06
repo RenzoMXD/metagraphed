@@ -12,11 +12,11 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 3,
-    "verified_at": "2026-06-06T07:17:25.351Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:43:54.326Z"
   },
-  "dashboard_url": "https://img.shields.io/badge/Leaderboard-oroagents.com-FF9138",
-  "docs_url": "https://img.shields.io/badge/Docs-docs.oroagents.com-0A3815",
+  "dashboard_url": "https://taomarketcap.com/subnets/15",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/15",
   "links": [],
   "name": "ORO",
   "netuid": 15,
@@ -41,23 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/15",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/15/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/15"
       ],
       "url": "https://github.com/ORO-AI/oro",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/ORO-AI/oro",
-        "homepage": null,
-        "last_push_at": "2026-06-04T17:41:32Z",
+        "latency_ms": 381,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:25.339Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:54.315Z"
       }
     },
     {
@@ -75,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/15"
@@ -82,192 +96,52 @@
       "url": "https://oroagents.com/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 214,
+        "latency_ms": 243,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.351Z"
+        "verified_at": "2026-06-06T07:43:54.325Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-docs-1",
+      "id": "sn-15-tensorplex-docs",
       "kind": "docs",
-      "name": "ORO docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "name": "ORO Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
-      ],
-      "url": "https://img.shields.io/badge/Docs-docs.oroagents.com-0A3815",
-      "verification": {
-        "classification": "live",
-        "content_type": "image/svg+xml;charset=utf-8",
-        "latency_ms": 116,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.263Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-docs-10",
-      "kind": "docs",
-      "name": "ORO docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/15/subnet.json"
       ],
-      "url": "https://docs.oroagents.com/docs/validators/configuration",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/15",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 262,
+        "latency_ms": 307,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.270Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-docs-3",
-      "kind": "docs",
-      "name": "ORO docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
-      ],
-      "url": "https://img.shields.io/badge/Paper-arXiv:2508.04266-red",
-      "verification": {
-        "classification": "live",
-        "content_type": "image/svg+xml;charset=utf-8",
-        "latency_ms": 102,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.279Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-docs-5",
-      "kind": "docs",
-      "name": "ORO docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
-      ],
-      "url": "https://docs.oroagents.com/docs/miners/quick-start",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 250,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.281Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-dashboard-2",
-      "kind": "dashboard",
-      "name": "ORO dashboard",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
-      ],
-      "url": "https://img.shields.io/badge/Leaderboard-oroagents.com-FF9138",
-      "verification": {
-        "classification": "live",
-        "content_type": "image/svg+xml;charset=utf-8",
-        "latency_ms": 29,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.252Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-15-github-readme-oro-ai-oro-dashboard-4",
-      "kind": "dashboard",
-      "name": "ORO dashboard",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/ORO-AI/oro/blob/main/README.md"
-      ],
-      "url": "https://oroagents.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 230,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.259Z"
+        "verified_at": "2026-06-06T07:43:54.326Z"
       }
     },
     {
@@ -285,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/15"
@@ -292,12 +174,13 @@
       "url": "https://taomarketcap.com/subnets/15",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 158,
+        "latency_ms": 358,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.323Z"
+        "verified_at": "2026-06-06T07:43:54.309Z"
       }
     }
   ],

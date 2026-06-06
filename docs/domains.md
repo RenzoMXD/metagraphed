@@ -4,33 +4,29 @@
 
 `metagraph.sh`
 
-Use this for the product, docs, static web UI, and generated registry artifacts.
+Use this for the product, docs, static UI, status data, badge data, health JSON, generated registry artifacts, and future API-style static artifact consumption.
 
-Expected routes:
+Expected backend routes:
 
-- `/`
-- `/subnets`
-- `/subnets/:netuid`
-- `/providers`
-- `/schemas`
+- `/metagraph/contracts.json`
 - `/metagraph/subnets.json`
+- `/metagraph/subnets/{netuid}.json`
 - `/metagraph/surfaces.json`
+- `/metagraph/rpc-endpoints.json`
 - `/metagraph/health/latest.json`
+- `/metagraph/health/summary.json`
+- `/metagraph/health/subnets/{netuid}.json`
+- `/metagraph/health/badges/{netuid}.json`
+- `/metagraph/schema-drift.json`
+- `/metagraph/schemas/index.json`
+- `/metagraph/adapters/allways.json`
+- `/metagraph/adapters/gittensor.json`
+- `/metagraph/review/curation.json`
+- `/metagraph/review/maintainer-decisions.json`
 
-## Health Surface
+## Reserved Domains
 
-`subnet.health`
-
-Use this as a compact operational surface:
-
-- `/7`
-- `/74`
-- `/badge/7.svg`
-- `/badge/74.svg`
-- `/api/subnets/7/status.json`
-- `/api/subnets/74/status.json`
-
-This domain should stay focused on probe results, status, badges, and health summaries. It can later become the entry point for hosted/load-balanced subnet access, but only after the registry proves useful.
+Do not use `subnet.health` for Metagraphed v1. It is reserved for a separate future idea and should not appear in registry, health, badge, probe, or status contracts.
 
 ## Copy Boundary
 

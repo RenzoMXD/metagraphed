@@ -2,216 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-1",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/media/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-3",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-5",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-6",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/guide-to-eidas/key-definitions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-subnet-api-9",
-      "kind": "subnet-api",
-      "name": "Data Universe API surface",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/macrocosm-os/data-universe-api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/macrocosm-os/scrapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/Arrmlet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-8",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/ewekazoo"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-13-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -247,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/13",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/13",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "state": "schema-valid",
       "url": "https://github.com/macrocosm-os/data-universe"
@@ -284,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -294,881 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/13"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-api",
-      "kind": "subnet-api",
-      "name": "Data Universe API",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Data Universe API",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-docs",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-health",
-      "kind": "subnet-api",
-      "name": "Data Universe health endpoint",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Data Universe health endpoint",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Data Universe OpenAPI JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Data Universe OpenAPI JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Data Universe Swagger JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Data Universe Swagger JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FArrmlet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2-8ylord",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/ewekazoo",
-      "source_urls": [
-        "https://github.com/ewekazoo"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fewekazoo"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2-dzo6w7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/macrocosm-os/scrapers",
-      "source_urls": [
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmacrocosm-os%2Fscrapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/delegation-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-1",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-3",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-5",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/our-purpose"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-6",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/team"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-1",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/media/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-3",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-5",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-6",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ico.org.uk/for-organisations/guide-to-eidas/key-definitions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-subnet-api-9",
-      "kind": "subnet-api",
-      "name": "Data Universe API surface",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/macrocosm-os/data-universe-api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/macrocosm-os/scrapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/Arrmlet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-8",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/data-universe/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/ewekazoo"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-13-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -1204,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/13",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/13",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "state": "schema-valid",
       "url": "https://github.com/macrocosm-os/data-universe"
@@ -1241,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -1251,675 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/13"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-api",
-      "kind": "subnet-api",
-      "name": "Data Universe API",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Data Universe API",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-docs",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-health",
-      "kind": "subnet-api",
-      "name": "Data Universe health endpoint",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Data Universe health endpoint",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Data Universe OpenAPI JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Data Universe OpenAPI JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Data Universe Swagger JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Data Universe Swagger JSON",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FArrmlet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2-8ylord",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/ewekazoo",
-      "source_urls": [
-        "https://github.com/ewekazoo"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fewekazoo"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-2-dzo6w7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/macrocosm-os/scrapers",
-      "source_urls": [
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmacrocosm-os%2Fscrapers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/Arrmlet",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/delegation-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-1",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-3",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-5",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/our-purpose"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-13-website-link-www-macrocosmos-ai-website-6",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.macrocosmos.ai/gravity",
-      "source_urls": [
-        "https://www.macrocosmos.ai/gravity"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/team"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1927,7 +187,6 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -1936,13 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 44,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1950,18 +210,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 6,
-      "verified_at": "2026-06-06T07:17:24.346Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:53.749Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/13",
-    "docs_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/13",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1969,7 +231,6 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -1982,7 +243,7 @@
     "netuid": 13,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 9,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1998,210 +259,12 @@
     "source_repo": "https://github.com/macrocosm-os/data-universe",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 9,
+    "surface_count": 4,
     "symbol": "ν",
     "tempo": 360,
-    "website_url": "https://github.com/macrocosm-os/scrapers"
+    "website_url": "https://www.macrocosmos.ai/gravity"
   },
   "surfaces": [
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 724,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.918Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-3",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 806,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.930Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 298,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.931Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-5",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 775,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.954Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://github.com/macrocosm-os/scrapers",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 449,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.966Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://github.com/Arrmlet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 340,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.971Z"
-      }
-    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -2218,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/13"
@@ -2227,12 +298,13 @@
       "url": "https://taomarketcap.com/subnets/13",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 130,
+        "latency_ms": 280,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.995Z"
+        "verified_at": "2026-06-06T07:43:53.668Z"
       }
     },
     {
@@ -2251,60 +323,115 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/13",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "subnet_name": "Data Universe",
       "subnet_slug": "sn-13",
       "url": "https://github.com/macrocosm-os/data-universe",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/macrocosm-os/data-universe",
-        "homepage": null,
-        "last_push_at": "2026-06-05T21:54:10Z",
+        "latency_ms": 525,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:23.995Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.704Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-13-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
+      "id": "sn-13-taomarketcap-website",
+      "kind": "website",
+      "name": "Data Universe website",
       "netuid": 13,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
       "probe": {
         "enabled": true,
         "expect": "any",
-        "method": "GET",
+        "method": "HEAD",
         "timeout_ms": 10000
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "subnet_name": "Data Universe",
       "subnet_slug": "sn-13",
-      "url": "https://github.com/swagger",
+      "url": "https://www.macrocosmos.ai/gravity",
+      "verification": {
+        "classification": "redirected",
+        "confidence_score": 72,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 662,
+        "method_tested": "HEAD",
+        "redirect_target": "https://datauniverse.macrocosmos.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.741Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-13-tensorplex-docs",
+      "kind": "docs",
+      "name": "Data Universe Tensorplex subnet docs",
+      "netuid": 13,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+      ],
+      "subnet_name": "Data Universe",
+      "subnet_slug": "sn-13",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/13",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 79,
+        "latency_ms": 324,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:24.346Z"
+        "verified_at": "2026-06-06T07:43:53.749Z"
       }
     }
   ],
@@ -2312,204 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-2",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 724,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.918Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-3",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 806,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.930Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-4",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 298,
-        "method_tested": "GET",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.931Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-docs-5",
-      "kind": "docs",
-      "name": "Data Universe docs",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 775,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.954Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-10",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://github.com/macrocosm-os/scrapers",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 449,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.966Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-13-github-readme-macrocosm-os-data-universe-website-7",
-      "kind": "website",
-      "name": "Data Universe website page",
-      "netuid": 13,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/data-universe/blob/main/README.md"
-      ],
-      "subnet_name": "Data Universe",
-      "subnet_slug": "sn-13",
-      "url": "https://github.com/Arrmlet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 340,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.971Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-13-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Data Universe TaoMarketCap dashboard",
@@ -2523,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/13"
@@ -2532,12 +469,13 @@
       "url": "https://taomarketcap.com/subnets/13",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 130,
+        "latency_ms": 280,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:23.995Z"
+        "verified_at": "2026-06-06T07:43:53.668Z"
       }
     },
     {
@@ -2556,60 +494,115 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/13",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "subnet_name": "Data Universe",
       "subnet_slug": "sn-13",
       "url": "https://github.com/macrocosm-os/data-universe",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/macrocosm-os/data-universe",
-        "homepage": null,
-        "last_push_at": "2026-06-05T21:54:10Z",
+        "latency_ms": 525,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:23.995Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.704Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-13-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Data Universe Swagger UI",
+      "id": "sn-13-taomarketcap-website",
+      "kind": "website",
+      "name": "Data Universe website",
       "netuid": 13,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
       "probe": {
         "enabled": true,
         "expect": "any",
-        "method": "GET",
+        "method": "HEAD",
         "timeout_ms": 10000
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/scrapers"
+        "https://api.taomarketcap.com/public/v1/subnets/13"
       ],
       "subnet_name": "Data Universe",
       "subnet_slug": "sn-13",
-      "url": "https://github.com/swagger",
+      "url": "https://www.macrocosmos.ai/gravity",
+      "verification": {
+        "classification": "redirected",
+        "confidence_score": 72,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 662,
+        "method_tested": "HEAD",
+        "redirect_target": "https://datauniverse.macrocosmos.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.741Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-13-tensorplex-docs",
+      "kind": "docs",
+      "name": "Data Universe Tensorplex subnet docs",
+      "netuid": 13,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/13/subnet.json"
+      ],
+      "subnet_name": "Data Universe",
+      "subnet_slug": "sn-13",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/13",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 79,
+        "latency_ms": 324,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:24.346Z"
+        "verified_at": "2026-06-06T07:43:53.749Z"
       }
     }
   ]

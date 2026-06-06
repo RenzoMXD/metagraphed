@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-dashboard-1",
-      "kind": "dashboard",
-      "name": "Yanez MIID dashboard",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://tao-ui-dashboard.yanez.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/yanez-compliance/MIID-subnet"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-54-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/54",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/54",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/54/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/54"
       ],
       "state": "schema-valid",
       "url": "https://github.com/yanez-compliance/MIID-subnet"
@@ -116,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -126,557 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/54"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-api",
-      "kind": "subnet-api",
-      "name": "Yanez MIID API",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Yanez MIID API",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-docs",
-      "kind": "docs",
-      "name": "Yanez MIID docs",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Yanez MIID docs",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-health",
-      "kind": "subnet-api",
-      "name": "Yanez MIID health endpoint",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Yanez MIID health endpoint",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Yanez MIID OpenAPI JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Yanez MIID OpenAPI JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger UI",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger UI",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fyanez-compliance%2FMIID-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-www-yanez-ai-website-1",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/news-announcements"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-www-yanez-ai-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/resources"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-dashboard-1",
-      "kind": "dashboard",
-      "name": "Yanez MIID dashboard",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://tao-ui-dashboard.yanez.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/yanez-compliance/MIID-subnet"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-54-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -712,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/54",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/54",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/54/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/54"
       ],
       "state": "schema-valid",
       "url": "https://github.com/yanez-compliance/MIID-subnet"
@@ -749,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -759,524 +169,16 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/54"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-api",
-      "kind": "subnet-api",
-      "name": "Yanez MIID API",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Yanez MIID API",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-docs",
-      "kind": "docs",
-      "name": "Yanez MIID docs",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Yanez MIID docs",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-health",
-      "kind": "subnet-api",
-      "name": "Yanez MIID health endpoint",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Yanez MIID health endpoint",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Yanez MIID OpenAPI JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Yanez MIID OpenAPI JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger UI",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger UI",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Yanez MIID Swagger JSON",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fyanez-compliance%2FMIID-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/yanez-compliance/MIID-subnet",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-www-yanez-ai-website-1",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/news-announcements"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-54-website-link-www-yanez-ai-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.yanez.ai/",
-      "source_urls": [
-        "https://www.yanez.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.yanez.ai/resources"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified project docs surface yet.",
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "docs",
-      "source-repo",
       "openapi",
       "subnet-api",
       "sse",
@@ -1284,6 +186,8 @@
     ],
     "supported_kinds": [
       "dashboard",
+      "docs",
+      "source-repo",
       "website"
     ]
   },
@@ -1291,15 +195,13 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 30,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
@@ -1309,22 +211,18 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:41.042Z"
+      "verified_at": "2026-06-06T07:44:00.624Z"
     },
-    "dashboard_url": "https://tao-ui-dashboard.yanez.ai/",
-    "docs_url": null,
+    "dashboard_url": "https://taomarketcap.com/subnets/54",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/54",
     "gaps": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "docs",
-        "source-repo",
         "openapi",
         "subnet-api",
         "sse",
@@ -1332,6 +230,8 @@
       ],
       "supported_kinds": [
         "dashboard",
+        "docs",
+        "source-repo",
         "website"
       ]
     },
@@ -1356,81 +256,15 @@
     },
     "registered_at_block": 4742549,
     "slug": "sn-54",
-    "source_repo": null,
+    "source_repo": "https://github.com/yanez-compliance/MIID-subnet",
     "status": "active",
     "subnet_type": "application",
     "surface_count": 4,
     "symbol": "ت",
     "tempo": 360,
-    "website_url": "https://github.com/yanez-compliance/MIID-subnet"
+    "website_url": "https://www.yanez.ai/"
   },
   "surfaces": [
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-dashboard-1",
-      "kind": "dashboard",
-      "name": "Yanez MIID dashboard",
-      "netuid": 54,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Yanez MIID",
-      "subnet_slug": "sn-54",
-      "url": "https://tao-ui-dashboard.yanez.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 163,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:40.979Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Yanez MIID",
-      "subnet_slug": "sn-54",
-      "url": "https://github.com/yanez-compliance/MIID-subnet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 568,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:40.997Z"
-      }
-    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -1447,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/54"
@@ -1456,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/54",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 140,
+        "latency_ms": 146,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:41.010Z"
+        "verified_at": "2026-06-06T07:44:00.578Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-54-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Yanez MIID source repository",
+      "netuid": 54,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/54"
+      ],
+      "subnet_name": "Yanez MIID",
+      "subnet_slug": "sn-54",
+      "url": "https://github.com/yanez-compliance/MIID-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/yanez-compliance/MIID-subnet",
+        "latency_ms": 437,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:00.581Z"
       }
     },
     {
@@ -1480,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/54"
@@ -1489,12 +383,55 @@
       "url": "https://www.yanez.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 168,
+        "latency_ms": 163,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:41.042Z"
+        "verified_at": "2026-06-06T07:44:00.581Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-54-tensorplex-docs",
+      "kind": "docs",
+      "name": "Yanez MIID Tensorplex subnet docs",
+      "netuid": 54,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/54/subnet.json"
+      ],
+      "subnet_name": "Yanez MIID",
+      "subnet_slug": "sn-54",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/54",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 994,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:00.624Z"
       }
     }
   ],
@@ -1502,72 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-dashboard-1",
-      "kind": "dashboard",
-      "name": "Yanez MIID dashboard",
-      "netuid": 54,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Yanez MIID",
-      "subnet_slug": "sn-54",
-      "url": "https://tao-ui-dashboard.yanez.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 163,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:40.979Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-54-github-readme-yanez-compliance-miid-subnet-website-2",
-      "kind": "website",
-      "name": "Yanez MIID website page",
-      "netuid": 54,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/yanez-compliance/MIID-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Yanez MIID",
-      "subnet_slug": "sn-54",
-      "url": "https://github.com/yanez-compliance/MIID-subnet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 568,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:40.997Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-54-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Yanez MIID TaoMarketCap dashboard",
@@ -1581,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/54"
@@ -1590,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/54",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 140,
+        "latency_ms": 146,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:41.010Z"
+        "verified_at": "2026-06-06T07:44:00.578Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-54-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Yanez MIID source repository",
+      "netuid": 54,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/54"
+      ],
+      "subnet_name": "Yanez MIID",
+      "subnet_slug": "sn-54",
+      "url": "https://github.com/yanez-compliance/MIID-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/yanez-compliance/MIID-subnet",
+        "latency_ms": 437,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:00.581Z"
       }
     },
     {
@@ -1614,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/54"
@@ -1623,12 +554,55 @@
       "url": "https://www.yanez.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 168,
+        "latency_ms": 163,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:41.042Z"
+        "verified_at": "2026-06-06T07:44:00.581Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-54-tensorplex-docs",
+      "kind": "docs",
+      "name": "Yanez MIID Tensorplex subnet docs",
+      "netuid": 54,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/54/subnet.json"
+      ],
+      "subnet_name": "Yanez MIID",
+      "subnet_slug": "sn-54",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/54",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 994,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:00.624Z"
       }
     }
   ]

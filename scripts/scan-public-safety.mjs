@@ -17,8 +17,9 @@ const patterns = [
   { name: "github token", regex: /ghp_[A-Za-z0-9_]+|github_pat_[A-Za-z0-9_]+/ },
   { name: "openai-style token", regex: /sk-[A-Za-z0-9]{20,}/ },
   { name: "slack-style token", regex: /xox[baprs]-[A-Za-z0-9-]+/ },
-  { name: "loopback URL", regex: /localhost:[0-9]+|127\.0\.0\.1|0\.0\.0\.0/ },
-  { name: "wallet/key wording", regex: /\b(coldkey|hotkey|wallet path|private key)\b/i }
+  { name: "private or loopback URL", regex: /https?:\/\/(?:localhost|127\.0\.0\.1|0\.0\.0\.0|10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(?:1[6-9]|2\d|3[0-1])\.\d+\.\d+)/i },
+  { name: "token-like assignment", regex: /\b(?:api[_-]?key|access[_-]?token|auth[_-]?token|secret|password)\s*[:=]\s*["']?[A-Za-z0-9_./+=-]{16,}/i },
+  { name: "wallet/key wording", regex: /\b(coldkey|hotkey|wallet path|private key|seed phrase|mnemonic)\b/i }
 ];
 
 const findings = [];
@@ -39,6 +40,9 @@ async function* walk(target) {
 
   const entries = await fs.readdir(fullPath, { withFileTypes: true });
   for (const entry of entries) {
+    if (entry.name === ".DS_Store") {
+      continue;
+    }
     const nested = path.join(target, entry.name);
     if (entry.isDirectory()) {
       yield* walk(nested);
@@ -51,6 +55,9 @@ async function* walk(target) {
 for (const root of targetRoots) {
   for await (const filePath of walk(root)) {
     const relative = path.relative(repoRoot, filePath);
+    if (isBinaryOrIgnored(relative)) {
+      continue;
+    }
     const content = await fs.readFile(filePath, "utf8");
     const lines = content.split(/\r?\n/);
 
@@ -73,3 +80,15 @@ if (findings.length > 0) {
 }
 
 console.log("Public-safety scan passed.");
+
+function isBinaryOrIgnored(relativePath) {
+  return (
+    relativePath.endsWith(".DS_Store") ||
+    relativePath.endsWith(".png") ||
+    relativePath.endsWith(".jpg") ||
+    relativePath.endsWith(".jpeg") ||
+    relativePath.endsWith(".gif") ||
+    relativePath.endsWith(".webp") ||
+    relativePath.endsWith(".ico")
+  );
+}

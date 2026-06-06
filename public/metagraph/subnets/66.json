@@ -2,111 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-subnet-api-4",
-      "kind": "subnet-api",
-      "name": "ninja API surface",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://openrouter.ai/api/v1"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-subnet-api-5",
-      "kind": "subnet-api",
-      "name": "ninja API surface",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja66.ai/api/submissions%60"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-1",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/unarbos/ninja"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/earendil-works/pi%60,"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/owner/repo"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-66-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -142,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/66",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/66",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/66/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/66"
       ],
       "state": "schema-valid",
       "url": "https://github.com/unarbos/tau"
@@ -179,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -189,653 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/66"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-api",
-      "kind": "subnet-api",
-      "name": "ninja API",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "ninja API",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-docs",
-      "kind": "docs",
-      "name": "ninja docs",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "ninja docs",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-health",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "ninja OpenAPI JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "ninja OpenAPI JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "ninja Swagger JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "ninja Swagger JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funarbos%2Fninja"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-dashboard-1",
-      "kind": "dashboard",
-      "name": "ninja dashboard",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/dashboard-summary.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/duels.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/duels.html?duel="
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-subnet-api-4",
-      "kind": "subnet-api",
-      "name": "ninja API surface",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://openrouter.ai/api/v1"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-subnet-api-5",
-      "kind": "subnet-api",
-      "name": "ninja API surface",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja66.ai/api/submissions%60"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-1",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/unarbos/ninja"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/earendil-works/pi%60,"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-github-readme-unarbos-tau-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/unarbos/tau/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/unarbos/tau/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/owner/repo"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-66-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -871,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/66",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/66",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/66/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/66"
       ],
       "state": "schema-valid",
       "url": "https://github.com/unarbos/tau"
@@ -908,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -918,561 +169,25 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/66"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-api",
-      "kind": "subnet-api",
-      "name": "ninja API",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "ninja API",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-docs",
-      "kind": "docs",
-      "name": "ninja docs",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "ninja docs",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-health",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "ninja OpenAPI JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "ninja OpenAPI JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "ninja Swagger JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "ninja Swagger JSON",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/earendil-works/pi%60,",
-        "https://github.com/owner/repo",
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funarbos%2Fninja"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/unarbos/ninja",
-      "source_urls": [
-        "https://github.com/unarbos/ninja"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-dashboard-1",
-      "kind": "dashboard",
-      "name": "ninja dashboard",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/dashboard-summary.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-website-2",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/duels.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-66-website-link-ninja-arbos-life-website-3",
-      "kind": "website",
-      "name": "ninja website page",
-      "netuid": 66,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ninja.arbos.life/",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ninja.arbos.life/duels.html?duel="
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
+      "subnet-api",
       "sse",
       "data-artifact"
     ],
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
-      "subnet-api",
+      "source-repo",
       "website"
     ]
   },
@@ -1480,14 +195,15 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 34,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
@@ -1495,26 +211,27 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:46.266Z"
+      "verified_at": "2026-06-06T07:44:02.779Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/66",
-    "docs_url": "https://ninja.arbos.life/docs",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/66",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
+        "subnet-api",
         "sse",
         "data-artifact"
       ],
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
-        "subnet-api",
+        "source-repo",
         "website"
       ]
     },
@@ -1526,7 +243,7 @@
     "netuid": 66,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 6,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1539,10 +256,10 @@
     },
     "registered_at_block": 4958013,
     "slug": "sn-66",
-    "source_repo": null,
+    "source_repo": "https://github.com/unarbos/tau",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 6,
+    "surface_count": 4,
     "symbol": "ض",
     "tempo": 360,
     "website_url": "https://ninja.arbos.life/"
@@ -1564,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/66"
@@ -1573,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/66",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 153,
+        "latency_ms": 242,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.943Z"
+        "verified_at": "2026-06-06T07:44:02.681Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-66-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "ninja source repository",
+      "netuid": 66,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/66"
+      ],
+      "subnet_name": "ninja",
+      "subnet_slug": "sn-66",
+      "url": "https://github.com/unarbos/tau",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/unarbos/tau",
+        "latency_ms": 509,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.703Z"
       }
     },
     {
@@ -1597,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/66"
@@ -1606,144 +383,55 @@
       "url": "https://ninja.arbos.life/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 221,
+        "latency_ms": 196,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.958Z"
+        "verified_at": "2026-06-06T07:44:02.768Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-66-website-common-docs",
+      "id": "sn-66-tensorplex-docs",
       "kind": "docs",
-      "name": "ninja docs",
+      "name": "ninja Tensorplex subnet docs",
       "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 207,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.978Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-common-health",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://ninja.arbos.life/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/66/subnet.json"
       ],
       "subnet_name": "ninja",
       "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/health",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/66",
       "verification": {
         "classification": "live",
-        "content_type": "text/plain",
-        "latency_ms": 203,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 450,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.982Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-common-swagger",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 124,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.114Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-link-ninja-arbos-life-dashboard-1",
-      "kind": "dashboard",
-      "name": "ninja dashboard",
-      "netuid": 66,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/dashboard-summary.json",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/json",
-        "latency_ms": 68,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.266Z"
+        "verified_at": "2026-06-06T07:44:02.779Z"
       }
     }
   ],
@@ -1764,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/66"
@@ -1773,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/66",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 153,
+        "latency_ms": 242,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.943Z"
+        "verified_at": "2026-06-06T07:44:02.681Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-66-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "ninja source repository",
+      "netuid": 66,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/66"
+      ],
+      "subnet_name": "ninja",
+      "subnet_slug": "sn-66",
+      "url": "https://github.com/unarbos/tau",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/unarbos/tau",
+        "latency_ms": 509,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.703Z"
       }
     },
     {
@@ -1797,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/66"
@@ -1806,144 +554,55 @@
       "url": "https://ninja.arbos.life/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 221,
+        "latency_ms": 196,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.958Z"
+        "verified_at": "2026-06-06T07:44:02.768Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-66-website-common-docs",
+      "id": "sn-66-tensorplex-docs",
       "kind": "docs",
-      "name": "ninja docs",
+      "name": "ninja Tensorplex subnet docs",
       "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 207,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.978Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-common-health",
-      "kind": "subnet-api",
-      "name": "ninja health endpoint",
-      "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://ninja.arbos.life/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/66/subnet.json"
       ],
       "subnet_name": "ninja",
       "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/health",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/66",
       "verification": {
         "classification": "live",
-        "content_type": "text/plain",
-        "latency_ms": 203,
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 450,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.982Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-common-swagger",
-      "kind": "openapi",
-      "name": "ninja Swagger UI",
-      "netuid": 66,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html",
-        "latency_ms": 124,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.114Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-66-website-link-ninja-arbos-life-dashboard-1",
-      "kind": "dashboard",
-      "name": "ninja dashboard",
-      "netuid": 66,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ninja.arbos.life/"
-      ],
-      "subnet_name": "ninja",
-      "subnet_slug": "sn-66",
-      "url": "https://ninja.arbos.life/dashboard-summary.json",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/json",
-        "latency_ms": 68,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:46.266Z"
+        "verified_at": "2026-06-06T07:44:02.779Z"
       }
     }
   ]

@@ -1,4 +1,6 @@
 import { promises as fs } from "node:fs";
+import { createHash } from "node:crypto";
+import { isIP } from "node:net";
 import path from "node:path";
 
 export const repoRoot = new URL("..", import.meta.url).pathname;
@@ -131,10 +133,86 @@ export function sortValue(value) {
 export function isValidUrl(value) {
   try {
     const parsed = new URL(value);
-    return parsed.protocol === "https:" || parsed.protocol === "http:";
+    return ["https:", "http:", "wss:", "ws:"].includes(parsed.protocol);
   } catch {
     return false;
   }
+}
+
+export function isUnsafeUrl(value) {
+  try {
+    const url = new URL(value);
+    if (!["http:", "https:", "ws:", "wss:"].includes(url.protocol)) {
+      return true;
+    }
+
+    const host = url.hostname.toLowerCase();
+    const literalIp = isIP(host);
+    if (host === "localhost" || host === "0.0.0.0" || host === "127.0.0.1" || host === "::1") {
+      return true;
+    }
+    if (literalIp === 4) {
+      return (
+        host.startsWith("10.") ||
+        host.startsWith("127.") ||
+        host.startsWith("169.254.") ||
+        host.startsWith("192.168.") ||
+        /^172\.(1[6-9]|2\d|3[0-1])\./.test(host)
+      );
+    }
+    if (literalIp === 6) {
+      return host === "::" || host.startsWith("fc") || host.startsWith("fd") || host.startsWith("fe80");
+    }
+
+    return false;
+  } catch {
+    return true;
+  }
+}
+
+export function normalizePublicUrl(value) {
+  if (typeof value !== "string") {
+    return null;
+  }
+
+  let candidate = value.trim().replace(/^<|>$/g, "");
+  if (!candidate) {
+    return null;
+  }
+
+  if (!/^(https?|wss?):\/\//i.test(candidate) && /^[a-z0-9.-]+\.[a-z]{2,}(?:\/.*)?$/i.test(candidate)) {
+    candidate = `https://${candidate}`;
+  }
+
+  try {
+    const url = new URL(candidate);
+    if (!["http:", "https:", "ws:", "wss:"].includes(url.protocol) || isUnsafeUrl(url.toString())) {
+      return null;
+    }
+    url.hash = "";
+    if (url.pathname !== "/") {
+      url.pathname = url.pathname.replace(/\/+$/, "");
+    }
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
+export function sha256Hex(value) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+export function hashJson(value) {
+  return sha256Hex(stableStringify(value));
+}
+
+export function isJsonContentType(value) {
+  return String(value || "").toLowerCase().includes("json");
+}
+
+export function isHtmlContentType(value) {
+  return String(value || "").toLowerCase().includes("html");
 }
 
 export function buildTimestamp() {
@@ -149,4 +227,68 @@ export function slugify(value) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .replace(/-{2,}/g, "-");
+}
+
+export function buildRpcEndpointArtifact({ surfaces, healthSurfaces = [], generatedAt, contractVersion, source }) {
+  const healthBySurface = new Map(healthSurfaces.map((surface) => [surface.surface_id, surface]));
+  const endpoints = surfaces
+    .filter((surface) => ["subtensor-rpc", "subtensor-wss"].includes(surface.kind))
+    .map((surface) => {
+      const health = healthBySurface.get(surface.id) || {};
+      return {
+        id: surface.id,
+        netuid: surface.netuid,
+        subnet_slug: surface.subnet_slug,
+        subnet_name: surface.subnet_name,
+        chain: "bittensor",
+        network: "finney",
+        kind: surface.kind,
+        url: surface.url,
+        provider: surface.provider,
+        authority: surface.authority,
+        auth_required: surface.auth_required,
+        public_safe: surface.public_safe,
+        archive_support: health.archive_support ?? null,
+        latest_block: health.latest_block ?? null,
+        methods_supported: health.methods_supported || null,
+        rpc_method_count: health.rpc_method_count ?? null,
+        method_tested: health.method_tested || surface.probe?.method || null,
+        status: health.status || "unknown",
+        classification: health.classification || "unknown",
+        latency_ms: health.latency_ms ?? null,
+        last_checked: health.verified_at || health.last_checked || null,
+        error: health.error || null,
+        rate_limit_notes: surface.rate_limit_notes || null,
+        source_urls: surface.source_urls || []
+      };
+    })
+    .sort((a, b) => a.provider.localeCompare(b.provider) || a.id.localeCompare(b.id));
+
+  return {
+    schema_version: 1,
+    contract_version: contractVersion,
+    generated_at: generatedAt,
+    source,
+    notes: "Bittensor base-layer RPC endpoints only. These are chain-level surfaces, not subnet application APIs.",
+    summary: {
+      endpoint_count: endpoints.length,
+      by_kind: countRecord(endpoints, (endpoint) => endpoint.kind),
+      by_provider: countRecord(endpoints, (endpoint) => endpoint.provider),
+      by_status: countRecord(endpoints, (endpoint) => endpoint.status),
+      archive_supported_count: endpoints.filter((endpoint) => endpoint.archive_support === true).length
+    },
+    endpoints
+  };
+}
+
+function countRecord(items, keyFn) {
+  return Object.fromEntries(
+    Object.entries(
+      items.reduce((accumulator, item) => {
+        const key = keyFn(item) || "unknown";
+        accumulator[key] = (accumulator[key] || 0) + 1;
+        return accumulator;
+      }, {})
+    ).sort(([a], [b]) => a.localeCompare(b))
+  );
 }

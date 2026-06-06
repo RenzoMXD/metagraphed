@@ -10,7 +10,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -31,7 +31,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -94,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -115,7 +115,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -136,7 +136,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -157,7 +157,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -178,7 +178,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -199,7 +199,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -213,69 +213,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://dashboard.resilabs.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-data-artifact-3",
-      "kind": "data-artifact",
-      "name": "Zipcode data artifact",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/resi-labs-ai/RESI-models.git"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-docs-2",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.astral.sh/uv/getting-started/installation"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-46-github-readme-resi-labs-ai-resi-subnet-api-3",
       "kind": "subnet-api",
       "name": "Zipcode API surface",
@@ -283,7 +220,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -304,7 +241,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -325,7 +262,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -346,7 +283,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -367,7 +304,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -388,7 +325,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -472,7 +409,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -493,7 +430,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -514,7 +451,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -535,7 +472,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -549,27 +486,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-46-website-common-api",
-      "kind": "subnet-api",
-      "name": "Zipcode API",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-46-website-common-api-1hh6mts",
       "kind": "subnet-api",
       "name": "Zipcode API",
@@ -577,41 +493,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-docs",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/docs"
     },
     {
       "auth_required": false,
@@ -623,41 +514,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-health",
-      "kind": "subnet-api",
-      "name": "Zipcode health endpoint",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/health"
     },
     {
       "auth_required": false,
@@ -669,41 +535,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Zipcode OpenAPI JSON",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/openapi.json"
     },
     {
       "auth_required": false,
@@ -715,41 +556,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-swagger",
-      "kind": "openapi",
-      "name": "Zipcode Swagger UI",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/swagger"
     },
     {
       "auth_required": false,
@@ -761,41 +577,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Zipcode Swagger JSON",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/swagger.json"
     },
     {
       "auth_required": false,
@@ -807,16 +598,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -832,15 +619,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -856,15 +640,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -880,7 +661,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -901,7 +682,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -922,7 +703,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -943,7 +724,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -964,15 +745,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -988,15 +766,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -1012,15 +787,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -1036,15 +808,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -1060,15 +829,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -1084,15 +850,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -1108,103 +871,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Zipcode API surface",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/api/portal-auth/google/start"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-website-2",
-      "kind": "website",
-      "name": "Zipcode website page",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/portal/login?redirect=%2Fportal"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-website-4",
-      "kind": "website",
-      "name": "Zipcode website page",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/portal/register"
     }
   ],
   "candidates": [
@@ -1218,7 +894,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1239,7 +915,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1260,7 +936,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1281,7 +957,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1302,7 +978,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1323,7 +999,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1344,7 +1020,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1365,7 +1041,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1386,7 +1062,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1407,7 +1083,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1421,69 +1097,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://dashboard.resilabs.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-data-artifact-3",
-      "kind": "data-artifact",
-      "name": "Zipcode data artifact",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/resi-labs-ai/RESI-models.git"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-docs-2",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.astral.sh/uv/getting-started/installation"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-46-github-readme-resi-labs-ai-resi-subnet-api-3",
       "kind": "subnet-api",
       "name": "Zipcode API surface",
@@ -1491,7 +1104,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1512,7 +1125,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1533,7 +1146,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1554,7 +1167,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1575,7 +1188,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1596,7 +1209,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -1680,7 +1293,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -1701,7 +1314,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -1722,7 +1335,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -1743,7 +1356,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -1757,27 +1370,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-46-website-common-api",
-      "kind": "subnet-api",
-      "name": "Zipcode API",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-46-website-common-api-1hh6mts",
       "kind": "subnet-api",
       "name": "Zipcode API",
@@ -1785,41 +1377,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-docs",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/docs"
     },
     {
       "auth_required": false,
@@ -1831,41 +1398,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-health",
-      "kind": "subnet-api",
-      "name": "Zipcode health endpoint",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/health"
     },
     {
       "auth_required": false,
@@ -1877,41 +1419,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Zipcode OpenAPI JSON",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/openapi.json"
     },
     {
       "auth_required": false,
@@ -1923,41 +1440,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-swagger",
-      "kind": "openapi",
-      "name": "Zipcode Swagger UI",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/swagger"
     },
     {
       "auth_required": false,
@@ -1969,41 +1461,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Zipcode Swagger JSON",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/swagger.json"
     },
     {
       "auth_required": false,
@@ -2015,16 +1482,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2040,15 +1503,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2064,15 +1524,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2088,7 +1545,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -2109,7 +1566,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -2130,7 +1587,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -2151,7 +1608,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -2172,15 +1629,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2196,15 +1650,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2220,15 +1671,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2244,15 +1692,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2268,15 +1713,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2292,15 +1734,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
@@ -2316,111 +1755,26 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/resi-labs-ai/resi",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
         "https://github.com/resi-labs-ai/resi"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Zipcode API surface",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/api/portal-auth/google/start"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-website-2",
-      "kind": "website",
-      "name": "Zipcode website page",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/portal/login?redirect=%2Fportal"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-46-website-link-zipcode-ai-website-4",
-      "kind": "website",
-      "name": "Zipcode website page",
-      "netuid": 46,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://zipcode.ai/",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://zipcode.ai/portal/register"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse"
     ],
@@ -2428,7 +1782,6 @@
       "dashboard",
       "data-artifact",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -2437,30 +1790,33 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 55,
+    "candidate_count": 42,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet."
       ],
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 10,
-      "verified_at": "2026-06-06T07:17:37.441Z"
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:43:58.561Z"
     },
-    "dashboard_url": "https://dashboard.resilabs.ai/",
-    "docs_url": "https://docs.astral.sh/uv/getting-started/installation",
+    "dashboard_url": "https://taomarketcap.com/subnets/46",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/46",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse"
       ],
@@ -2468,7 +1824,6 @@
         "dashboard",
         "data-artifact",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -2481,7 +1836,7 @@
     "netuid": 46,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 16,
+    "probed_surface_count": 9,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -2497,7 +1852,7 @@
     "source_repo": "https://github.com/resi-labs-ai/RESI-models",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 16,
+    "surface_count": 9,
     "symbol": "ץ",
     "tempo": 360,
     "website_url": "https://github.com/resi-labs-ai/resi"
@@ -2510,7 +1865,7 @@
       "kind": "data-artifact",
       "name": "Zipcode data artifact",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2519,6 +1874,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -2528,111 +1891,13 @@
       "url": "https://github.com/resi-labs-ai/resi-models",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 727,
+        "latency_ms": 560,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.678Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://dashboard.resilabs.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 305,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.770Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-data-artifact-3",
-      "kind": "data-artifact",
-      "name": "Zipcode data artifact",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://github.com/resi-labs-ai/RESI-models.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 546,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/resi-labs-ai/RESI-models",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.773Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-docs-2",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://docs.astral.sh/uv/getting-started/installation",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 80,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.astral.sh/uv/getting-started/installation/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.780Z"
+        "verified_at": "2026-06-06T07:43:57.476Z"
       }
     },
     {
@@ -2642,7 +1907,7 @@
       "kind": "website",
       "name": "Zipcode website page",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2651,6 +1916,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -2660,12 +1933,13 @@
       "url": "https://github.com/resi-labs-ai/resi",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 709,
+        "latency_ms": 550,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.815Z"
+        "verified_at": "2026-06-06T07:43:57.898Z"
       }
     },
     {
@@ -2675,7 +1949,7 @@
       "kind": "website",
       "name": "Zipcode website page",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2684,6 +1958,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -2693,12 +1975,13 @@
       "url": "https://github.com/macrocosm-os/data-universe",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 493,
+        "latency_ms": 419,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.819Z"
+        "verified_at": "2026-06-06T07:43:57.922Z"
       }
     },
     {
@@ -2717,6 +2000,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/46"
@@ -2726,12 +2017,13 @@
       "url": "https://taomarketcap.com/subnets/46",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 214,
+        "latency_ms": 138,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.859Z"
+        "verified_at": "2026-06-06T07:43:58.086Z"
       }
     },
     {
@@ -2750,6 +2042,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/46"
@@ -2758,16 +2058,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/RESI-models",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/RESI-models",
-        "homepage": null,
-        "last_push_at": "2026-06-05T17:48:39Z",
+        "latency_ms": 535,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.860Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:58.166Z"
       }
     },
     {
@@ -2777,7 +2076,7 @@
       "kind": "docs",
       "name": "Zipcode Tensorplex subnet docs",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2786,6 +2085,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -2795,12 +2102,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/46",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
+        "latency_ms": 296,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.882Z"
+        "verified_at": "2026-06-06T07:43:58.265Z"
       }
     },
     {
@@ -2810,7 +2118,7 @@
       "kind": "source-repo",
       "name": "Zipcode source repository",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2819,6 +2127,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -2827,16 +2143,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/resi",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/resi",
-        "homepage": null,
-        "last_push_at": "2026-02-16T15:46:55Z",
+        "latency_ms": 545,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.900Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:58.285Z"
       }
     },
     {
@@ -2846,7 +2161,7 @@
       "kind": "source-repo",
       "name": "Zipcode source repository",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2855,6 +2170,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -2863,49 +2186,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/resi-labs-api",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/resi-labs-api",
-        "homepage": null,
-        "last_push_at": "2025-10-01T14:40:38Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.901Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-docs",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 231,
+        "latency_ms": 433,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.074Z"
+        "verified_at": "2026-06-06T07:43:58.341Z"
       }
     },
     {
@@ -2915,7 +2204,7 @@
       "kind": "docs",
       "name": "Zipcode docs",
       "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2924,12 +2213,16 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "subnet_name": "Zipcode",
@@ -2937,115 +2230,13 @@
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 90,
+        "latency_ms": 74,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.085Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Zipcode OpenAPI JSON",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/openapi.json",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/json; charset=utf-8",
-        "latency_ms": 162,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.090Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Zipcode Swagger UI",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
-        "https://github.com/resi-labs-ai/resi"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 90,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.182Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-link-zipcode-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/dashboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 153,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.441Z"
+        "verified_at": "2026-06-06T07:43:58.561Z"
       }
     }
   ],
@@ -3057,7 +2248,7 @@
       "kind": "data-artifact",
       "name": "Zipcode data artifact",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3066,6 +2257,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -3075,111 +2274,13 @@
       "url": "https://github.com/resi-labs-ai/resi-models",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 727,
+        "latency_ms": 560,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.678Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://dashboard.resilabs.ai/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 305,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.770Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-data-artifact-3",
-      "kind": "data-artifact",
-      "name": "Zipcode data artifact",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://github.com/resi-labs-ai/RESI-models.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 546,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/resi-labs-ai/RESI-models",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.773Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-github-readme-resi-labs-ai-resi-models-docs-2",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/resi-labs-ai/RESI-models/blob/main/README.md"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://docs.astral.sh/uv/getting-started/installation",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 80,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.astral.sh/uv/getting-started/installation/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.780Z"
+        "verified_at": "2026-06-06T07:43:57.476Z"
       }
     },
     {
@@ -3189,7 +2290,7 @@
       "kind": "website",
       "name": "Zipcode website page",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3198,6 +2299,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -3207,12 +2316,13 @@
       "url": "https://github.com/resi-labs-ai/resi",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 709,
+        "latency_ms": 550,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.815Z"
+        "verified_at": "2026-06-06T07:43:57.898Z"
       }
     },
     {
@@ -3222,7 +2332,7 @@
       "kind": "website",
       "name": "Zipcode website page",
       "netuid": 46,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3231,6 +2341,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/resi-labs-ai/resi/blob/main/README.md"
@@ -3240,12 +2358,13 @@
       "url": "https://github.com/macrocosm-os/data-universe",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 493,
+        "latency_ms": 419,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.819Z"
+        "verified_at": "2026-06-06T07:43:57.922Z"
       }
     },
     {
@@ -3264,6 +2383,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/46"
@@ -3273,12 +2400,13 @@
       "url": "https://taomarketcap.com/subnets/46",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 214,
+        "latency_ms": 138,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.859Z"
+        "verified_at": "2026-06-06T07:43:58.086Z"
       }
     },
     {
@@ -3297,6 +2425,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/46"
@@ -3305,16 +2441,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/RESI-models",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/RESI-models",
-        "homepage": null,
-        "last_push_at": "2026-06-05T17:48:39Z",
+        "latency_ms": 535,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.860Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:58.166Z"
       }
     },
     {
@@ -3324,7 +2459,7 @@
       "kind": "docs",
       "name": "Zipcode Tensorplex subnet docs",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3333,6 +2468,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -3342,12 +2485,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/46",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
+        "latency_ms": 296,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.882Z"
+        "verified_at": "2026-06-06T07:43:58.265Z"
       }
     },
     {
@@ -3357,7 +2501,7 @@
       "kind": "source-repo",
       "name": "Zipcode source repository",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3366,6 +2510,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -3374,16 +2526,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/resi",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/resi",
-        "homepage": null,
-        "last_push_at": "2026-02-16T15:46:55Z",
+        "latency_ms": 545,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.900Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:58.285Z"
       }
     },
     {
@@ -3393,7 +2544,7 @@
       "kind": "source-repo",
       "name": "Zipcode source repository",
       "netuid": 46,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3402,6 +2553,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/46/subnet.json"
@@ -3410,49 +2569,15 @@
       "subnet_slug": "sn-46",
       "url": "https://github.com/resi-labs-ai/resi-labs-api",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/resi-labs-ai/resi-labs-api",
-        "homepage": null,
-        "last_push_at": "2025-10-01T14:40:38Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.901Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-docs",
-      "kind": "docs",
-      "name": "Zipcode docs",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 231,
+        "latency_ms": 433,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.074Z"
+        "verified_at": "2026-06-06T07:43:58.341Z"
       }
     },
     {
@@ -3462,7 +2587,7 @@
       "kind": "docs",
       "name": "Zipcode docs",
       "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -3471,12 +2596,16 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
         "https://github.com/resi-labs-ai/resi"
       ],
       "subnet_name": "Zipcode",
@@ -3484,115 +2613,13 @@
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 90,
+        "latency_ms": 74,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.085Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Zipcode OpenAPI JSON",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/openapi.json",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/json; charset=utf-8",
-        "latency_ms": 162,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.090Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Zipcode Swagger UI",
-      "netuid": 46,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Arrmlet",
-        "https://github.com/ewekazoo",
-        "https://github.com/macrocosm-os/data-universe",
-        "https://github.com/resi-labs-ai/prospector",
-        "https://github.com/resi-labs-ai/resi"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 90,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.182Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-46-website-link-zipcode-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "Zipcode dashboard",
-      "netuid": 46,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://zipcode.ai/"
-      ],
-      "subnet_name": "Zipcode",
-      "subnet_slug": "sn-46",
-      "url": "https://zipcode.ai/dashboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 153,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:37.441Z"
+        "verified_at": "2026-06-06T07:43:58.561Z"
       }
     }
   ]

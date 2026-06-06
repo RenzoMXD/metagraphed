@@ -2,132 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-1",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.learnbittensor.org/subnets/understanding-subnets"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-2",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-3",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/miner.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-4",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/validator.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-5",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/scoring.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-website-6",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/entrius/gittensor.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-74-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -199,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -220,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -230,599 +104,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/entrius/gittensor"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-api",
-      "kind": "subnet-api",
-      "name": "Gittensor API",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Gittensor API",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-docs",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-health",
-      "kind": "subnet-api",
-      "name": "Gittensor health endpoint",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Gittensor health endpoint",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Gittensor OpenAPI JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Gittensor OpenAPI JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger",
-      "kind": "openapi",
-      "name": "Gittensor Swagger UI",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Gittensor Swagger UI",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Gittensor Swagger JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Gittensor Swagger JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fentrius%2Fgittensor"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-1",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.learnbittensor.org/subnets/understanding-subnets"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-2",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-3",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/miner.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-4",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/validator.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-docs-5",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.gittensor.io/scoring.html"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-github-readme-entrius-gittensor-website-6",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/entrius/gittensor/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/entrius/gittensor/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/entrius/gittensor.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-74-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -894,7 +180,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -915,7 +201,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -925,468 +211,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/entrius/gittensor"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-api",
-      "kind": "subnet-api",
-      "name": "Gittensor API",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Gittensor API",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-docs",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Gittensor docs",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-health",
-      "kind": "subnet-api",
-      "name": "Gittensor health endpoint",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Gittensor health endpoint",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Gittensor OpenAPI JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Gittensor OpenAPI JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger",
-      "kind": "openapi",
-      "name": "Gittensor Swagger UI",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Gittensor Swagger UI",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Gittensor Swagger JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://gittensor.io/",
-      "source_urls": [
-        "https://gittensor.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://gittensor.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Gittensor Swagger JSON",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fentrius%2Fgittensor"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-74-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Gittensor website page",
-      "netuid": 74,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/entrius/gittensor.git",
-      "source_urls": [
-        "https://github.com/entrius/gittensor.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
@@ -1394,17 +218,18 @@
       "No verified dashboard surface yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified SSE/event stream yet.",
-      "No verified data artifact yet."
+      "Bounty state is documented through public CLI flows, but no unauthenticated public API has been verified yet."
     ],
     "missing_kinds": [
       "dashboard",
       "openapi",
       "subnet-api",
-      "sse",
-      "data-artifact"
+      "sse"
     ],
     "supported_kinds": [
+      "data-artifact",
       "docs",
+      "repo-registry",
       "source-repo",
       "website"
     ]
@@ -1413,7 +238,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 33,
+    "candidate_count": 5,
     "categories": [
       "developer-tools",
       "repositories",
@@ -1425,12 +250,12 @@
         "No verified dashboard surface yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified SSE/event stream yet.",
-        "No verified data artifact yet."
+        "Bounty state is documented through public CLI flows, but no unauthenticated public API has been verified yet."
       ],
       "level": "adapter-backed",
       "review_state": "maintainer-reviewed",
-      "reviewed_at": null,
-      "source_count": 3,
+      "reviewed_at": "2026-06-06T00:00:00.000Z",
+      "source_count": 5,
       "verified_at": null
     },
     "dashboard_url": null,
@@ -1440,17 +265,18 @@
         "No verified dashboard surface yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified SSE/event stream yet.",
-        "No verified data artifact yet."
+        "Bounty state is documented through public CLI flows, but no unauthenticated public API has been verified yet."
       ],
       "missing_kinds": [
         "dashboard",
         "openapi",
         "subnet-api",
-        "sse",
-        "data-artifact"
+        "sse"
       ],
       "supported_kinds": [
+        "data-artifact",
         "docs",
+        "repo-registry",
         "source-repo",
         "website"
       ]
@@ -1463,7 +289,7 @@
     "netuid": 74,
     "notes": "Pilot manifest. This tracks public-safe registry concepts only; validator credential flows and private scoring internals are out of scope.",
     "participant_count": 256,
-    "probed_surface_count": 3,
+    "probed_surface_count": 7,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1479,7 +305,7 @@
     "source_repo": "https://github.com/entrius/gittensor",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 3,
+    "surface_count": 7,
     "symbol": "ل",
     "tempo": 360,
     "website_url": "https://gittensor.io/"
@@ -1524,6 +350,28 @@
     {
       "auth_required": false,
       "authority": "provider-claimed",
+      "id": "gittensor-master-repositories",
+      "kind": "data-artifact",
+      "name": "Gittensor master repository weights",
+      "netuid": 74,
+      "notes": "Documented source for public repository emission_share, issue_discovery_share, and maintainer_cut config.",
+      "probe": {
+        "enabled": true,
+        "expect": "json",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/repository-hyperparameters"
+      ],
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://raw.githubusercontent.com/entrius/gittensor/main/gittensor/validator/weights/master_repositories.json"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
       "id": "gittensor-registration-docs",
       "kind": "docs",
       "name": "Gittensor repository registration docs",
@@ -1538,6 +386,63 @@
       "subnet_name": "Gittensor",
       "subnet_slug": "gittensor",
       "url": "https://docs.gittensor.io/register-repository.html"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-repositories-registry",
+      "kind": "repo-registry",
+      "name": "Gittensor public repositories registry",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/register-repository.html"
+      ],
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://gittensor.io/repositories"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-source-repo",
+      "kind": "source-repo",
+      "name": "Gittensor source repository",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://github.com/entrius/gittensor"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-website",
+      "kind": "website",
+      "name": "Gittensor website",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://gittensor.io/"
     }
   ],
   "verified_surfaces": [
@@ -1580,6 +485,28 @@
     {
       "auth_required": false,
       "authority": "provider-claimed",
+      "id": "gittensor-master-repositories",
+      "kind": "data-artifact",
+      "name": "Gittensor master repository weights",
+      "netuid": 74,
+      "notes": "Documented source for public repository emission_share, issue_discovery_share, and maintainer_cut config.",
+      "probe": {
+        "enabled": true,
+        "expect": "json",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/repository-hyperparameters"
+      ],
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://raw.githubusercontent.com/entrius/gittensor/main/gittensor/validator/weights/master_repositories.json"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
       "id": "gittensor-registration-docs",
       "kind": "docs",
       "name": "Gittensor repository registration docs",
@@ -1594,6 +521,63 @@
       "subnet_name": "Gittensor",
       "subnet_slug": "gittensor",
       "url": "https://docs.gittensor.io/register-repository.html"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-repositories-registry",
+      "kind": "repo-registry",
+      "name": "Gittensor public repositories registry",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "GET"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "source_urls": [
+        "https://docs.gittensor.io/register-repository.html"
+      ],
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://gittensor.io/repositories"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-source-repo",
+      "kind": "source-repo",
+      "name": "Gittensor source repository",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://github.com/entrius/gittensor"
+    },
+    {
+      "auth_required": false,
+      "authority": "provider-claimed",
+      "id": "gittensor-website",
+      "kind": "website",
+      "name": "Gittensor website",
+      "netuid": 74,
+      "probe": {
+        "enabled": true,
+        "expect": "html",
+        "method": "HEAD"
+      },
+      "provider": "gittensor",
+      "public_safe": true,
+      "subnet_name": "Gittensor",
+      "subnet_slug": "gittensor",
+      "url": "https://gittensor.io/"
     }
   ]
 }

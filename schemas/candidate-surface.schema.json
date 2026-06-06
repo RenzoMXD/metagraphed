@@ -116,7 +116,11 @@
             "auth-required",
             "dead",
             "unsafe",
-            "unsupported"
+            "unsupported",
+            "rate-limited",
+            "transient",
+            "timeout",
+            "content-mismatch"
           ]
         },
         "verified_at": {

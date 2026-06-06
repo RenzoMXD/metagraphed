@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -62,237 +62,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/91"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitstarter #1 API",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-docs",
-      "kind": "docs",
-      "name": "Bitstarter #1 docs",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitstarter #1 health endpoint",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitstarter #1 OpenAPI JSON",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitstarter #1 Swagger UI",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitstarter #1 Swagger JSON",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-1",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-2",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/cdn-cgi/l/email-protection"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-3",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/submit-a-project/incubator"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-4",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/how-it-works"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-5",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/terms-of-service"
     }
   ],
   "candidates": [
@@ -348,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -358,242 +127,10 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/91"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitstarter #1 API",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-docs",
-      "kind": "docs",
-      "name": "Bitstarter #1 docs",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitstarter #1 health endpoint",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitstarter #1 OpenAPI JSON",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitstarter #1 Swagger UI",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitstarter #1 Swagger JSON",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-1",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-2",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/cdn-cgi/l/email-protection"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-3",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/submit-a-project/incubator"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-4",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.bitstarter.ai/how-it-works"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-91-website-link-bitstarter-ai-website-5",
-      "kind": "website",
-      "name": "Bitstarter #1 website page",
-      "netuid": 91,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitstarter.ai/",
-      "source_urls": [
-        "https://bitstarter.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitstarter.ai/terms-of-service"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified project docs surface yet.",
       "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
@@ -601,7 +138,6 @@
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "docs",
       "source-repo",
       "openapi",
       "subnet-api",
@@ -610,6 +146,7 @@
     ],
     "supported_kinds": [
       "dashboard",
+      "docs",
       "website"
     ]
   },
@@ -617,14 +154,13 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 14,
+    "candidate_count": 3,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified project docs surface yet.",
         "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -634,14 +170,13 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 1,
-      "verified_at": "2026-06-06T07:17:55.658Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:06.320Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/91",
-    "docs_url": null,
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/91",
     "gaps": {
       "gap_notes": [
-        "No verified project docs surface yet.",
         "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -649,7 +184,6 @@
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "docs",
         "source-repo",
         "openapi",
         "subnet-api",
@@ -658,6 +192,7 @@
       ],
       "supported_kinds": [
         "dashboard",
+        "docs",
         "website"
       ]
     },
@@ -669,7 +204,7 @@
     "netuid": 91,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 2,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -685,7 +220,7 @@
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 2,
+    "surface_count": 3,
     "symbol": "ᚁ",
     "tempo": 360,
     "website_url": "https://bitstarter.ai/"
@@ -707,6 +242,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/91"
@@ -716,12 +259,13 @@
       "url": "https://taomarketcap.com/subnets/91",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 142,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:55.652Z"
+        "verified_at": "2026-06-06T07:44:06.252Z"
       }
     },
     {
@@ -740,6 +284,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/91"
@@ -749,12 +301,55 @@
       "url": "https://bitstarter.ai/",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 1060,
+        "latency_ms": 823,
         "method_tested": "HEAD",
         "redirect_target": "https://www.bitstarter.ai/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:55.658Z"
+        "verified_at": "2026-06-06T07:44:06.277Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-91-tensorplex-docs",
+      "kind": "docs",
+      "name": "Bitstarter #1 Tensorplex subnet docs",
+      "netuid": 91,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/91/subnet.json"
+      ],
+      "subnet_name": "Bitstarter #1",
+      "subnet_slug": "sn-91",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/91",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 377,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.320Z"
       }
     }
   ],
@@ -775,6 +370,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/91"
@@ -784,12 +387,13 @@
       "url": "https://taomarketcap.com/subnets/91",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 142,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:55.652Z"
+        "verified_at": "2026-06-06T07:44:06.252Z"
       }
     },
     {
@@ -808,6 +412,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/91"
@@ -817,12 +429,55 @@
       "url": "https://bitstarter.ai/",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 1060,
+        "latency_ms": 823,
         "method_tested": "HEAD",
         "redirect_target": "https://www.bitstarter.ai/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:55.658Z"
+        "verified_at": "2026-06-06T07:44:06.277Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-91-tensorplex-docs",
+      "kind": "docs",
+      "name": "Bitstarter #1 Tensorplex subnet docs",
+      "netuid": 91,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/91/subnet.json"
+      ],
+      "subnet_name": "Bitstarter #1",
+      "subnet_slug": "sn-91",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/91",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 377,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.320Z"
       }
     }
   ]

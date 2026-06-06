@@ -10,7 +10,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -31,7 +31,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -94,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -115,7 +115,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -136,7 +136,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -157,7 +157,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -199,7 +199,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -220,7 +220,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -241,16 +241,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
@@ -265,16 +262,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
@@ -289,16 +283,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
@@ -313,16 +304,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
@@ -337,16 +325,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
@@ -361,16 +346,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger.json"
@@ -385,16 +367,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/"
@@ -409,16 +388,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security/code-security"
@@ -433,7 +409,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -454,7 +430,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -475,14 +451,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58.git"
+        "https://github.com/Handshake58/HS58"
       ],
       "state": "schema-valid",
       "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58"
@@ -497,16 +472,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/copilot"
@@ -521,16 +493,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/ai/github-app"
@@ -545,16 +514,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mcp"
@@ -569,16 +535,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/actions"
@@ -593,16 +556,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/codespaces"
@@ -617,16 +577,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/code-review"
@@ -641,16 +598,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
@@ -667,7 +621,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -688,7 +642,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -709,7 +663,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -730,7 +684,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -751,7 +705,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -772,7 +726,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -793,7 +747,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -814,7 +768,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -856,7 +810,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -877,7 +831,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -898,16 +852,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
@@ -922,16 +873,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
@@ -946,16 +894,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
@@ -970,16 +915,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
@@ -994,16 +936,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
@@ -1018,16 +957,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger.json"
@@ -1042,16 +978,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/"
@@ -1066,16 +999,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security/code-security"
@@ -1090,7 +1020,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1111,7 +1041,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1132,14 +1062,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58.git"
+        "https://github.com/Handshake58/HS58"
       ],
       "state": "schema-valid",
       "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58"
@@ -1154,16 +1083,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/copilot"
@@ -1178,16 +1104,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/ai/github-app"
@@ -1202,16 +1125,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mcp"
@@ -1226,16 +1146,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/actions"
@@ -1250,16 +1167,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/codespaces"
@@ -1274,16 +1188,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/code-review"
@@ -1298,16 +1209,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/Handshake58/HS58-subnet",
       "source_urls": [
-        "https://github.com/Handshake58/HS58",
-        "https://github.com/Handshake58/HS58-subnet",
-        "https://github.com/Handshake58/HS58.git",
-        "https://github.com/kimbo128/DRAIN"
+        "https://github.com/Handshake58/HS58-subnet"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
@@ -1315,15 +1223,11 @@
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
-      "No verified project website yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
-      "website",
       "openapi",
       "sse",
       "data-artifact"
@@ -1331,7 +1235,9 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "subnet-api"
+      "source-repo",
+      "subnet-api",
+      "website"
     ]
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
@@ -1345,8 +1251,6 @@
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
-        "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1354,22 +1258,18 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 2,
-      "verified_at": "2026-06-06T07:17:42.648Z"
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:44:01.257Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/58",
     "docs_url": "https://handshake58.com/skill.md",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
-        "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
-        "website",
         "openapi",
         "sse",
         "data-artifact"
@@ -1377,7 +1277,9 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "subnet-api"
+        "source-repo",
+        "subnet-api",
+        "website"
       ]
     },
     "links": [],
@@ -1388,7 +1290,7 @@
     "netuid": 58,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 5,
+    "probed_surface_count": 10,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1401,13 +1303,13 @@
     },
     "registered_at_block": 4367003,
     "slug": "sn-58",
-    "source_repo": null,
+    "source_repo": "https://github.com/Handshake58/HS58",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 5,
+    "surface_count": 10,
     "symbol": "خ",
     "tempo": 360,
-    "website_url": null
+    "website_url": "https://github.com/Handshake58/HS58-subnet"
   },
   "surfaces": [
     {
@@ -1417,7 +1319,7 @@
       "kind": "docs",
       "name": "Pending docs",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1426,6 +1328,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1435,12 +1345,13 @@
       "url": "https://handshake58.com/skill.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "text/markdown; charset=UTF-8",
-        "latency_ms": 267,
+        "latency_ms": 241,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.476Z"
+        "verified_at": "2026-06-06T07:44:00.903Z"
       }
     },
     {
@@ -1450,7 +1361,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1459,6 +1370,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1468,12 +1387,13 @@
       "url": "https://handshake58.com/api/drain/signing",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 262,
+        "latency_ms": 215,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.480Z"
+        "verified_at": "2026-06-06T07:44:00.937Z"
       }
     },
     {
@@ -1483,7 +1403,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1492,6 +1412,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1501,12 +1429,13 @@
       "url": "https://handshake58.com/api/mcp/providers",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 274,
+        "latency_ms": 267,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.512Z"
+        "verified_at": "2026-06-06T07:44:00.957Z"
       }
     },
     {
@@ -1516,7 +1445,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1525,6 +1454,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1534,12 +1471,97 @@
       "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 199,
+        "latency_ms": 179,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.596Z"
+        "verified_at": "2026-06-06T07:44:00.993Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 66,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 715,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.020Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 66,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1108,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.061Z"
       }
     },
     {
@@ -1558,6 +1580,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/58"
@@ -1567,12 +1597,140 @@
       "url": "https://taomarketcap.com/subnets/58",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 174,
+        "latency_ms": 151,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.648Z"
+        "verified_at": "2026-06-06T07:44:01.152Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-tensorplex-docs",
+      "kind": "docs",
+      "name": "Pending Tensorplex subnet docs",
+      "netuid": 58,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 378,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.172Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Pending source repository",
+      "netuid": 58,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 55,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/Handshake58/HS58",
+        "latency_ms": 1353,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.190Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-website-common-docs",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58-subnet"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 76,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 80,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.257Z"
       }
     }
   ],
@@ -1584,7 +1742,7 @@
       "kind": "docs",
       "name": "Pending docs",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1593,6 +1751,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1602,12 +1768,13 @@
       "url": "https://handshake58.com/skill.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "text/markdown; charset=UTF-8",
-        "latency_ms": 267,
+        "latency_ms": 241,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.476Z"
+        "verified_at": "2026-06-06T07:44:00.903Z"
       }
     },
     {
@@ -1617,7 +1784,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1626,6 +1793,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1635,12 +1810,13 @@
       "url": "https://handshake58.com/api/drain/signing",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 262,
+        "latency_ms": 215,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.480Z"
+        "verified_at": "2026-06-06T07:44:00.937Z"
       }
     },
     {
@@ -1650,7 +1826,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1659,6 +1835,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1668,12 +1852,13 @@
       "url": "https://handshake58.com/api/mcp/providers",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 274,
+        "latency_ms": 267,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.512Z"
+        "verified_at": "2026-06-06T07:44:00.957Z"
       }
     },
     {
@@ -1683,7 +1868,7 @@
       "kind": "subnet-api",
       "name": "Pending API surface",
       "netuid": 58,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1692,6 +1877,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/Handshake58/HS58/blob/main/README.md"
@@ -1701,12 +1894,97 @@
       "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact",
       "verification": {
         "classification": "live",
+        "confidence_score": 68,
         "content_type": "application/json",
-        "latency_ms": 199,
+        "latency_ms": 179,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.596Z"
+        "verified_at": "2026-06-06T07:44:00.993Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 66,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 715,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.020Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 66,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1108,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.061Z"
       }
     },
     {
@@ -1725,6 +2003,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/58"
@@ -1734,12 +2020,140 @@
       "url": "https://taomarketcap.com/subnets/58",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 174,
+        "latency_ms": 151,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:42.648Z"
+        "verified_at": "2026-06-06T07:44:01.152Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-tensorplex-docs",
+      "kind": "docs",
+      "name": "Pending Tensorplex subnet docs",
+      "netuid": 58,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 378,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.172Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Pending source repository",
+      "netuid": 58,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/Handshake58/HS58",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 55,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/Handshake58/HS58",
+        "latency_ms": 1353,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.190Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-website-common-docs",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58-subnet"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 76,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 80,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.257Z"
       }
     }
   ]

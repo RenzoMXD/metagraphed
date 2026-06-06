@@ -110,6 +110,9 @@ function isPromotable(candidate, verification) {
   if (!verification || !["live", "redirected"].includes(verification.classification)) {
     return false;
   }
+  if (isGenericToolingSurface(candidate)) {
+    return false;
+  }
   if (candidate.kind === "website" && candidate.source_type === "project-website-link") {
     return false;
   }
@@ -124,6 +127,28 @@ function isPromotable(candidate, verification) {
     return isJsonContentType(verification.content_type) || isHtmlContentType(verification.content_type);
   }
   return true;
+}
+
+function isGenericToolingSurface(candidate) {
+  let url;
+  try {
+    url = new URL(candidate.url);
+  } catch {
+    return true;
+  }
+
+  const host = url.hostname.toLowerCase().replace(/^www\./, "");
+  const pathname = url.pathname.toLowerCase();
+  if (candidate.kind === "openapi") {
+    return (
+      (host === "github.com" && ["/swagger", "/swagger.json"].includes(pathname)) ||
+      host === "swagger.io" ||
+      (host === "github.com" && pathname.includes("/swagger")) ||
+      (host === "github.com" && pathname.includes("/swaggo/"))
+    );
+  }
+
+  return false;
 }
 
 function limitPromotedSurfaceKinds() {
@@ -168,7 +193,7 @@ function isHtmlContentType(contentType) {
 }
 
 function promoteCandidate(candidate, verification) {
-  return {
+  const surface = {
     id: candidate.id,
     name: candidate.name,
     kind: candidate.kind,
@@ -181,6 +206,7 @@ function promoteCandidate(candidate, verification) {
     verification: {
       archived: verification.archived,
       classification: verification.classification,
+      confidence_score: verification.confidence_score,
       content_type: verification.content_type || null,
       default_branch: verification.default_branch,
       github_api_url: verification.github_api_url,
@@ -193,10 +219,24 @@ function promoteCandidate(candidate, verification) {
       topics: verification.topics,
       verified_at: verification.verified_at
     },
+    quality_signals: verification.quality_signals,
     rate_limit_notes: candidate.rate_limit_notes,
     probe: probeForKind(candidate.kind),
     notes: candidate.review_notes
   };
+
+  if (candidate.kind === "openapi") {
+    const pathname = new URL(candidate.url).pathname.toLowerCase();
+    if (pathname.endsWith(".json") && isJsonContentType(verification.content_type)) {
+      surface.schema_url = candidate.url;
+      surface.schema_status = "machine-readable";
+    } else {
+      surface.schema_status = "ui-only";
+      surface.notes = `${surface.notes || ""} Machine-readable OpenAPI schema has not been captured for this surface.`.trim();
+    }
+  }
+
+  return surface;
 }
 
 function calculateGaps(surfaces) {

@@ -2,90 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/dashboard/mainnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-2",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/subnets/subnet-9-pre-training/subnet-9-iota-mining-setup-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-3",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/subnets/subnet-9-pre-training/subnet-9-validating"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-4",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.astral.sh/uv"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-9-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -121,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/9",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/9",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/9"
       ],
       "state": "schema-valid",
       "url": "https://github.com/macrocosm-os/iota"
@@ -158,7 +73,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -179,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -189,410 +104,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/9"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-api",
-      "kind": "subnet-api",
-      "name": "iota API",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-docs",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-health",
-      "kind": "subnet-api",
-      "name": "iota health endpoint",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "iota OpenAPI JSON",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-swagger",
-      "kind": "openapi",
-      "name": "iota Swagger UI",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "iota Swagger JSON",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-5",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-7",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/product-and-services/tah/faqs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-8",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/product-and-services/tah"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-9",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/research/iota_primer.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-2",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/overview"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-3",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-4",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-6",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tah.iota.macrocosmos.ai/download/token/release-iota-signup"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/dashboard/mainnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-2",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/subnets/subnet-9-pre-training/subnet-9-iota-mining-setup-guide"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-3",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/subnets/subnet-9-pre-training/subnet-9-validating"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-4",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/macrocosm-os/iota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.astral.sh/uv"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-9-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -628,8 +144,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/9",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/9",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/9"
       ],
       "state": "schema-valid",
       "url": "https://github.com/macrocosm-os/iota"
@@ -665,7 +180,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -686,7 +201,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -696,321 +211,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/9"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-api",
-      "kind": "subnet-api",
-      "name": "iota API",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-docs",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-health",
-      "kind": "subnet-api",
-      "name": "iota health endpoint",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "iota OpenAPI JSON",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-swagger",
-      "kind": "openapi",
-      "name": "iota Swagger UI",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "iota Swagger JSON",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-5",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-7",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/product-and-services/tah/faqs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-8",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.macrocosmos.ai/product-and-services/tah"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-docs-9",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/research/iota_primer.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-2",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://iota.macrocosmos.ai/overview"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-3",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-4",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://macrocosmos.ai/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-website-6",
-      "kind": "website",
-      "name": "iota website page",
-      "netuid": 9,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://iota.macrocosmos.ai/",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tah.iota.macrocosmos.ai/download/token/release-iota-signup"
     }
   ],
   "gaps": {
@@ -1037,7 +237,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 24,
+    "candidate_count": 5,
     "categories": [
       "baseline-curated"
     ],
@@ -1052,11 +252,11 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 5,
-      "verified_at": "2026-06-06T07:17:22.509Z"
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:43:53.413Z"
     },
-    "dashboard_url": "https://iota.macrocosmos.ai/dashboard/mainnet",
-    "docs_url": "https://docs.astral.sh/uv",
+    "dashboard_url": "https://taomarketcap.com/subnets/9",
+    "docs_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_9/index.mdx",
     "gaps": {
       "gap_notes": [
         "No verified OpenAPI/Swagger surface yet.",
@@ -1085,7 +285,7 @@
     "netuid": 9,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 9,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1101,7 +301,7 @@
     "source_repo": "https://github.com/macrocosm-os/iota",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 9,
+    "surface_count": 5,
     "symbol": "ι",
     "tempo": 360,
     "website_url": "https://iota.macrocosmos.ai/"
@@ -1110,72 +310,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-9-github-readme-macrocosm-os-iota-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/dashboard/mainnet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 282,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.317Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-4",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://docs.astral.sh/uv",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 184,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.astral.sh/uv/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.349Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-9-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "iota TaoMarketCap dashboard",
@@ -1189,6 +323,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/9"
@@ -1198,12 +340,13 @@
       "url": "https://taomarketcap.com/subnets/9",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 191,
+        "latency_ms": 152,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.354Z"
+        "verified_at": "2026-06-06T07:43:53.262Z"
       }
     },
     {
@@ -1222,25 +365,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/9",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/9"
       ],
       "subnet_name": "iota",
       "subnet_slug": "sn-9",
       "url": "https://github.com/macrocosm-os/iota",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/macrocosm-os/iota",
-        "homepage": null,
-        "last_push_at": "2026-05-20T11:19:59Z",
+        "latency_ms": 453,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:22.358Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.411Z"
       }
     },
     {
@@ -1259,6 +408,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/9"
@@ -1268,12 +425,13 @@
       "url": "https://iota.macrocosmos.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 244,
+        "latency_ms": 352,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.363Z"
+        "verified_at": "2026-06-06T07:43:53.411Z"
       }
     },
     {
@@ -1283,7 +441,7 @@
       "kind": "docs",
       "name": "iota Taopedia article",
       "netuid": 9,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1292,6 +450,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_9/index.mdx"
@@ -1301,12 +467,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_9/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 404,
+        "latency_ms": 337,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.366Z"
+        "verified_at": "2026-06-06T07:43:53.413Z"
       }
     },
     {
@@ -1316,7 +483,7 @@
       "kind": "docs",
       "name": "iota Tensorplex subnet docs",
       "netuid": 9,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1325,6 +492,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
@@ -1334,78 +509,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/9",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 327,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.372Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-website-common-docs",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 308,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.macrocosmos.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.448Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/dashboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 292,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.509Z"
+        "verified_at": "2026-06-06T07:43:53.413Z"
       }
     }
   ],
@@ -1413,72 +523,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-9-github-readme-macrocosm-os-iota-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/dashboard/mainnet",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 282,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.317Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-github-readme-macrocosm-os-iota-docs-4",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/macrocosm-os/iota/blob/main/README.md"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://docs.astral.sh/uv",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 184,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.astral.sh/uv/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.349Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-9-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "iota TaoMarketCap dashboard",
@@ -1492,6 +536,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/9"
@@ -1501,12 +553,13 @@
       "url": "https://taomarketcap.com/subnets/9",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 191,
+        "latency_ms": 152,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.354Z"
+        "verified_at": "2026-06-06T07:43:53.262Z"
       }
     },
     {
@@ -1525,25 +578,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/9",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/9"
       ],
       "subnet_name": "iota",
       "subnet_slug": "sn-9",
       "url": "https://github.com/macrocosm-os/iota",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/macrocosm-os/iota",
-        "homepage": null,
-        "last_push_at": "2026-05-20T11:19:59Z",
+        "latency_ms": 453,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:22.358Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:53.411Z"
       }
     },
     {
@@ -1562,6 +621,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/9"
@@ -1571,12 +638,13 @@
       "url": "https://iota.macrocosmos.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 244,
+        "latency_ms": 352,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.363Z"
+        "verified_at": "2026-06-06T07:43:53.411Z"
       }
     },
     {
@@ -1586,7 +654,7 @@
       "kind": "docs",
       "name": "iota Taopedia article",
       "netuid": 9,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1595,6 +663,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_9/index.mdx"
@@ -1604,12 +680,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_9/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 404,
+        "latency_ms": 337,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.366Z"
+        "verified_at": "2026-06-06T07:43:53.413Z"
       }
     },
     {
@@ -1619,7 +696,7 @@
       "kind": "docs",
       "name": "iota Tensorplex subnet docs",
       "netuid": 9,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1628,6 +705,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/9/subnet.json"
@@ -1637,78 +722,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/9",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 327,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.372Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-website-common-docs",
-      "kind": "docs",
-      "name": "iota docs",
-      "netuid": 9,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 308,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.macrocosmos.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.448Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-9-website-link-iota-macrocosmos-ai-dashboard-1",
-      "kind": "dashboard",
-      "name": "iota dashboard",
-      "netuid": 9,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://iota.macrocosmos.ai/"
-      ],
-      "subnet_name": "iota",
-      "subnet_slug": "sn-9",
-      "url": "https://iota.macrocosmos.ai/dashboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 292,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.509Z"
+        "verified_at": "2026-06-06T07:43:53.413Z"
       }
     }
   ]

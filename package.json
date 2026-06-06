@@ -25,7 +25,14 @@
     "verify:candidates:dry-run": "node scripts/verify-candidates.mjs --dry-run",
     "curate:baseline": "node scripts/curate-baseline.mjs --write",
     "curate:baseline:dry-run": "node scripts/curate-baseline.mjs --dry-run",
+    "review:promote": "node scripts/promote-reviewed.mjs --write",
+    "review:promote:dry-run": "node scripts/promote-reviewed.mjs --dry-run",
+    "schemas:snapshot": "node scripts/snapshot-openapi.mjs --write",
+    "schemas:snapshot:dry-run": "node scripts/snapshot-openapi.mjs --dry-run",
+    "adapters:snapshot": "node scripts/snapshot-adapters.mjs --write",
+    "adapters:snapshot:dry-run": "node scripts/snapshot-adapters.mjs --dry-run",
     "probes:smoke": "node scripts/probes-smoke.mjs",
+    "sync:summary": "node scripts/sync-summary.mjs",
     "scan:public-safety": "node scripts/scan-public-safety.mjs",
     "test": "node --test tests/*.test.mjs"
   }

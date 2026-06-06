@@ -397,7 +397,11 @@ async function discoverFromProjectWebsites() {
 function addCommonApiPathCandidates(candidate, root) {
   let origin;
   try {
-    origin = new URL(root).origin;
+    const parsed = new URL(root);
+    if (isGenericHost(parsed.hostname)) {
+      return;
+    }
+    origin = parsed.origin;
   } catch {
     return;
   }
@@ -536,6 +540,9 @@ function normalizePublicUrl(value) {
   try {
     const url = new URL(candidate);
     if (!["http:", "https:"].includes(url.protocol)) {
+      return null;
+    }
+    if (isUnsafeHost(url.hostname)) {
       return null;
     }
     url.hash = "";
@@ -709,7 +716,13 @@ function classifyDiscoveredLink(url, label, baseUrl) {
   }
 
   const haystack = `${label || ""} ${parsed.hostname} ${parsed.pathname}`.toLowerCase();
-  if (isSocialUrl(url) || haystack.includes("/issues") || haystack.includes("/pulls")) {
+  if (
+    isSocialUrl(url) ||
+    isBadgeOrAssetUrl(url) ||
+    isGenericHost(parsed.hostname) ||
+    haystack.includes("/issues") ||
+    haystack.includes("/pulls")
+  ) {
     return null;
   }
 
@@ -753,6 +766,49 @@ function isLikelyProjectDomain(baseUrl, candidateUrl) {
 function registrableDomain(hostname) {
   const parts = hostname.toLowerCase().split(".").filter(Boolean);
   return parts.slice(-2).join(".");
+}
+
+function isGenericHost(hostname) {
+  const host = hostname.toLowerCase().replace(/^www\./, "");
+  return [
+    "github.com",
+    "raw.githubusercontent.com",
+    "gist.github.com",
+    "gitlab.com",
+    "bitbucket.org",
+    "readthedocs.io",
+    "taomarketcap.com",
+    "docs.google.com"
+  ].some((genericHost) => host === genericHost || host.endsWith(`.${genericHost}`));
+}
+
+function isBadgeOrAssetUrl(value) {
+  try {
+    const url = new URL(value);
+    const host = url.hostname.toLowerCase().replace(/^www\./, "");
+    const pathname = url.pathname.toLowerCase();
+    return (
+      host === "img.shields.io" ||
+      host === "shields.io" ||
+      host === "badgen.net" ||
+      /\.(svg|png|jpg|jpeg|gif|webp|ico|pdf)$/.test(pathname)
+    );
+  } catch {
+    return true;
+  }
+}
+
+function isUnsafeHost(hostname) {
+  const host = hostname.toLowerCase();
+  return (
+    host === "localhost" ||
+    host === "0.0.0.0" ||
+    host === "127.0.0.1" ||
+    host === "::1" ||
+    host.startsWith("10.") ||
+    host.startsWith("192.168.") ||
+    /^172\.(1[6-9]|2\d|3[0-1])\./.test(host)
+  );
 }
 
 function isSocialUrl(value) {

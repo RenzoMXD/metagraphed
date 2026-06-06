@@ -2,27 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-github-readme-alveuslabs-sn94-bitsota-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/AlveusLabs/SN94-BitSota.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-94-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -94,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -104,557 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitsota API",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Bitsota API",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-docs",
-      "kind": "docs",
-      "name": "Bitsota docs",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Bitsota docs",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitsota health endpoint",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Bitsota health endpoint",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitsota OpenAPI JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Bitsota OpenAPI JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitsota Swagger UI",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Bitsota Swagger UI",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitsota Swagger JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Bitsota Swagger JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitsota dashboard",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/leaderboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/challenges"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-website-2",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/research"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FAlveusLabs%2FSN94-BitSota"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-github-readme-alveuslabs-sn94-bitsota-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/AlveusLabs/SN94-BitSota.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-94-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -726,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -736,543 +169,16 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitsota API",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Bitsota API",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-docs",
-      "kind": "docs",
-      "name": "Bitsota docs",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Bitsota docs",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitsota health endpoint",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Bitsota health endpoint",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitsota OpenAPI JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Bitsota OpenAPI JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitsota Swagger UI",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Bitsota Swagger UI",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitsota Swagger JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Bitsota Swagger JSON",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitsota dashboard",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/leaderboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/challenges"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-bitsota-ai-website-2",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://bitsota.ai/",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitsota.ai/research"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FAlveusLabs%2FSN94-BitSota"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-94-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Bitsota website page",
-      "netuid": 94,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/AlveusLabs/SN94-BitSota.git",
-      "source_urls": [
-        "https://github.com/AlveusLabs/SN94-BitSota.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
       "openapi",
       "subnet-api",
       "sse",
@@ -1281,6 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
+      "source-repo",
       "website"
     ]
   },
@@ -1288,14 +195,13 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 30,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
@@ -1305,20 +211,18 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:57.473Z"
+      "verified_at": "2026-06-06T07:44:06.608Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/94",
-    "docs_url": "https://bitsota.ai/docs",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
         "openapi",
         "subnet-api",
         "sse",
@@ -1327,6 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
+        "source-repo",
         "website"
       ]
     },
@@ -1351,7 +256,7 @@
     },
     "registered_at_block": 6962737,
     "slug": "sn-94",
-    "source_repo": null,
+    "source_repo": "https://github.com/AlveusLabs/SN94-BitSota",
     "status": "active",
     "subnet_type": "application",
     "surface_count": 4,
@@ -1376,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -1385,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 130,
+        "latency_ms": 146,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.832Z"
+        "verified_at": "2026-06-06T07:44:06.493Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-94-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Bitsota source repository",
+      "netuid": 94,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/94"
+      ],
+      "subnet_name": "Bitsota",
+      "subnet_slug": "sn-94",
+      "url": "https://github.com/AlveusLabs/SN94-BitSota",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/AlveusLabs/SN94-BitSota",
+        "latency_ms": 360,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.537Z"
       }
     },
     {
@@ -1409,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -1418,78 +383,55 @@
       "url": "https://bitsota.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 702,
+        "latency_ms": 717,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.895Z"
+        "verified_at": "2026-06-06T07:44:06.560Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-94-website-common-docs",
+      "id": "sn-94-tensorplex-docs",
       "kind": "docs",
-      "name": "Bitsota docs",
+      "name": "Bitsota Tensorplex subnet docs",
       "netuid": 94,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "subnet_name": "Bitsota",
-      "subnet_slug": "sn-94",
-      "url": "https://bitsota.ai/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 728,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.038Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-94-website-link-bitsota-ai-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitsota dashboard",
-      "netuid": 94,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://bitsota.ai/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/94/subnet.json"
       ],
       "subnet_name": "Bitsota",
       "subnet_slug": "sn-94",
-      "url": "https://bitsota.ai/leaderboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 700,
+        "latency_ms": 354,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.473Z"
+        "verified_at": "2026-06-06T07:44:06.608Z"
       }
     }
   ],
@@ -1510,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -1519,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 130,
+        "latency_ms": 146,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.832Z"
+        "verified_at": "2026-06-06T07:44:06.493Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-94-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Bitsota source repository",
+      "netuid": 94,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/94"
+      ],
+      "subnet_name": "Bitsota",
+      "subnet_slug": "sn-94",
+      "url": "https://github.com/AlveusLabs/SN94-BitSota",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/AlveusLabs/SN94-BitSota",
+        "latency_ms": 360,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.537Z"
       }
     },
     {
@@ -1543,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -1552,78 +554,55 @@
       "url": "https://bitsota.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 702,
+        "latency_ms": 717,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.895Z"
+        "verified_at": "2026-06-06T07:44:06.560Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-94-website-common-docs",
+      "id": "sn-94-tensorplex-docs",
       "kind": "docs",
-      "name": "Bitsota docs",
+      "name": "Bitsota Tensorplex subnet docs",
       "netuid": 94,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "subnet_name": "Bitsota",
-      "subnet_slug": "sn-94",
-      "url": "https://bitsota.ai/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 728,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.038Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-94-website-link-bitsota-ai-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitsota dashboard",
-      "netuid": 94,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://bitsota.ai/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/94/subnet.json"
       ],
       "subnet_name": "Bitsota",
       "subnet_slug": "sn-94",
-      "url": "https://bitsota.ai/leaderboard",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 700,
+        "latency_ms": 354,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.473Z"
+        "verified_at": "2026-06-06T07:44:06.608Z"
       }
     }
   ]

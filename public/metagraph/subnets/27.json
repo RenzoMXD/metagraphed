@@ -37,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/27",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/27",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/27/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/27"
       ],
       "state": "schema-valid",
       "url": "https://github.com/neuralinternet/compute-subnet"
@@ -74,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -84,132 +83,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/27"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-api",
-      "kind": "subnet-api",
-      "name": "Nodexo API",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-docs",
-      "kind": "docs",
-      "name": "Nodexo docs",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-health",
-      "kind": "subnet-api",
-      "name": "Nodexo health endpoint",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Nodexo OpenAPI JSON",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-swagger",
-      "kind": "openapi",
-      "name": "Nodexo Swagger UI",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Nodexo Swagger JSON",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/swagger.json"
     }
   ],
   "candidates": [
@@ -250,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/27",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/27",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/27/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/27"
       ],
       "state": "schema-valid",
       "url": "https://github.com/neuralinternet/compute-subnet"
@@ -287,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -297,132 +169,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/27"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-api",
-      "kind": "subnet-api",
-      "name": "Nodexo API",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-docs",
-      "kind": "docs",
-      "name": "Nodexo docs",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-health",
-      "kind": "subnet-api",
-      "name": "Nodexo health endpoint",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Nodexo OpenAPI JSON",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-swagger",
-      "kind": "openapi",
-      "name": "Nodexo Swagger UI",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-27-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Nodexo Swagger JSON",
-      "netuid": 27,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://nodexo.ai/",
-      "source_urls": [
-        "https://nodexo.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://nodexo.ai/swagger.json"
     }
   ],
   "gaps": {
@@ -451,7 +197,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 10,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
@@ -469,7 +215,7 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:30.915Z"
+      "verified_at": "2026-06-06T07:43:55.857Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/27",
     "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/27",
@@ -541,6 +287,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/27"
@@ -550,12 +304,13 @@
       "url": "https://taomarketcap.com/subnets/27",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 156,
+        "latency_ms": 213,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.892Z"
+        "verified_at": "2026-06-06T07:43:55.810Z"
       }
     },
     {
@@ -565,7 +320,7 @@
       "kind": "docs",
       "name": "Nodexo Tensorplex subnet docs",
       "netuid": 27,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -574,6 +329,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/27/subnet.json"
@@ -583,12 +346,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/27",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 374,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.915Z"
+        "verified_at": "2026-06-06T07:43:55.857Z"
       }
     }
   ],
@@ -609,6 +373,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/27"
@@ -618,12 +390,13 @@
       "url": "https://taomarketcap.com/subnets/27",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 156,
+        "latency_ms": 213,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.892Z"
+        "verified_at": "2026-06-06T07:43:55.810Z"
       }
     },
     {
@@ -633,7 +406,7 @@
       "kind": "docs",
       "name": "Nodexo Tensorplex subnet docs",
       "netuid": 27,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -642,6 +415,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/27/subnet.json"
@@ -651,12 +432,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/27",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 374,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:30.915Z"
+        "verified_at": "2026-06-06T07:43:55.857Z"
       }
     }
   ]

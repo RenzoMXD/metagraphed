@@ -2,111 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-1",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://apify.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://chutes.ai/app/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://console.desearch.ai/api-keys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-4",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.macrocosmos.ai/account?tab=api-keys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-website-5",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/oneoneone-io/subnet-111.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-111-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -142,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/111",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/111",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/111/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/111"
       ],
       "state": "schema-valid",
       "url": "https://github.com/oneoneone-io/subnet-111"
@@ -158,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -168,452 +62,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/111"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-api",
-      "kind": "subnet-api",
-      "name": "oneoneone API",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-docs",
-      "kind": "docs",
-      "name": "oneoneone docs",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-health",
-      "kind": "subnet-api",
-      "name": "oneoneone health endpoint",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "oneoneone OpenAPI JSON",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-swagger",
-      "kind": "openapi",
-      "name": "oneoneone Swagger UI",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "oneoneone Swagger JSON",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Foneoneone-io%2Fsubnet-111"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-1",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://apify.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://chutes.ai/app/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://console.desearch.ai/api-keys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-subnet-api-4",
-      "kind": "subnet-api",
-      "name": "oneoneone API surface",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.macrocosmos.ai/account?tab=api-keys"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-github-readme-oneoneone-io-subnet-111-website-5",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/oneoneone-io/subnet-111.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-111-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -649,8 +102,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/111",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/111",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/111/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/111"
       ],
       "state": "schema-valid",
       "url": "https://github.com/oneoneone-io/subnet-111"
@@ -665,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -675,348 +127,10 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/111"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-api",
-      "kind": "subnet-api",
-      "name": "oneoneone API",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-docs",
-      "kind": "docs",
-      "name": "oneoneone docs",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-health",
-      "kind": "subnet-api",
-      "name": "oneoneone health endpoint",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "oneoneone OpenAPI JSON",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-swagger",
-      "kind": "openapi",
-      "name": "oneoneone Swagger UI",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "oneoneone Swagger JSON",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Foneoneone-io%2Fsubnet-111"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-111-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "oneoneone website page",
-      "netuid": 111,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/oneoneone-io/subnet-111.git",
-      "source_urls": [
-        "https://github.com/oneoneone-io/subnet-111.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified project docs surface yet.",
-      "No verified source repository yet.",
       "No verified project website yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
@@ -1024,8 +138,6 @@
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "docs",
-      "source-repo",
       "website",
       "openapi",
       "subnet-api",
@@ -1033,22 +145,22 @@
       "data-artifact"
     ],
     "supported_kinds": [
-      "dashboard"
+      "dashboard",
+      "docs",
+      "source-repo"
     ]
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 24,
+    "candidate_count": 3,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -1058,15 +170,13 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 1,
-      "verified_at": "2026-06-06T07:18:04.749Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:08.773Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/111",
-    "docs_url": null,
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/111",
     "gaps": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -1074,8 +184,6 @@
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "docs",
-        "source-repo",
         "website",
         "openapi",
         "subnet-api",
@@ -1083,7 +191,9 @@
         "data-artifact"
       ],
       "supported_kinds": [
-        "dashboard"
+        "dashboard",
+        "docs",
+        "source-repo"
       ]
     },
     "links": [],
@@ -1094,7 +204,7 @@
     "netuid": 111,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 1,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1107,10 +217,10 @@
     },
     "registered_at_block": 5615562,
     "slug": "sn-111",
-    "source_repo": null,
+    "source_repo": "https://github.com/oneoneone-io/subnet-111",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 1,
+    "surface_count": 3,
     "symbol": "Ё",
     "tempo": 360,
     "website_url": null
@@ -1132,6 +242,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/111"
@@ -1141,12 +259,98 @@
       "url": "https://taomarketcap.com/subnets/111",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 149,
+        "latency_ms": 159,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:04.749Z"
+        "verified_at": "2026-06-06T07:44:08.728Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-111-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "oneoneone source repository",
+      "netuid": 111,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/111"
+      ],
+      "subnet_name": "oneoneone",
+      "subnet_slug": "sn-111",
+      "url": "https://github.com/oneoneone-io/subnet-111",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/oneoneone-io/subnet-111",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.745Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-111-tensorplex-docs",
+      "kind": "docs",
+      "name": "oneoneone Tensorplex subnet docs",
+      "netuid": 111,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/111/subnet.json"
+      ],
+      "subnet_name": "oneoneone",
+      "subnet_slug": "sn-111",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/111",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 335,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.773Z"
       }
     }
   ],
@@ -1167,6 +371,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/111"
@@ -1176,12 +388,98 @@
       "url": "https://taomarketcap.com/subnets/111",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 149,
+        "latency_ms": 159,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:04.749Z"
+        "verified_at": "2026-06-06T07:44:08.728Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-111-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "oneoneone source repository",
+      "netuid": 111,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/111"
+      ],
+      "subnet_name": "oneoneone",
+      "subnet_slug": "sn-111",
+      "url": "https://github.com/oneoneone-io/subnet-111",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/oneoneone-io/subnet-111",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.745Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-111-tensorplex-docs",
+      "kind": "docs",
+      "name": "oneoneone Tensorplex subnet docs",
+      "netuid": 111,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/111/subnet.json"
+      ],
+      "subnet_name": "oneoneone",
+      "subnet_slug": "sn-111",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/111",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 335,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.773Z"
       }
     }
   ]

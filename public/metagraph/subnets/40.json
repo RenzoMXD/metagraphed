@@ -37,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/40",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/40",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/40/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/40"
       ],
       "state": "schema-valid",
       "url": "https://github.com/VectorChat/chunking_subnet"
@@ -53,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -103,8 +102,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/40",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/40",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/40/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/40"
       ],
       "state": "schema-valid",
       "url": "https://github.com/VectorChat/chunking_subnet"
@@ -119,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -175,7 +173,7 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:35.532Z"
+      "verified_at": "2026-06-06T07:43:56.933Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/40",
     "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/40",
@@ -247,6 +245,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/40"
@@ -256,12 +262,13 @@
       "url": "https://taomarketcap.com/subnets/40",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 622,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.531Z"
+        "verified_at": "2026-06-06T07:43:56.910Z"
       }
     },
     {
@@ -271,7 +278,7 @@
       "kind": "docs",
       "name": "Chunking Tensorplex subnet docs",
       "netuid": 40,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -280,6 +287,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/40/subnet.json"
@@ -289,12 +304,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/40",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 427,
+        "latency_ms": 404,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.532Z"
+        "verified_at": "2026-06-06T07:43:56.933Z"
       }
     }
   ],
@@ -315,6 +331,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/40"
@@ -324,12 +348,13 @@
       "url": "https://taomarketcap.com/subnets/40",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 622,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.531Z"
+        "verified_at": "2026-06-06T07:43:56.910Z"
       }
     },
     {
@@ -339,7 +364,7 @@
       "kind": "docs",
       "name": "Chunking Tensorplex subnet docs",
       "netuid": 40,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -348,6 +373,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/40/subnet.json"
@@ -357,12 +390,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/40",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 427,
+        "latency_ms": 404,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:35.532Z"
+        "verified_at": "2026-06-06T07:43:56.933Z"
       }
     }
   ]

@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -83,342 +83,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/45"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-api",
-      "kind": "subnet-api",
-      "name": "Talisman AI API",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-docs",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-health",
-      "kind": "subnet-api",
-      "name": "Talisman AI health endpoint",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Talisman AI OpenAPI JSON",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-swagger",
-      "kind": "openapi",
-      "name": "Talisman AI Swagger UI",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Talisman AI Swagger JSON",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-10",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/privacy-policy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-8",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-9",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/terms-of-use"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-1",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/analytics?netuid=45"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-2",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/sentiment"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-3",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/community"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-4",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/roadmap"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-5",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://talisman.xyz/download"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-6",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://talisman.xyz/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-7",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.talisman.xyz/"
     }
   ],
   "candidates": [
@@ -495,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -505,342 +169,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/45"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-api",
-      "kind": "subnet-api",
-      "name": "Talisman AI API",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-docs",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-health",
-      "kind": "subnet-api",
-      "name": "Talisman AI health endpoint",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Talisman AI OpenAPI JSON",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-swagger",
-      "kind": "openapi",
-      "name": "Talisman AI Swagger UI",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Talisman AI Swagger JSON",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-10",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/privacy-policy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-8",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-9",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.talisman.xyz/talisman/about/terms-of-use"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-1",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/analytics?netuid=45"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-2",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/sentiment"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-3",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/community"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-4",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://ai.talisman.xyz/roadmap"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-5",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://talisman.xyz/download"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-6",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://talisman.xyz/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-45-website-link-ai-talisman-xyz-website-7",
-      "kind": "website",
-      "name": "Talisman AI website page",
-      "netuid": 45,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://ai.talisman.xyz/",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.talisman.xyz/"
     }
   ],
   "gaps": {
@@ -867,7 +195,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 20,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
@@ -882,8 +210,8 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:36.530Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:57.443Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/45",
     "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/45",
@@ -915,7 +243,7 @@
     "netuid": 45,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 7,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -931,7 +259,7 @@
     "source_repo": "https://github.com/Team-Rizzo/talisman-ai",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 7,
+    "surface_count": 4,
     "symbol": "פ",
     "tempo": 360,
     "website_url": "https://ai.talisman.xyz/"
@@ -953,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -962,12 +298,13 @@
       "url": "https://taomarketcap.com/subnets/45",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 140,
+        "latency_ms": 138,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.214Z"
+        "verified_at": "2026-06-06T07:43:57.358Z"
       }
     },
     {
@@ -986,6 +323,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -994,16 +339,15 @@
       "subnet_slug": "sn-45",
       "url": "https://github.com/Team-Rizzo/talisman-ai",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/Team-Rizzo/talisman-ai",
-        "homepage": null,
-        "last_push_at": "2026-06-05T21:25:42Z",
+        "latency_ms": 457,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.274Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:57.359Z"
       }
     },
     {
@@ -1022,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -1031,12 +383,13 @@
       "url": "https://ai.talisman.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 132,
+        "latency_ms": 505,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.283Z"
+        "verified_at": "2026-06-06T07:43:57.432Z"
       }
     },
     {
@@ -1046,7 +399,7 @@
       "kind": "docs",
       "name": "Talisman AI Tensorplex subnet docs",
       "netuid": 45,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1055,6 +408,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/45/subnet.json"
@@ -1064,111 +425,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/45",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 367,
+        "latency_ms": 282,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.305Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-10",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/privacy-policy",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 299,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.481Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-8",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/security",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 225,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.528Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-9",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/terms-of-use",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 243,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.530Z"
+        "verified_at": "2026-06-06T07:43:57.443Z"
       }
     }
   ],
@@ -1189,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -1198,12 +469,13 @@
       "url": "https://taomarketcap.com/subnets/45",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 140,
+        "latency_ms": 138,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.214Z"
+        "verified_at": "2026-06-06T07:43:57.358Z"
       }
     },
     {
@@ -1222,6 +494,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -1230,16 +510,15 @@
       "subnet_slug": "sn-45",
       "url": "https://github.com/Team-Rizzo/talisman-ai",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/Team-Rizzo/talisman-ai",
-        "homepage": null,
-        "last_push_at": "2026-06-05T21:25:42Z",
+        "latency_ms": 457,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:36.274Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:57.359Z"
       }
     },
     {
@@ -1258,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/45"
@@ -1267,12 +554,13 @@
       "url": "https://ai.talisman.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 132,
+        "latency_ms": 505,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.283Z"
+        "verified_at": "2026-06-06T07:43:57.432Z"
       }
     },
     {
@@ -1282,7 +570,7 @@
       "kind": "docs",
       "name": "Talisman AI Tensorplex subnet docs",
       "netuid": 45,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1291,6 +579,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/45/subnet.json"
@@ -1300,111 +596,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/45",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 367,
+        "latency_ms": 282,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.305Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-10",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/privacy-policy",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 299,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.481Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-8",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/security",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 225,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.528Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-45-website-link-ai-talisman-xyz-docs-9",
-      "kind": "docs",
-      "name": "Talisman AI docs",
-      "netuid": 45,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://ai.talisman.xyz/"
-      ],
-      "subnet_name": "Talisman AI",
-      "subnet_slug": "sn-45",
-      "url": "https://docs.talisman.xyz/talisman/about/terms-of-use",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 243,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:36.530Z"
+        "verified_at": "2026-06-06T07:43:57.443Z"
       }
     }
   ]

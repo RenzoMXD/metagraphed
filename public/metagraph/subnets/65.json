@@ -2,69 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-dashboard-2",
-      "kind": "dashboard",
-      "name": "TAO Private Network dashboard",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://taostats.io/subnets/65/registration"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-website-1",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-website-3",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/taofu-labs/tpn-subnet.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-65-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -100,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/65",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/65",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/65/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/65"
       ],
       "state": "schema-valid",
       "url": "https://github.com/taofu-labs/tpn-subnet"
@@ -137,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -147,698 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-api",
-      "kind": "subnet-api",
-      "name": "TAO Private Network API",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "TAO Private Network API",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-docs",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-health",
-      "kind": "subnet-api",
-      "name": "TAO Private Network health endpoint",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "TAO Private Network health endpoint",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "TAO Private Network OpenAPI JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "TAO Private Network OpenAPI JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaofu-labs%2Ftpn-subnet%2Fblob%2Fmain%2Ffederated-container%2Fmodules%2Fscoring%2Fscore_mining_pools.js"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-2-1n3z9fr",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet.git",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaofu-labs%2Ftpn-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-1",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Examples/quickstart"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-2",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/worker"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-3",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/mining-pool"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-5",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Legal%20Documents/privacy-policy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-6",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Legal%20Documents/terms-of-service"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-website-4",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://taofu.xyz/"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-dashboard-2",
-      "kind": "dashboard",
-      "name": "TAO Private Network dashboard",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://taostats.io/subnets/65/registration"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-website-1",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-website-3",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/taofu-labs/tpn-subnet.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-65-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -874,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/65",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/65",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/65/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/65"
       ],
       "state": "schema-valid",
       "url": "https://github.com/taofu-labs/tpn-subnet"
@@ -911,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -921,641 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-api",
-      "kind": "subnet-api",
-      "name": "TAO Private Network API",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "TAO Private Network API",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-docs",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-health",
-      "kind": "subnet-api",
-      "name": "TAO Private Network health endpoint",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "TAO Private Network health endpoint",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "TAO Private Network OpenAPI JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "TAO Private Network OpenAPI JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger JSON",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaofu-labs%2Ftpn-subnet%2Fblob%2Fmain%2Ffederated-container%2Fmodules%2Fscoring%2Fscore_mining_pools.js"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-2-1n3z9fr",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet.git",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaofu-labs%2Ftpn-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet.git",
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/federated-container/modules/scoring/score_mining_pools.js"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-1",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Examples/quickstart"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-2",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/worker"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-3",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/mining-pool"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-5",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Legal%20Documents/privacy-policy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-6",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://tpn.taofu.xyz/docs/Legal%20Documents/terms-of-service"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-65-website-link-tpn-taofu-xyz-website-4",
-      "kind": "website",
-      "name": "TAO Private Network website page",
-      "netuid": 65,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://tpn.taofu.xyz/",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://taofu.xyz/"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1563,7 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
+      "source-repo",
       "website"
     ]
   },
@@ -1571,14 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 36,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1586,20 +210,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:45.894Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:02.657Z"
     },
-    "dashboard_url": "https://taostats.io/subnets/65/registration",
-    "docs_url": "https://tpn.taofu.xyz/docs",
+    "dashboard_url": "https://taomarketcap.com/subnets/65",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1607,7 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
+        "source-repo",
         "website"
       ]
     },
@@ -1619,7 +243,7 @@
     "netuid": 65,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 8,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1632,10 +256,10 @@
     },
     "registered_at_block": 4950813,
     "slug": "sn-65",
-    "source_repo": null,
+    "source_repo": "https://github.com/taofu-labs/tpn-subnet",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 8,
+    "surface_count": 4,
     "symbol": "ص",
     "tempo": 360,
     "website_url": "https://tpn.taofu.xyz/"
@@ -1644,39 +268,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-dashboard-2",
-      "kind": "dashboard",
-      "name": "TAO Private Network dashboard",
-      "netuid": 65,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://taostats.io/subnets/65/registration",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 236,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.566Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-65-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "TAO Private Network TaoMarketCap dashboard",
@@ -1690,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -1699,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 143,
+        "latency_ms": 207,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.604Z"
+        "verified_at": "2026-06-06T07:44:02.617Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-65-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "TAO Private Network source repository",
+      "netuid": 65,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/65"
+      ],
+      "subnet_name": "TAO Private Network",
+      "subnet_slug": "sn-65",
+      "url": "https://github.com/taofu-labs/tpn-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/taofu-labs/tpn-subnet",
+        "latency_ms": 521,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.621Z"
       }
     },
     {
@@ -1723,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -1732,177 +383,55 @@
       "url": "https://tpn.taofu.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 112,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.619Z"
+        "verified_at": "2026-06-06T07:44:02.632Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-65-website-common-docs",
+      "id": "sn-65-tensorplex-docs",
       "kind": "docs",
-      "name": "TAO Private Network docs",
+      "name": "TAO Private Network Tensorplex subnet docs",
       "netuid": 65,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://tpn.taofu.xyz/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/65/subnet.json"
       ],
       "subnet_name": "TAO Private Network",
       "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 128,
+        "latency_ms": 341,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.656Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-common-swagger",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 53,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.730Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-1",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/Examples/quickstart",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 52,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/Examples/quickstart/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.854Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-2",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/worker",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 58,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/worker/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.870Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-3",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/mining-pool",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 83,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/mining-pool/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.894Z"
+        "verified_at": "2026-06-06T07:44:02.657Z"
       }
     }
   ],
@@ -1910,39 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-dashboard-2",
-      "kind": "dashboard",
-      "name": "TAO Private Network dashboard",
-      "netuid": 65,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://taostats.io/subnets/65/registration",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 236,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.566Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-65-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "TAO Private Network TaoMarketCap dashboard",
@@ -1956,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -1965,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 143,
+        "latency_ms": 207,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.604Z"
+        "verified_at": "2026-06-06T07:44:02.617Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-65-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "TAO Private Network source repository",
+      "netuid": 65,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/65"
+      ],
+      "subnet_name": "TAO Private Network",
+      "subnet_slug": "sn-65",
+      "url": "https://github.com/taofu-labs/tpn-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/taofu-labs/tpn-subnet",
+        "latency_ms": 521,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.621Z"
       }
     },
     {
@@ -1989,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -1998,177 +554,55 @@
       "url": "https://tpn.taofu.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 112,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.619Z"
+        "verified_at": "2026-06-06T07:44:02.632Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-65-website-common-docs",
+      "id": "sn-65-tensorplex-docs",
       "kind": "docs",
-      "name": "TAO Private Network docs",
+      "name": "TAO Private Network Tensorplex subnet docs",
       "netuid": 65,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://tpn.taofu.xyz/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/65/subnet.json"
       ],
       "subnet_name": "TAO Private Network",
       "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 128,
+        "latency_ms": 341,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.656Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-common-swagger",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "netuid": 65,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 53,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.730Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-1",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/Examples/quickstart",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 52,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/Examples/quickstart/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.854Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-2",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/worker",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 58,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/worker/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.870Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-3",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "netuid": 65,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "subnet_name": "TAO Private Network",
-      "subnet_slug": "sn-65",
-      "url": "https://tpn.taofu.xyz/docs/mining-pool",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 83,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/mining-pool/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.894Z"
+        "verified_at": "2026-06-06T07:44:02.657Z"
       }
     }
   ]

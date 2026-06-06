@@ -2,111 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-1",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/docs/images/logo.png"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-2",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/Synth%20Whitepaper%20v1.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Synth API surface",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://api.synthdata.co/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet.git"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-50-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -142,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/50",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/50",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/50"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mode-network/synth-subnet"
@@ -179,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -189,614 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/50"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-api",
-      "kind": "subnet-api",
-      "name": "Synth API",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Synth API",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-docs",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-health",
-      "kind": "subnet-api",
-      "name": "Synth health endpoint",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Synth health endpoint",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Synth OpenAPI JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Synth OpenAPI JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Synth Swagger JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Synth Swagger JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsynthdataco%2Fsynth-subnet%2Fblob%2Fmain%2FLICENSE"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-2-q4o9zx",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsynthdataco%2Fsynth-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-1",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/docs/images/logo.png"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-2",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/Synth%20Whitepaper%20v1.pdf"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-subnet-api-3",
-      "kind": "subnet-api",
-      "name": "Synth API surface",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://api.synthdata.co/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet.git"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/mode-network/synth-subnet/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-50-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -832,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/50",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/50",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/50"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mode-network/synth-subnet"
@@ -869,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -879,513 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/50"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-api",
-      "kind": "subnet-api",
-      "name": "Synth API",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Synth API",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-docs",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-health",
-      "kind": "subnet-api",
-      "name": "Synth health endpoint",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Synth health endpoint",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Synth OpenAPI JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Synth OpenAPI JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Synth Swagger JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://synthdata.co/",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "state": "schema-valid",
-      "url": "https://synthdata.co/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Synth Swagger JSON",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsynthdataco%2Fsynth-subnet%2Fblob%2Fmain%2FLICENSE"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-2-q4o9zx",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet.git",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsynthdataco%2Fsynth-subnet"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-50-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1393,7 +187,6 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -1402,13 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 32,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1416,18 +210,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 6,
-      "verified_at": "2026-06-06T07:17:39.156Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:59.661Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/50",
-    "docs_url": "https://github.com/synthdataco/synth-subnet/blob/main/docs/images/logo.png",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/50",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1435,7 +231,6 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -1448,7 +243,7 @@
     "netuid": 50,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 10,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1464,144 +259,12 @@
     "source_repo": "https://github.com/mode-network/synth-subnet",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 10,
+    "surface_count": 4,
     "symbol": "ש",
     "tempo": 360,
-    "website_url": "https://github.com/synthdataco/synth-subnet.git"
+    "website_url": "https://synthdata.co/"
   },
   "surfaces": [
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-1",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/docs/images/logo.png",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 520,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.883Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-2",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/Synth%20Whitepaper%20v1.pdf",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 476,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.886Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 502,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/synthdataco/synth-subnet",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.890Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 438,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.934Z"
-      }
-    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -1618,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/50"
@@ -1627,12 +298,13 @@
       "url": "https://taomarketcap.com/subnets/50",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 156,
+        "latency_ms": 159,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.935Z"
+        "verified_at": "2026-06-06T07:43:59.656Z"
       }
     },
     {
@@ -1651,23 +323,73 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/50",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/50"
       ],
       "subnet_name": "Synth",
       "subnet_slug": "sn-50",
       "url": "https://github.com/mode-network/synth-subnet",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 54,
         "content_type": null,
         "github_api_url": "https://api.github.com/repos/mode-network/synth-subnet",
-        "latency_ms": 267,
+        "latency_ms": 469,
         "method_tested": "HEAD",
         "redirect_target": "https://github.com/synthdataco/synth-subnet",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.935Z"
+        "verified_at": "2026-06-06T07:43:59.657Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-50-taomarketcap-website",
+      "kind": "website",
+      "name": "Synth website",
+      "netuid": 50,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/50"
+      ],
+      "subnet_name": "Synth",
+      "subnet_slug": "sn-50",
+      "url": "https://synthdata.co/",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 77,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 218,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:59.659Z"
       }
     },
     {
@@ -1677,7 +399,7 @@
       "kind": "docs",
       "name": "Synth Tensorplex subnet docs",
       "netuid": 50,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1686,6 +408,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
@@ -1695,112 +425,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/50",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 367,
+        "latency_ms": 273,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.979Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-docs",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://synthdata.co/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 220,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.998Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-swagger",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://synthdata.co/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 200,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.134Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 86,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.156Z"
+        "verified_at": "2026-06-06T07:43:59.661Z"
       }
     }
   ],
@@ -1808,138 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-1",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/docs/images/logo.png",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 520,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.883Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-docs-2",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/Synth%20Whitepaper%20v1.pdf",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 476,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.886Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-4",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet.git",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 502,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/synthdataco/synth-subnet",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.890Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-github-readme-mode-network-synth-subnet-website-5",
-      "kind": "website",
-      "name": "Synth website page",
-      "netuid": 50,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/mode-network/synth-subnet/blob/main/README.md"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 438,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.934Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-50-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Synth TaoMarketCap dashboard",
@@ -1953,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/50"
@@ -1962,12 +469,13 @@
       "url": "https://taomarketcap.com/subnets/50",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 156,
+        "latency_ms": 159,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.935Z"
+        "verified_at": "2026-06-06T07:43:59.656Z"
       }
     },
     {
@@ -1986,23 +494,73 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/50",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/50"
       ],
       "subnet_name": "Synth",
       "subnet_slug": "sn-50",
       "url": "https://github.com/mode-network/synth-subnet",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 54,
         "content_type": null,
         "github_api_url": "https://api.github.com/repos/mode-network/synth-subnet",
-        "latency_ms": 267,
+        "latency_ms": 469,
         "method_tested": "HEAD",
         "redirect_target": "https://github.com/synthdataco/synth-subnet",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.935Z"
+        "verified_at": "2026-06-06T07:43:59.657Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-50-taomarketcap-website",
+      "kind": "website",
+      "name": "Synth website",
+      "netuid": 50,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/50"
+      ],
+      "subnet_name": "Synth",
+      "subnet_slug": "sn-50",
+      "url": "https://synthdata.co/",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 77,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 218,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:59.659Z"
       }
     },
     {
@@ -2012,7 +570,7 @@
       "kind": "docs",
       "name": "Synth Tensorplex subnet docs",
       "netuid": 50,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2021,6 +579,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/50/subnet.json"
@@ -2030,112 +596,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/50",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 367,
+        "latency_ms": 273,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.979Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-docs",
-      "kind": "docs",
-      "name": "Synth docs",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://synthdata.co/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 220,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:38.998Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-swagger",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://synthdata.co/"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://synthdata.co/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 200,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.134Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-50-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Synth Swagger UI",
-      "netuid": 50,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/synthdataco/synth-subnet.git",
-        "https://github.com/synthdataco/synth-subnet/blob/main/LICENSE"
-      ],
-      "subnet_name": "Synth",
-      "subnet_slug": "sn-50",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 86,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:39.156Z"
+        "verified_at": "2026-06-06T07:43:59.661Z"
       }
     }
   ]

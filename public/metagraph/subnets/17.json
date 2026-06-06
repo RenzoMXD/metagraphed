@@ -10,7 +10,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -31,7 +31,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -157,7 +157,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -178,7 +178,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -192,27 +192,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-17-website-common-api",
-      "kind": "subnet-api",
-      "name": "404—GEN API",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-17-website-common-api-1hh6mts",
       "kind": "subnet-api",
       "name": "404—GEN API",
@@ -220,38 +199,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-docs",
-      "kind": "docs",
-      "name": "404—GEN docs",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/docs"
     },
     {
       "auth_required": false,
@@ -263,38 +220,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-health",
-      "kind": "subnet-api",
-      "name": "404—GEN health endpoint",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/health"
     },
     {
       "auth_required": false,
@@ -306,38 +241,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "404—GEN OpenAPI JSON",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/openapi.json"
     },
     {
       "auth_required": false,
@@ -349,38 +262,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-swagger",
-      "kind": "openapi",
-      "name": "404—GEN Swagger UI",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/swagger"
     },
     {
       "auth_required": false,
@@ -392,38 +283,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "404—GEN Swagger JSON",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/swagger.json"
     },
     {
       "auth_required": false,
@@ -435,13 +304,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -457,13 +325,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -479,13 +346,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -501,7 +367,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -522,7 +388,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -543,13 +409,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -565,13 +430,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -587,13 +451,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -609,13 +472,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -631,13 +493,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -653,13 +514,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -675,101 +535,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-1",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/catalog"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-2",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-3",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/plugin"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-4",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/about"
     }
   ],
   "candidates": [
@@ -783,7 +558,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -804,7 +579,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -825,7 +600,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -846,7 +621,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -930,7 +705,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -951,7 +726,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -965,27 +740,6 @@
     {
       "auth_required": false,
       "confidence": "low",
-      "id": "sn-17-website-common-api",
-      "kind": "subnet-api",
-      "name": "404—GEN API",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
       "id": "sn-17-website-common-api-1hh6mts",
       "kind": "subnet-api",
       "name": "404—GEN API",
@@ -993,38 +747,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-docs",
-      "kind": "docs",
-      "name": "404—GEN docs",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/docs"
     },
     {
       "auth_required": false,
@@ -1036,38 +768,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-health",
-      "kind": "subnet-api",
-      "name": "404—GEN health endpoint",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/health"
     },
     {
       "auth_required": false,
@@ -1079,38 +789,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "404—GEN OpenAPI JSON",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/openapi.json"
     },
     {
       "auth_required": false,
@@ -1122,38 +810,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-swagger",
-      "kind": "openapi",
-      "name": "404—GEN Swagger UI",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/swagger"
     },
     {
       "auth_required": false,
@@ -1165,38 +831,16 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "404—GEN Swagger JSON",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/swagger.json"
     },
     {
       "auth_required": false,
@@ -1208,13 +852,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1230,13 +873,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1252,13 +894,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1274,7 +915,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1295,7 +936,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1316,13 +957,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1338,13 +978,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1360,13 +999,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1382,13 +1020,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1404,13 +1041,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1426,13 +1062,12 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
@@ -1448,110 +1083,27 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-1",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/catalog"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-2",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-3",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/plugin"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-17-website-link-www-404-xyz-website-4",
-      "kind": "website",
-      "name": "404—GEN website page",
-      "netuid": 17,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://www.404.xyz/",
-      "source_urls": [
-        "https://www.404.xyz/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.404.xyz/about"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1559,7 +1111,6 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -1568,13 +1119,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 36,
+    "candidate_count": 26,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1582,18 +1134,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 5,
-      "verified_at": "2026-06-06T07:17:26.197Z"
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:43:54.689Z"
     },
     "dashboard_url": "https://dashboard.404.xyz/d/main/404-gen",
     "docs_url": "https://github.com/404-Repo/three-gen-subnet/blob/main/docs/running_validator.md",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1601,7 +1155,6 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -1614,7 +1167,7 @@
     "netuid": 17,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 10,
+    "probed_surface_count": 9,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1630,7 +1183,7 @@
     "source_repo": "https://github.com/404-Repo/404-gen-subnet",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 10,
+    "surface_count": 9,
     "symbol": "ρ",
     "tempo": 360,
     "website_url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
@@ -1643,7 +1196,7 @@
       "kind": "dashboard",
       "name": "404—GEN dashboard",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1652,6 +1205,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -1661,12 +1222,13 @@
       "url": "https://dashboard.404.xyz/d/main/404-gen",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 257,
+        "latency_ms": 755,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.708Z"
+        "verified_at": "2026-06-06T07:43:54.373Z"
       }
     },
     {
@@ -1676,7 +1238,7 @@
       "kind": "docs",
       "name": "404—GEN docs",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1685,6 +1247,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -1694,12 +1264,13 @@
       "url": "https://github.com/404-Repo/three-gen-subnet/blob/main/docs/running_validator.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 846,
+        "latency_ms": 368,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.714Z"
+        "verified_at": "2026-06-06T07:43:54.401Z"
       }
     },
     {
@@ -1709,7 +1280,7 @@
       "kind": "website",
       "name": "404—GEN website page",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1718,6 +1289,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -1727,12 +1306,13 @@
       "url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 330,
+        "latency_ms": 426,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.752Z"
+        "verified_at": "2026-06-06T07:43:54.404Z"
       }
     },
     {
@@ -1742,7 +1322,7 @@
       "kind": "website",
       "name": "404—GEN website page",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1751,6 +1331,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -1760,12 +1348,13 @@
       "url": "https://github.com/404-Repo/get-prompts",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 61,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 767,
+        "latency_ms": 546,
         "method_tested": "HEAD",
         "redirect_target": "https://github.com/404-Repo/three-gen-get-prompts",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.793Z"
+        "verified_at": "2026-06-06T07:43:54.448Z"
       }
     },
     {
@@ -1784,6 +1373,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/17"
@@ -1793,12 +1390,13 @@
       "url": "https://taomarketcap.com/subnets/17",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 163,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.798Z"
+        "verified_at": "2026-06-06T07:43:54.569Z"
       }
     },
     {
@@ -1817,6 +1415,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/17"
@@ -1825,16 +1431,15 @@
       "subnet_slug": "sn-17",
       "url": "https://github.com/404-Repo/404-gen-subnet",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/404-Repo/404-gen-subnet",
-        "homepage": null,
-        "last_push_at": "2026-05-27T05:59:46Z",
+        "latency_ms": 517,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:25.854Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:54.621Z"
       }
     },
     {
@@ -1844,7 +1449,7 @@
       "kind": "docs",
       "name": "404—GEN Tensorplex subnet docs",
       "netuid": 17,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1853,6 +1458,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/17/subnet.json"
@@ -1862,12 +1475,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/17",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 599,
+        "latency_ms": 337,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.960Z"
+        "verified_at": "2026-06-06T07:43:54.652Z"
       }
     },
     {
@@ -1877,7 +1491,7 @@
       "kind": "source-repo",
       "name": "404—GEN source repository",
       "netuid": 17,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1886,6 +1500,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/17/subnet.json"
@@ -1894,16 +1516,15 @@
       "subnet_slug": "sn-17",
       "url": "https://github.com/404-Repo/three-gen-subnet",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/404-Repo/three-gen-subnet",
-        "homepage": null,
-        "last_push_at": "2025-11-17T16:01:31Z",
+        "latency_ms": 502,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:25.965Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:54.657Z"
       }
     },
     {
@@ -1913,7 +1534,7 @@
       "kind": "docs",
       "name": "404—GEN docs",
       "netuid": 17,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1922,9 +1543,16 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "subnet_name": "404—GEN",
@@ -1932,46 +1560,13 @@
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 85,
+        "latency_ms": 80,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:26.082Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-17-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "404—GEN Swagger UI",
-      "netuid": 17,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
-        "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
-      ],
-      "subnet_name": "404—GEN",
-      "subnet_slug": "sn-17",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 362,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:26.197Z"
+        "verified_at": "2026-06-06T07:43:54.689Z"
       }
     }
   ],
@@ -1983,7 +1578,7 @@
       "kind": "dashboard",
       "name": "404—GEN dashboard",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1992,6 +1587,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -2001,12 +1604,13 @@
       "url": "https://dashboard.404.xyz/d/main/404-gen",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=UTF-8",
-        "latency_ms": 257,
+        "latency_ms": 755,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.708Z"
+        "verified_at": "2026-06-06T07:43:54.373Z"
       }
     },
     {
@@ -2016,7 +1620,7 @@
       "kind": "docs",
       "name": "404—GEN docs",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2025,6 +1629,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -2034,12 +1646,13 @@
       "url": "https://github.com/404-Repo/three-gen-subnet/blob/main/docs/running_validator.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 846,
+        "latency_ms": 368,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.714Z"
+        "verified_at": "2026-06-06T07:43:54.401Z"
       }
     },
     {
@@ -2049,7 +1662,7 @@
       "kind": "website",
       "name": "404—GEN website page",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2058,6 +1671,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -2067,12 +1688,13 @@
       "url": "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 330,
+        "latency_ms": 426,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.752Z"
+        "verified_at": "2026-06-06T07:43:54.404Z"
       }
     },
     {
@@ -2082,7 +1704,7 @@
       "kind": "website",
       "name": "404—GEN website page",
       "netuid": 17,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2091,6 +1713,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/404-Repo/three-gen-subnet/blob/main/README.md"
@@ -2100,12 +1730,13 @@
       "url": "https://github.com/404-Repo/get-prompts",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 61,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 767,
+        "latency_ms": 546,
         "method_tested": "HEAD",
         "redirect_target": "https://github.com/404-Repo/three-gen-get-prompts",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.793Z"
+        "verified_at": "2026-06-06T07:43:54.448Z"
       }
     },
     {
@@ -2124,6 +1755,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/17"
@@ -2133,12 +1772,13 @@
       "url": "https://taomarketcap.com/subnets/17",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 163,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.798Z"
+        "verified_at": "2026-06-06T07:43:54.569Z"
       }
     },
     {
@@ -2157,6 +1797,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/17"
@@ -2165,16 +1813,15 @@
       "subnet_slug": "sn-17",
       "url": "https://github.com/404-Repo/404-gen-subnet",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/404-Repo/404-gen-subnet",
-        "homepage": null,
-        "last_push_at": "2026-05-27T05:59:46Z",
+        "latency_ms": 517,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:25.854Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:54.621Z"
       }
     },
     {
@@ -2184,7 +1831,7 @@
       "kind": "docs",
       "name": "404—GEN Tensorplex subnet docs",
       "netuid": 17,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2193,6 +1840,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/17/subnet.json"
@@ -2202,12 +1857,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/17",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 599,
+        "latency_ms": 337,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:25.960Z"
+        "verified_at": "2026-06-06T07:43:54.652Z"
       }
     },
     {
@@ -2217,7 +1873,7 @@
       "kind": "source-repo",
       "name": "404—GEN source repository",
       "netuid": 17,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2226,6 +1882,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/17/subnet.json"
@@ -2234,16 +1898,15 @@
       "subnet_slug": "sn-17",
       "url": "https://github.com/404-Repo/three-gen-subnet",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 55,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/404-Repo/three-gen-subnet",
-        "homepage": null,
-        "last_push_at": "2025-11-17T16:01:31Z",
+        "latency_ms": 502,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:25.965Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:54.657Z"
       }
     },
     {
@@ -2253,7 +1916,7 @@
       "kind": "docs",
       "name": "404—GEN docs",
       "netuid": 17,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2262,9 +1925,16 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
         "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
       ],
       "subnet_name": "404—GEN",
@@ -2272,46 +1942,13 @@
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 85,
+        "latency_ms": 80,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:26.082Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-17-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "404—GEN Swagger UI",
-      "netuid": 17,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/404-Repo/get-prompts",
-        "https://github.com/404-Repo/text-prompt-generator/blob/main/configs/pipeline_config.yml"
-      ],
-      "subnet_name": "404—GEN",
-      "subnet_slug": "sn-17",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 362,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:26.197Z"
+        "verified_at": "2026-06-06T07:43:54.689Z"
       }
     }
   ]

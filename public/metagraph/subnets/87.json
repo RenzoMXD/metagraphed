@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -62,321 +62,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/87"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-api",
-      "kind": "subnet-api",
-      "name": "Luminar Network API",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-docs",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-health",
-      "kind": "subnet-api",
-      "name": "Luminar Network health endpoint",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Luminar Network OpenAPI JSON",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-swagger",
-      "kind": "openapi",
-      "name": "Luminar Network Swagger UI",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Luminar Network Swagger JSON",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-1",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-2",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/system-architecture"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-4",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/abstract"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-5",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/tokenomics-and-emissions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-6",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/roadmap-and-business-logic"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-7",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/incentive-mechanism"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-3",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://demo.luminar.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-8",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/terms"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-9",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/privacy"
     }
   ],
   "candidates": [
@@ -432,7 +117,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -442,321 +127,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/87"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-api",
-      "kind": "subnet-api",
-      "name": "Luminar Network API",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-docs",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-health",
-      "kind": "subnet-api",
-      "name": "Luminar Network health endpoint",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Luminar Network OpenAPI JSON",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-swagger",
-      "kind": "openapi",
-      "name": "Luminar Network Swagger UI",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Luminar Network Swagger JSON",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-1",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-2",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/system-architecture"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-4",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/abstract"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-5",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/tokenomics-and-emissions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-6",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/roadmap-and-business-logic"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-docs-7",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.luminar.network/incentive-mechanism"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-3",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://demo.luminar.network/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-8",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/terms"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-87-website-link-luminar-network-website-9",
-      "kind": "website",
-      "name": "Luminar Network website page",
-      "netuid": 87,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://luminar.network/",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://luminar.network/privacy"
     }
   ],
   "gaps": {
@@ -784,7 +154,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 18,
+    "candidate_count": 3,
     "categories": [
       "baseline-curated"
     ],
@@ -801,10 +171,10 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:17:53.856Z"
+      "verified_at": "2026-06-06T07:44:05.954Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/87",
-    "docs_url": "https://docs.luminar.network/",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/87",
     "gaps": {
       "gap_notes": [
         "No verified source repository yet.",
@@ -834,7 +204,7 @@
     "netuid": 87,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 6,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -850,7 +220,7 @@
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 6,
+    "surface_count": 3,
     "symbol": "Ы",
     "tempo": 360,
     "website_url": "https://luminar.network/"
@@ -872,6 +242,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/87"
@@ -881,12 +259,13 @@
       "url": "https://taomarketcap.com/subnets/87",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 228,
+        "latency_ms": 157,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.567Z"
+        "verified_at": "2026-06-06T07:44:05.935Z"
       }
     },
     {
@@ -905,6 +284,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/87"
@@ -914,144 +301,55 @@
       "url": "https://luminar.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 719,
+        "latency_ms": 670,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.679Z"
+        "verified_at": "2026-06-06T07:44:05.938Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-1",
+      "id": "sn-87-tensorplex-docs",
       "kind": "docs",
-      "name": "Luminar Network docs",
+      "name": "Luminar Network Tensorplex subnet docs",
       "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 393,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.831Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-2",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://luminar.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/87/subnet.json"
       ],
       "subnet_name": "Luminar Network",
       "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/system-architecture",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/87",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 272,
+        "latency_ms": 299,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.845Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-4",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/abstract",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 264,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.852Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-5",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/tokenomics-and-emissions",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 260,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.856Z"
+        "verified_at": "2026-06-06T07:44:05.954Z"
       }
     }
   ],
@@ -1072,6 +370,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/87"
@@ -1081,12 +387,13 @@
       "url": "https://taomarketcap.com/subnets/87",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 228,
+        "latency_ms": 157,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.567Z"
+        "verified_at": "2026-06-06T07:44:05.935Z"
       }
     },
     {
@@ -1105,6 +412,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/87"
@@ -1114,144 +429,55 @@
       "url": "https://luminar.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 719,
+        "latency_ms": 670,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.679Z"
+        "verified_at": "2026-06-06T07:44:05.938Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-1",
+      "id": "sn-87-tensorplex-docs",
       "kind": "docs",
-      "name": "Luminar Network docs",
+      "name": "Luminar Network Tensorplex subnet docs",
       "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 393,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.831Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-2",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://luminar.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/87/subnet.json"
       ],
       "subnet_name": "Luminar Network",
       "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/system-architecture",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/87",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 272,
+        "latency_ms": 299,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.845Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-4",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/abstract",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 264,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.852Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-87-website-link-luminar-network-docs-5",
-      "kind": "docs",
-      "name": "Luminar Network docs",
-      "netuid": 87,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://luminar.network/"
-      ],
-      "subnet_name": "Luminar Network",
-      "subnet_slug": "sn-87",
-      "url": "https://docs.luminar.network/tokenomics-and-emissions",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 260,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.856Z"
+        "verified_at": "2026-06-06T07:44:05.954Z"
       }
     }
   ]

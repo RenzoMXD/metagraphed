@@ -13,6 +13,46 @@
     },
     {
       "authority": "provider-claimed",
+      "docs_url": "https://blockmachine.io/docs/integrate-rpc",
+      "id": "blockmachine",
+      "kind": "infrastructure-provider",
+      "name": "BlockMachine",
+      "notes": "Bittensor subnet/provider for verifiable RPC infrastructure. Tracked as adjacent infra provider, not generic Metagraphed hosting.",
+      "schema_version": 1,
+      "website_url": "https://blockmachine.io"
+    },
+    {
+      "authority": "provider-claimed",
+      "docs_url": "https://www.dwellir.com/docs/bittensor",
+      "id": "dwellir",
+      "kind": "infrastructure-provider",
+      "name": "Dwellir",
+      "notes": "Bittensor RPC provider with documented HTTP/WSS examples. API-key URLs are not published as public registry endpoints.",
+      "schema_version": 1,
+      "website_url": "https://www.dwellir.com"
+    },
+    {
+      "authority": "provider-claimed",
+      "docs_url": "https://docs.flamewire.io/docs/users/bittensor-rpc",
+      "id": "flamewire",
+      "kind": "infrastructure-provider",
+      "name": "FlameWire",
+      "notes": "Bittensor RPC/API infrastructure provider. Keyed examples remain provider capability metadata until a public-safe endpoint is verified.",
+      "schema_version": 1,
+      "website_url": "https://flamewire.io"
+    },
+    {
+      "authority": "provider-claimed",
+      "docs_url": "https://getblock.io/nodes/tao/",
+      "id": "getblock",
+      "kind": "infrastructure-provider",
+      "name": "GetBlock",
+      "notes": "Bittensor node provider. API-key gated endpoints are tracked as provider capability, not public probeable surfaces.",
+      "schema_version": 1,
+      "website_url": "https://getblock.io"
+    },
+    {
+      "authority": "provider-claimed",
       "docs_url": "https://docs.gittensor.io/",
       "id": "gittensor",
       "kind": "subnet-team",
@@ -33,6 +73,36 @@
     },
     {
       "authority": "provider-claimed",
+      "docs_url": "https://docs.nodies.app/rpc-services/public-endpoints",
+      "id": "nodies",
+      "kind": "infrastructure-provider",
+      "name": "Nodies",
+      "notes": "Public RPC provider referenced by public endpoint directories. Exact endpoint entries require active verification before promotion.",
+      "schema_version": 1,
+      "website_url": "https://nodies.app"
+    },
+    {
+      "authority": "provider-claimed",
+      "docs_url": "https://onfinality.io/en/networks/bittensor-finney",
+      "id": "onfinality",
+      "kind": "infrastructure-provider",
+      "name": "OnFinality",
+      "notes": "Bittensor Finney RPC provider. Public endpoints are rate limited and suitable for testing according to provider docs.",
+      "schema_version": 1,
+      "website_url": "https://onfinality.io"
+    },
+    {
+      "authority": "official",
+      "docs_url": "https://docs.learnbittensor.org/concepts/bittensor-networks",
+      "id": "opentensor",
+      "kind": "infrastructure-provider",
+      "name": "OpenTensor",
+      "notes": "Official Bittensor network and Subtensor endpoint documentation source.",
+      "schema_version": 1,
+      "website_url": "https://bittensor.com"
+    },
+    {
+      "authority": "provider-claimed",
       "docs_url": "https://api.taomarketcap.com/developer/documentation/",
       "id": "taomarketcap",
       "kind": "data-provider",
@@ -50,6 +120,16 @@
       "notes": "Public article source for Taopedia. Used to discover documentation candidates, not verified operational surfaces.",
       "schema_version": 1,
       "website_url": "https://github.com/e35ventura/taopedia-articles"
+    },
+    {
+      "authority": "provider-claimed",
+      "docs_url": "https://docs.taostats.io",
+      "id": "taostats",
+      "kind": "data-provider",
+      "name": "Taostats",
+      "notes": "Bittensor explorer, API, SDK, and hosted RPC provider. API-key gated services are not published as public probeable surfaces.",
+      "schema_version": 1,
+      "website_url": "https://taostats.io"
     },
     {
       "authority": "community",

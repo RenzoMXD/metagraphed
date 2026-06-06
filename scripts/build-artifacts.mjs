@@ -2,12 +2,15 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import {
   buildTimestamp,
+  buildRpcEndpointArtifact,
   flattenSurfaces,
+  listJsonFilesRecursive,
   loadCandidates,
   loadNativeSnapshot,
   loadProviders,
   loadSubnets,
   loadVerification,
+  readJson,
   repoRoot,
   slugify,
   writeJson
@@ -17,6 +20,8 @@ const providers = await loadProviders();
 const overlays = await loadSubnets();
 const candidates = await loadCandidates();
 const verification = await loadVerification();
+const adapterSnapshots = await loadAdapterSnapshots();
+const reviewDecisions = await loadReviewDecisions();
 const nativeSnapshot = await loadNativeSnapshot();
 const overlayByNetuid = new Map(overlays.map((overlay) => [overlay.netuid, overlay]));
 const chainSubnets = nativeSnapshot.subnets;
@@ -30,6 +35,7 @@ const activeOverlays = overlays.filter((overlay) => activeOverlayNetuids.has(ove
 const surfaces = flattenSurfaces(activeOverlays);
 const outputRoot = path.join(repoRoot, "public/metagraph");
 const generatedAt = buildTimestamp();
+const contractVersion = "2026-06-06.1";
 
 const subnetIndex = mergedSubnets.map((subnet) => ({
   block: subnet.block,
@@ -67,15 +73,16 @@ const metagraphLatest = {
   subnets: subnetIndex
 };
 
-const healthLatest = {
-  schema_version: 1,
-  generated_at: generatedAt,
-  source: "artifact-build",
-  notes: "Run npm run probes:smoke with METAGRAPH_WRITE_PROBE_RESULTS=1 to write live probe results. Health artifacts include curated surfaces only.",
-  surfaces: surfaces.map((surface) => ({
+const healthArtifacts = buildHealthArtifacts(
+  surfaces.map((surface) => ({
     auth_required: surface.auth_required,
+    classification: "unknown",
     kind: surface.kind,
+    last_checked: null,
+    last_ok: null,
+    latency_ms: null,
     method_tested: surface.probe?.method || "not-configured",
+    netuid: surface.netuid,
     provider: surface.provider,
     public_safe: surface.public_safe,
     status: "unknown",
@@ -83,9 +90,27 @@ const healthLatest = {
     subnet_slug: surface.subnet_slug,
     surface_id: surface.id,
     url: surface.url,
+    uptime_sample_ratio: null,
     verified_at: null
-  }))
-};
+  })),
+  mergedSubnets,
+  {
+    generatedAt,
+    notes:
+      "Run npm run probes:smoke with METAGRAPH_WRITE_PROBE_RESULTS=1 to replace unknown build-time health with live probe results.",
+    source: "artifact-build"
+  }
+);
+const rpcEndpoints = buildRpcEndpointArtifact({
+  surfaces,
+  healthSurfaces: healthArtifacts.latest.surfaces,
+  generatedAt,
+  contractVersion,
+  source: "artifact-build"
+});
+const curationReview = buildCurationReview(mergedSubnets, surfaces, candidates, verification, reviewDecisions);
+const schemaDriftPlaceholder = buildSchemaDriftPlaceholder(surfaces);
+const contracts = buildContracts();
 
 const adapterArtifacts = Object.fromEntries(
   activeOverlays
@@ -98,7 +123,8 @@ const adapterArtifacts = Object.fromEntries(
         netuid: subnet.netuid,
         subnet: subnet.name,
         slug: subnet.slug,
-        extensions: subnet.extensions
+        extensions: subnet.extensions,
+        snapshot: adapterSnapshots.get(subnet.slug) || null
       }
     ])
 );
@@ -237,22 +263,71 @@ await writeJson(path.join(outputRoot, "verification/latest.json"), {
 });
 
 await writeJson(path.join(outputRoot, "metagraph/latest.json"), metagraphLatest);
-await writeJson(path.join(outputRoot, "health/latest.json"), healthLatest);
+await fs.rm(path.join(outputRoot, "health/subnets"), { recursive: true, force: true });
+await fs.rm(path.join(outputRoot, "health/badges"), { recursive: true, force: true });
+await writeJson(path.join(outputRoot, "health/latest.json"), healthArtifacts.latest);
+await writeJson(path.join(outputRoot, "health/summary.json"), healthArtifacts.summary);
+await writeJson(path.join(outputRoot, "rpc-endpoints.json"), rpcEndpoints);
+for (const [netuid, subnetHealth] of healthArtifacts.subnets) {
+  await writeJson(path.join(outputRoot, `health/subnets/${netuid}.json`), subnetHealth);
+}
+for (const [netuid, badge] of healthArtifacts.badges) {
+  await writeJson(path.join(outputRoot, `health/badges/${netuid}.json`), badge);
+}
 await writeJson(path.join(outputRoot, "coverage.json"), coverage);
+await writeJson(path.join(outputRoot, "contracts.json"), contracts);
+await writeJson(path.join(outputRoot, "schema-drift.json"), schemaDriftPlaceholder);
+await writeJson(path.join(outputRoot, "schemas/index.json"), {
+  schema_version: 1,
+  contract_version: contractVersion,
+  generated_at: generatedAt,
+  source: "artifact-build",
+  notes: "Run npm run schemas:snapshot to capture machine-readable OpenAPI/Swagger schema snapshots.",
+  schemas: []
+});
+await writeJson(path.join(outputRoot, "review/curation.json"), curationReview);
+await writeJson(path.join(outputRoot, "review/gap-priorities.json"), {
+  schema_version: 1,
+  contract_version: contractVersion,
+  generated_at: generatedAt,
+  priorities: curationReview.gap_priorities
+});
+await writeJson(path.join(outputRoot, "review/adapter-candidates.json"), {
+  schema_version: 1,
+  contract_version: contractVersion,
+  generated_at: generatedAt,
+  candidates: curationReview.adapter_candidates
+});
+await writeJson(path.join(outputRoot, "review/maintainer-decisions.json"), {
+  schema_version: 1,
+  contract_version: contractVersion,
+  generated_at: generatedAt,
+  decisions: reviewDecisions.decisions || [],
+  notes: "Public-safe maintainer curation decisions only. No secrets, wallets, PATs, private dashboards, or validator-local state."
+});
 
 for (const [slug, artifact] of Object.entries(adapterArtifacts)) {
   await writeJson(path.join(outputRoot, `adapters/${slug}.json`), artifact);
 }
 
+const artifactSizes = await collectArtifactSizes(outputRoot);
 await writeJson(path.join(outputRoot, "build-summary.json"), {
   schema_version: 1,
+  contract_version: contractVersion,
   generated_at: generatedAt,
   adapter_count: Object.keys(adapterArtifacts).length,
+  artifact_count: artifactSizes.length,
+  artifact_size_bytes: artifactSizes.reduce((sum, artifact) => sum + artifact.size_bytes, 0),
+  artifacts: artifactSizes.slice(0, 250),
   candidate_count: candidates.length,
   coverage,
   provider_count: providers.length,
   subnet_count: mergedSubnets.length,
-  surface_count: surfaces.length
+  surface_count: surfaces.length,
+  public_contract: {
+    version: contractVersion,
+    url: "/metagraph/contracts.json"
+  }
 });
 
 console.log(`Built ${mergedSubnets.length} subnet(s), ${surfaces.length} surface(s), and ${providers.length} provider(s).`);
@@ -353,4 +428,351 @@ function groupByNetuid(items) {
     groups.set(item.netuid, group);
   }
   return groups;
+}
+
+function buildHealthArtifacts(surfaceHealth, subnets, options) {
+  const byNetuid = groupByNetuid(surfaceHealth);
+  const subnetArtifacts = new Map();
+  const badgeArtifacts = new Map();
+  const summaryRows = [];
+
+  for (const subnet of subnets) {
+    const subnetSurfaces = byNetuid.get(subnet.netuid) || [];
+    const okCount = subnetSurfaces.filter((surface) => surface.status === "ok").length;
+    const failedCount = subnetSurfaces.filter((surface) => surface.status === "failed").length;
+    const unknownCount = subnetSurfaces.filter((surface) => surface.status === "unknown").length;
+    const degradedCount = subnetSurfaces.filter((surface) => surface.status === "degraded").length;
+    const status = classifySubnetStatus({ okCount, failedCount, unknownCount, degradedCount, surfaceCount: subnetSurfaces.length });
+    const summary = {
+      netuid: subnet.netuid,
+      slug: subnet.slug,
+      name: subnet.name,
+      status,
+      surface_count: subnetSurfaces.length,
+      ok_count: okCount,
+      failed_count: failedCount,
+      degraded_count: degradedCount,
+      unknown_count: unknownCount,
+      last_checked: latestString(subnetSurfaces.map((surface) => surface.verified_at || surface.last_checked)),
+      last_ok: latestString(subnetSurfaces.map((surface) => surface.last_ok)),
+      avg_latency_ms: average(
+        subnetSurfaces
+          .filter((surface) => Number.isFinite(surface.latency_ms))
+          .map((surface) => surface.latency_ms)
+      )
+    };
+
+    summaryRows.push(summary);
+    subnetArtifacts.set(subnet.netuid, {
+      schema_version: 1,
+      contract_version: contractVersion,
+      generated_at: options.generatedAt,
+      netuid: subnet.netuid,
+      slug: subnet.slug,
+      name: subnet.name,
+      summary,
+      surfaces: subnetSurfaces
+    });
+    badgeArtifacts.set(subnet.netuid, {
+      schema_version: 1,
+      contract_version: contractVersion,
+      generated_at: options.generatedAt,
+      netuid: subnet.netuid,
+      label: `SN${subnet.netuid}`,
+      message: status,
+      status,
+      color: badgeColor(status),
+      surface_count: subnetSurfaces.length,
+      ok_count: okCount,
+      failed_count: failedCount,
+      unknown_count: unknownCount
+    });
+  }
+
+  const latest = {
+    schema_version: 1,
+    contract_version: contractVersion,
+    generated_at: options.generatedAt,
+    source: options.source,
+    notes: options.notes,
+    summary: {
+      surface_count: surfaceHealth.length,
+      status_counts: countBy(surfaceHealth, (surface) => surface.status),
+      classification_counts: countBy(surfaceHealth, (surface) => surface.classification || "unknown")
+    },
+    surfaces: surfaceHealth
+  };
+
+  return {
+    latest,
+    summary: {
+      schema_version: 1,
+      contract_version: contractVersion,
+      generated_at: options.generatedAt,
+      source: options.source,
+      global: latest.summary,
+      subnets: summaryRows.sort((a, b) => a.netuid - b.netuid)
+    },
+    subnets: subnetArtifacts,
+    badges: badgeArtifacts
+  };
+}
+
+function buildCurationReview(subnets, surfaces, candidates, verificationArtifact, reviewDecisionsDocument) {
+  const surfacesByNetuid = groupByNetuid(surfaces);
+  const candidatesByNetuid = groupByNetuid(candidates);
+  const verificationByCandidate = new Map((verificationArtifact.results || []).map((result) => [result.candidate_id, result]));
+  const gapPriorities = subnets
+    .map((subnet) => {
+      const subnetSurfaces = surfacesByNetuid.get(subnet.netuid) || [];
+      const subnetCandidates = candidatesByNetuid.get(subnet.netuid) || [];
+      const missingKinds = subnet.gaps.missing_kinds || [];
+      const verifiedCandidateCount = subnetCandidates.filter((candidate) =>
+        ["live", "redirected"].includes(verificationByCandidate.get(candidate.id)?.classification)
+      ).length;
+      return {
+        netuid: subnet.netuid,
+        slug: subnet.slug,
+        name: subnet.name,
+        curation_level: subnet.curation.level,
+        review_state: subnet.curation.review_state,
+        surface_count: subnetSurfaces.length,
+        candidate_count: subnetCandidates.length,
+        verified_candidate_count: verifiedCandidateCount,
+        missing_kinds: missingKinds,
+        priority_score: reviewPriorityScore(subnet, subnetSurfaces, subnetCandidates),
+        suggested_next_action: suggestedReviewAction(subnet, subnetSurfaces, subnetCandidates)
+      };
+    })
+    .sort((a, b) => b.priority_score - a.priority_score || b.candidate_count - a.candidate_count || a.netuid - b.netuid);
+
+  const adapterCandidates = subnets
+    .map((subnet) => {
+      const subnetSurfaces = surfacesByNetuid.get(subnet.netuid) || [];
+      const operationalKinds = subnetSurfaces.filter((surface) =>
+        ["openapi", "subnet-api", "sse", "data-artifact"].includes(surface.kind)
+      );
+      return {
+        netuid: subnet.netuid,
+        slug: subnet.slug,
+        name: subnet.name,
+        curation_level: subnet.curation.level,
+        operational_surface_count: operationalKinds.length,
+        operational_kinds: [...new Set(operationalKinds.map((surface) => surface.kind))].sort(),
+        candidate_api_count: (candidatesByNetuid.get(subnet.netuid) || []).filter((candidate) =>
+          ["openapi", "subnet-api", "sse", "data-artifact"].includes(candidate.kind)
+        ).length,
+        priority_score: operationalKinds.length * 20 + subnet.surface_count
+      };
+    })
+    .filter((candidate) => candidate.operational_surface_count > 0 || candidate.candidate_api_count > 0)
+    .sort((a, b) => b.priority_score - a.priority_score || a.netuid - b.netuid);
+
+  return {
+    schema_version: 1,
+    contract_version: contractVersion,
+    generated_at: generatedAt,
+    notes: "Backend curation review report. Machine-generated entries still need maintainer review before being treated as hand-curated truth.",
+    summary: {
+      subnet_count: subnets.length,
+      needs_maintainer_review_count: subnets.filter((subnet) => subnet.curation.review_state !== "maintainer-reviewed").length,
+      maintainer_decision_count: reviewDecisionsDocument.decisions?.length || 0,
+      adapter_candidate_count: adapterCandidates.length,
+      gap_kind_counts: countGapKinds(subnets)
+    },
+    gap_priorities: gapPriorities,
+    adapter_candidates: adapterCandidates,
+    review_decisions: reviewDecisionsDocument.decisions || []
+  };
+}
+
+function buildSchemaDriftPlaceholder(surfaces) {
+  const openapiSurfaces = surfaces.filter((surface) => surface.kind === "openapi");
+  return {
+    schema_version: 1,
+    contract_version: contractVersion,
+    generated_at: generatedAt,
+    source: "artifact-build",
+    status: "not-snapshotted",
+    notes: "Run npm run schemas:snapshot to fetch machine-readable OpenAPI/Swagger JSON and update drift status.",
+    openapi_surface_count: openapiSurfaces.length,
+    schema_backed_surface_count: openapiSurfaces.filter((surface) => surface.schema_url).length,
+    surfaces: openapiSurfaces.map((surface) => ({
+      netuid: surface.netuid,
+      subnet_slug: surface.subnet_slug,
+      surface_id: surface.id,
+      url: surface.url,
+      schema_url: surface.schema_url || null,
+      status: surface.schema_url ? "pending-snapshot" : "ui-only-or-undiscovered"
+    }))
+  };
+}
+
+function buildContracts() {
+  return {
+    schema_version: 1,
+    contract_version: contractVersion,
+    generated_at: generatedAt,
+    name: "Metagraphed public backend artifact contract",
+    primary_domain: "metagraph.sh",
+    status_domain: null,
+    base_path: "/metagraph",
+    notes: [
+      "Native Bittensor chain data is canonical for active subnet existence.",
+      "Curated overlays are canonical for public interface metadata.",
+      "Candidate surfaces are discovery records only and are not published as verified registry surfaces.",
+      "Health and schema artifacts are operational observations, not protocol authority."
+    ],
+    artifacts: [
+      artifactContract("providers", "/metagraph/providers.json", "Provider/source registry."),
+      artifactContract("subnets", "/metagraph/subnets.json", "All active Finney subnets with compact registry metadata."),
+      artifactContract("subnet-detail", "/metagraph/subnets/{netuid}.json", "Per-subnet detail payload."),
+      artifactContract("surfaces", "/metagraph/surfaces.json", "Curated public interface surfaces only."),
+      artifactContract("candidates", "/metagraph/candidates.json", "Unpromoted candidate surfaces from public discovery."),
+      artifactContract("coverage", "/metagraph/coverage.json", "Registry coverage counts and source precedence."),
+      artifactContract("curation", "/metagraph/curation.json", "Curation state and gaps for every active subnet."),
+      artifactContract("gaps", "/metagraph/gaps.json", "Missing public interface facets by subnet."),
+      artifactContract("verification", "/metagraph/verification/latest.json", "Latest candidate verification snapshot."),
+      artifactContract("health-latest", "/metagraph/health/latest.json", "Latest surface health snapshot."),
+      artifactContract("health-summary", "/metagraph/health/summary.json", "Global and per-subnet health rollup."),
+      artifactContract("health-subnet", "/metagraph/health/subnets/{netuid}.json", "Per-subnet health payload for metagraph.sh consumers."),
+      artifactContract("health-badge", "/metagraph/health/badges/{netuid}.json", "Badge data contract for status rendering."),
+      artifactContract("rpc-endpoints", "/metagraph/rpc-endpoints.json", "Bittensor base-layer RPC endpoint registry and probe status."),
+      artifactContract("schema-drift", "/metagraph/schema-drift.json", "OpenAPI schema snapshot/drift status."),
+      artifactContract("schema-index", "/metagraph/schemas/index.json", "Index of captured machine-readable schemas."),
+      artifactContract("review-curation", "/metagraph/review/curation.json", "Maintainer curation and adapter candidate report."),
+      artifactContract("review-decisions", "/metagraph/review/maintainer-decisions.json", "Public-safe maintainer review decision ledger.")
+    ]
+  };
+}
+
+function artifactContract(id, pathValue, description) {
+  return {
+    id,
+    path: pathValue,
+    description,
+    content_type: "application/json",
+    contract_version: contractVersion
+  };
+}
+
+async function collectArtifactSizes(root) {
+  const files = [];
+  await walk(root, async (filePath) => {
+    if (!filePath.endsWith(".json")) {
+      return;
+    }
+    const relativePath = path.relative(root, filePath).replace(/\\/g, "/");
+    if (relativePath === "build-summary.json") {
+      return;
+    }
+    const stat = await fs.stat(filePath);
+    files.push({
+      path: relativePath,
+      size_bytes: stat.size
+    });
+  });
+  return files.sort((a, b) => a.path.localeCompare(b.path));
+}
+
+async function loadAdapterSnapshots() {
+  const files = await listJsonFilesRecursive(path.join(repoRoot, "registry/adapters/latest"));
+  const snapshots = await Promise.all(files.map(readJson));
+  return new Map(snapshots.map((snapshot) => [snapshot.slug, snapshot]));
+}
+
+async function loadReviewDecisions() {
+  try {
+    return await readJson(path.join(repoRoot, "registry/reviews/maintainer-reviewed.json"));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return {
+        schema_version: 1,
+        generated_at: generatedAt,
+        decisions: []
+      };
+    }
+    throw error;
+  }
+}
+
+async function walk(dirPath, onFile) {
+  const entries = await fs.readdir(dirPath, { withFileTypes: true });
+  for (const entry of entries) {
+    const entryPath = path.join(dirPath, entry.name);
+    if (entry.isDirectory()) {
+      await walk(entryPath, onFile);
+    } else if (entry.isFile()) {
+      await onFile(entryPath);
+    }
+  }
+}
+
+function reviewPriorityScore(subnet, surfacesForSubnet, candidatesForSubnet) {
+  const missingKinds = subnet.gaps.missing_kinds || [];
+  const highValueMissing = missingKinds.filter((kind) => ["source-repo", "docs", "website", "openapi", "subnet-api"].includes(kind));
+  const adapterBonus = surfacesForSubnet.filter((surface) => ["openapi", "subnet-api", "sse", "data-artifact"].includes(surface.kind)).length * 8;
+  const machineReviewPenalty = subnet.curation.review_state === "maintainer-reviewed" ? -25 : 20;
+  return highValueMissing.length * 12 + candidatesForSubnet.length + adapterBonus + machineReviewPenalty;
+}
+
+function suggestedReviewAction(subnet, surfacesForSubnet, candidatesForSubnet) {
+  if (subnet.curation.review_state !== "maintainer-reviewed" && surfacesForSubnet.length > 0) {
+    return "review promoted surfaces and mark maintainer-reviewed where provenance is strong";
+  }
+  if ((subnet.gaps.missing_kinds || []).includes("source-repo") && candidatesForSubnet.length > 0) {
+    return "inspect source-repo/docs candidates for official provenance";
+  }
+  if (surfacesForSubnet.some((surface) => ["openapi", "subnet-api", "sse"].includes(surface.kind))) {
+    return "evaluate for subnet-specific adapter";
+  }
+  return "keep baseline entry and wait for public-source or community intake";
+}
+
+function countGapKinds(subnets) {
+  return Object.fromEntries(
+    Object.entries(
+      subnets.reduce((accumulator, subnet) => {
+        for (const kind of subnet.gaps.missing_kinds || []) {
+          accumulator[kind] = (accumulator[kind] || 0) + 1;
+        }
+        return accumulator;
+      }, {})
+    ).sort(([a], [b]) => a.localeCompare(b))
+  );
+}
+
+function classifySubnetStatus({ okCount, failedCount, unknownCount, degradedCount, surfaceCount }) {
+  if (surfaceCount === 0 || unknownCount === surfaceCount) {
+    return "unknown";
+  }
+  if (failedCount === 0 && degradedCount === 0) {
+    return "ok";
+  }
+  if (okCount > 0 || degradedCount > 0) {
+    return "degraded";
+  }
+  return "failed";
+}
+
+function badgeColor(status) {
+  return (
+    {
+      ok: "brightgreen",
+      degraded: "yellow",
+      failed: "red",
+      unknown: "lightgrey"
+    }[status] || "lightgrey"
+  );
+}
+
+function latestString(values) {
+  return values.filter(Boolean).sort().at(-1) || null;
+}
+
+function average(values) {
+  if (values.length === 0) {
+    return null;
+  }
+  return Math.round(values.reduce((sum, value) => sum + value, 0) / values.length);
 }

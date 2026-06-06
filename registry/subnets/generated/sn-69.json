@@ -4,7 +4,6 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified project docs surface yet.",
       "No verified source repository yet.",
       "No verified project website yet.",
       "No verified OpenAPI/Swagger surface yet.",
@@ -15,10 +14,11 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 1,
-    "verified_at": "2026-06-06T07:17:47.202Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:44:02.998Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/69",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/69",
   "links": [],
   "name": "ain",
   "netuid": 69,
@@ -27,6 +27,45 @@
   "slug": "sn-69",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-69-tensorplex-docs",
+      "kind": "docs",
+      "name": "ain Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/69/subnet.json"
+      ],
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/69",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 347,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.998Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -42,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/69"
@@ -49,12 +96,13 @@
       "url": "https://taomarketcap.com/subnets/69",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 184,
+        "latency_ms": 209,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:47.202Z"
+        "verified_at": "2026-06-06T07:44:02.998Z"
       }
     }
   ]

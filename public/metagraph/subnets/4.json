@@ -37,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/4",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/4",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/4"
       ],
       "state": "schema-valid",
       "url": "https://github.com/manifold-inc/targon"
@@ -74,7 +73,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -95,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -116,7 +115,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "review_notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-hardware",
@@ -126,342 +125,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/manifold-inc/targon"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-api",
-      "kind": "subnet-api",
-      "name": "Targon API",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-docs",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-health",
-      "kind": "subnet-api",
-      "name": "Targon health endpoint",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Targon OpenAPI JSON",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-swagger",
-      "kind": "openapi",
-      "name": "Targon Swagger UI",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Targon Swagger JSON",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-dashboard-6",
-      "kind": "dashboard",
-      "name": "Targon dashboard",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-docs-4",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.targon.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-docs-9",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/releases/intel-whitepaper"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-1",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/inventory"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-10",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/rentals?create=true"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-2",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/tower"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-3",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/mission"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-5",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/contact"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-7",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/rentals"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-8",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/serverless"
     }
   ],
   "candidates": [
@@ -502,8 +165,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/4",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/4",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/4"
       ],
       "state": "schema-valid",
       "url": "https://github.com/manifold-inc/targon"
@@ -539,7 +201,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -560,7 +222,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -581,7 +243,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "review_notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-hardware",
@@ -591,342 +253,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/manifold-inc/targon"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-api",
-      "kind": "subnet-api",
-      "name": "Targon API",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-docs",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-health",
-      "kind": "subnet-api",
-      "name": "Targon health endpoint",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Targon OpenAPI JSON",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-swagger",
-      "kind": "openapi",
-      "name": "Targon Swagger UI",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Targon Swagger JSON",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-dashboard-6",
-      "kind": "dashboard",
-      "name": "Targon dashboard",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/dashboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-docs-4",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.targon.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-docs-9",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/releases/intel-whitepaper"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-1",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/inventory"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-10",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/rentals?create=true"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-2",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/tower"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-3",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/mission"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-5",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/contact"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-7",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/rentals"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-4-website-link-targon-com-website-8",
-      "kind": "website",
-      "name": "Targon website page",
-      "netuid": 4,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://targon.com/",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://targon.com/serverless"
     }
   ],
   "gaps": {
@@ -953,7 +279,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 22,
+    "candidate_count": 6,
     "categories": [
       "baseline-curated"
     ],
@@ -968,8 +294,8 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 4,
-      "verified_at": "2026-06-06T07:17:20.810Z"
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:43:52.140Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/4",
     "docs_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx",
@@ -1001,7 +327,7 @@
     "netuid": 4,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 8,
+    "probed_surface_count": 6,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1017,7 +343,7 @@
     "source_repo": "https://github.com/manifold-inc/targon",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 8,
+    "surface_count": 6,
     "symbol": "δ",
     "tempo": 360,
     "website_url": "https://targon.com/"
@@ -1039,6 +365,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -1048,12 +382,13 @@
       "url": "https://taomarketcap.com/subnets/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 137,
+        "latency_ms": 182,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.715Z"
+        "verified_at": "2026-06-06T07:43:52.090Z"
       }
     },
     {
@@ -1072,25 +407,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/4",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/4"
       ],
       "subnet_name": "Targon",
       "subnet_slug": "sn-4",
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/manifold-inc/targon",
-        "homepage": null,
-        "last_push_at": "2026-06-05T20:39:53Z",
+        "latency_ms": 1074,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:20.726Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:52.111Z"
       }
     },
     {
@@ -1109,6 +450,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -1118,12 +467,13 @@
       "url": "https://targon.com/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 175,
+        "latency_ms": 273,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.730Z"
+        "verified_at": "2026-06-06T07:43:52.120Z"
       }
     },
     {
@@ -1133,7 +483,7 @@
       "kind": "docs",
       "name": "Targon Taopedia article",
       "netuid": 4,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1142,6 +492,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx"
@@ -1151,12 +509,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 1531,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.742Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -1166,7 +525,7 @@
       "kind": "docs",
       "name": "Targon Tensorplex subnet docs",
       "netuid": 4,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1175,6 +534,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -1184,12 +551,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 416,
+        "latency_ms": 342,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -1199,7 +567,7 @@
       "kind": "docs",
       "name": "Targon hardware requirements",
       "netuid": 4,
-      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1208,6 +576,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -1217,78 +593,13 @@
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 440,
+        "latency_ms": 1459,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-dashboard-6",
-      "kind": "dashboard",
-      "name": "Targon dashboard",
-      "netuid": 4,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "subnet_name": "Targon",
-      "subnet_slug": "sn-4",
-      "url": "https://targon.com/dashboard",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 258,
-        "method_tested": "HEAD",
-        "redirect_target": "https://targon.com/sign-in",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.794Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-docs-4",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "subnet_name": "Targon",
-      "subnet_slug": "sn-4",
-      "url": "https://docs.targon.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 215,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.810Z"
+        "verified_at": "2026-06-06T07:43:52.140Z"
       }
     }
   ],
@@ -1309,6 +620,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -1318,12 +637,13 @@
       "url": "https://taomarketcap.com/subnets/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 137,
+        "latency_ms": 182,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.715Z"
+        "verified_at": "2026-06-06T07:43:52.090Z"
       }
     },
     {
@@ -1342,25 +662,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/4",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/4"
       ],
       "subnet_name": "Targon",
       "subnet_slug": "sn-4",
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/manifold-inc/targon",
-        "homepage": null,
-        "last_push_at": "2026-06-05T20:39:53Z",
+        "latency_ms": 1074,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:20.726Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:52.111Z"
       }
     },
     {
@@ -1379,6 +705,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -1388,12 +722,13 @@
       "url": "https://targon.com/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 175,
+        "latency_ms": 273,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.730Z"
+        "verified_at": "2026-06-06T07:43:52.120Z"
       }
     },
     {
@@ -1403,7 +738,7 @@
       "kind": "docs",
       "name": "Targon Taopedia article",
       "netuid": 4,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1412,6 +747,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx"
@@ -1421,12 +764,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 1531,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.742Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -1436,7 +780,7 @@
       "kind": "docs",
       "name": "Targon Tensorplex subnet docs",
       "netuid": 4,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1445,6 +789,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -1454,12 +806,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 416,
+        "latency_ms": 342,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -1469,7 +822,7 @@
       "kind": "docs",
       "name": "Targon hardware requirements",
       "netuid": 4,
-      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1478,6 +831,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -1487,78 +848,13 @@
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 440,
+        "latency_ms": 1459,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-dashboard-6",
-      "kind": "dashboard",
-      "name": "Targon dashboard",
-      "netuid": 4,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "subnet_name": "Targon",
-      "subnet_slug": "sn-4",
-      "url": "https://targon.com/dashboard",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 258,
-        "method_tested": "HEAD",
-        "redirect_target": "https://targon.com/sign-in",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.794Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-docs-4",
-      "kind": "docs",
-      "name": "Targon docs",
-      "netuid": 4,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "subnet_name": "Targon",
-      "subnet_slug": "sn-4",
-      "url": "https://docs.targon.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 215,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.810Z"
+        "verified_at": "2026-06-06T07:43:52.140Z"
       }
     }
   ]

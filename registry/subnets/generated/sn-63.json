@@ -4,8 +4,6 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified project docs surface yet.",
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
@@ -15,24 +13,26 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:17:44.288Z"
+    "verified_at": "2026-06-06T07:44:02.154Z"
   },
-  "dashboard_url": "https://taostats.io/subnets/63",
+  "dashboard_url": "https://taomarketcap.com/subnets/63",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/63",
   "links": [],
   "name": "Enigma",
   "netuid": 63,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-63",
+  "source_repo": "https://github.com/qbittensor-labs/enigma",
   "status": "active",
   "surfaces": [
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-3",
-      "kind": "website",
-      "name": "Enigma website page",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "id": "sn-63-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Enigma source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -41,19 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+        "https://api.taomarketcap.com/public/v1/subnets/63"
       ],
-      "url": "https://github.com/qbittensor-labs/enigma.git",
+      "url": "https://github.com/qbittensor-labs/enigma",
       "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 501,
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/qbittensor-labs/enigma",
+        "latency_ms": 498,
         "method_tested": "HEAD",
-        "redirect_target": "https://github.com/qbittensor-labs/enigma",
+        "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:44.219Z"
+        "verified_at": "2026-06-06T07:44:02.089Z"
       }
     },
     {
@@ -71,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/63"
@@ -78,42 +96,52 @@
       "url": "https://www.qbittensorlabs.com/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 202,
+        "latency_ms": 99,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:44.288Z"
+        "verified_at": "2026-06-06T07:44:02.109Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-63-github-readme-qbittensor-labs-enigma-dashboard-1",
-      "kind": "dashboard",
-      "name": "Enigma dashboard",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "id": "sn-63-tensorplex-docs",
+      "kind": "docs",
+      "name": "Enigma Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/63/subnet.json"
       ],
-      "url": "https://taostats.io/subnets/63",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/63",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 203,
+        "latency_ms": 371,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:44.115Z"
+        "verified_at": "2026-06-06T07:44:02.154Z"
       }
     },
     {
@@ -131,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/63"
@@ -138,14 +174,15 @@
       "url": "https://taomarketcap.com/subnets/63",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 163,
+        "latency_ms": 130,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:44.271Z"
+        "verified_at": "2026-06-06T07:44:02.045Z"
       }
     }
   ],
-  "website_url": "https://github.com/qbittensor-labs/enigma.git"
+  "website_url": "https://www.qbittensorlabs.com/"
 }

@@ -22,5 +22,131 @@
   "netuid": 74,
   "schema_version": 1,
   "slug": "gittensor",
+  "snapshot": {
+    "contract_version": "2026-06-06.1",
+    "dimensions": {
+      "bounties": {
+        "notes": "Bounty state is documented through CLI flows; no unauthenticated public API surface has been verified.",
+        "source_url": "https://docs.gittensor.io/cli",
+        "status": "docs-only"
+      },
+      "contributions": {
+        "notes": "Contribution scoring rules are public; validator-local scoring inputs and PAT-backed flows remain out of scope.",
+        "source_url": "https://docs.gittensor.io/oss-contributions.html",
+        "status": "docs-only"
+      },
+      "master_repositories": {
+        "captured_at": "2026-06-06T08:24:33.677Z",
+        "config_hash": "d61ad080861bcb00f3418313cf146fdee6faefa821df2f4adbcae2684ee4ebf7",
+        "content_type": "text/plain; charset=utf-8",
+        "issue_discovery_enabled_count": 3,
+        "latency_ms": 127,
+        "maintainer_cut_repo_count": 9,
+        "max_maintainer_cut": 0.5,
+        "repository_count": 18,
+        "status": "captured",
+        "status_code": 200,
+        "top_emission_repositories": [
+          {
+            "emission_share": 0.09,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0,
+            "repository": "entrius/gittensor"
+          },
+          {
+            "emission_share": 0.055,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0,
+            "repository": "infiniflow/ragflow"
+          },
+          {
+            "emission_share": 0.05,
+            "issue_discovery_share": 1,
+            "maintainer_cut": 0,
+            "repository": "entrius/allways"
+          },
+          {
+            "emission_share": 0.033,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0.3,
+            "repository": "Geniepod/genie-claw"
+          },
+          {
+            "emission_share": 0.03,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0.3,
+            "repository": "we-promise/sure"
+          },
+          {
+            "emission_share": 0.025,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0,
+            "repository": "e35ventura/taopedia"
+          },
+          {
+            "emission_share": 0.025,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0,
+            "repository": "e35ventura/taopedia-articles"
+          },
+          {
+            "emission_share": 0.018,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0.5,
+            "repository": "phase-rs/phase"
+          },
+          {
+            "emission_share": 0.012,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0.3,
+            "repository": "MkDev11/gittensor-hub"
+          },
+          {
+            "emission_share": 0.011,
+            "issue_discovery_share": 0,
+            "maintainer_cut": 0,
+            "repository": "seroperson/jvm-live-reload"
+          }
+        ],
+        "total_emission_share": 0.404,
+        "url": "https://raw.githubusercontent.com/entrius/gittensor/main/gittensor/validator/weights/master_repositories.json",
+        "zero_emission_count": 1
+      },
+      "mirror_freshness": {
+        "captured_at": "2026-06-06T08:24:34.017Z",
+        "error": "API rate limit exceeded for 98.97.112.120. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "full_name": "entrius/das-github-mirror",
+        "latency_ms": 79,
+        "status": "rate-limited-or-forbidden",
+        "status_code": 403
+      },
+      "repository_metadata": {
+        "archived_count": 0,
+        "captured_count": 0,
+        "disabled_count": 0,
+        "latest_push_at": null,
+        "rate_limited_or_forbidden_count": 18,
+        "repositories": [],
+        "repository_count": 18,
+        "status": "degraded"
+      }
+    },
+    "excluded_dimensions": [
+      "credentialed_github_flows",
+      "private_validator_inputs",
+      "private_dashboards",
+      "wallet_data"
+    ],
+    "generated_at": "1970-01-01T00:00:00.000Z",
+    "netuid": 74,
+    "notes": [
+      "Gittensor adapter publishes public repository/config aggregates only.",
+      "No PATs, wallet paths, local validator state, private scoring inputs, or credentialed GitHub data are collected."
+    ],
+    "schema_version": 1,
+    "slug": "gittensor",
+    "source": "adapter-snapshot",
+    "status": "degraded"
+  },
   "subnet": "Gittensor"
 }

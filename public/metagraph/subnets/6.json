@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-1",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/numinouslabs/numinous/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.hex.tech/1644b22a-abe5-4113-9d5f-3ad05e4a8de7/app/Numinous-031erYRYSssIrH3W3KcyHg/latest"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-2",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/numinouslabs/numinous/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://taostats.io/subnets/6/chart"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-6-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/6",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/6",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/6"
       ],
       "state": "schema-valid",
       "url": "https://github.com/numinouslabs/numinous"
@@ -116,7 +73,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -137,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -147,263 +104,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/6"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-api",
-      "kind": "subnet-api",
-      "name": "Numinous API",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-docs",
-      "kind": "docs",
-      "name": "Numinous docs",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-health",
-      "kind": "subnet-api",
-      "name": "Numinous health endpoint",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Numinous OpenAPI JSON",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-swagger",
-      "kind": "openapi",
-      "name": "Numinous Swagger UI",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Numinous Swagger JSON",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://leaderboard.numinouslabs.io/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "Numinous API surface",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://api.numinouslabs.io/api/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-website-1",
-      "kind": "website",
-      "name": "Numinous website page",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/cdn-cgi/l/email-protection"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-website-4",
-      "kind": "website",
-      "name": "Numinous website page",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://eversight.numinouslabs.io/"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-1",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/numinouslabs/numinous/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.hex.tech/1644b22a-abe5-4113-9d5f-3ad05e4a8de7/app/Numinous-031erYRYSssIrH3W3KcyHg/latest"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-2",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/numinouslabs/numinous/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://taostats.io/subnets/6/chart"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-6-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -439,8 +144,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/6",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/6",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/6"
       ],
       "state": "schema-valid",
       "url": "https://github.com/numinouslabs/numinous"
@@ -476,7 +180,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -497,7 +201,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -507,216 +211,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/6"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-api",
-      "kind": "subnet-api",
-      "name": "Numinous API",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-docs",
-      "kind": "docs",
-      "name": "Numinous docs",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-health",
-      "kind": "subnet-api",
-      "name": "Numinous health endpoint",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Numinous OpenAPI JSON",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-swagger",
-      "kind": "openapi",
-      "name": "Numinous Swagger UI",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Numinous Swagger JSON",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://leaderboard.numinouslabs.io/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-subnet-api-2",
-      "kind": "subnet-api",
-      "name": "Numinous API surface",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://api.numinouslabs.io/api/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-website-1",
-      "kind": "website",
-      "name": "Numinous website page",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://numinouslabs.io/cdn-cgi/l/email-protection"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-6-website-link-numinouslabs-io-website-4",
-      "kind": "website",
-      "name": "Numinous website page",
-      "netuid": 6,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://numinouslabs.io/",
-      "source_urls": [
-        "https://numinouslabs.io/"
-      ],
-      "state": "schema-valid",
-      "url": "https://eversight.numinouslabs.io/"
     }
   ],
   "gaps": {
@@ -743,7 +237,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 17,
+    "candidate_count": 5,
     "categories": [
       "baseline-curated"
     ],
@@ -758,10 +252,10 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 4,
-      "verified_at": "2026-06-06T07:17:21.467Z"
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:43:52.377Z"
     },
-    "dashboard_url": "https://app.hex.tech/1644b22a-abe5-4113-9d5f-3ad05e4a8de7/app/Numinous-031erYRYSssIrH3W3KcyHg/latest",
+    "dashboard_url": "https://taomarketcap.com/subnets/6",
     "docs_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_6/index.mdx",
     "gaps": {
       "gap_notes": [
@@ -791,7 +285,7 @@
     "netuid": 6,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 7,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -807,7 +301,7 @@
     "source_repo": "https://github.com/numinouslabs/numinous",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 7,
+    "surface_count": 5,
     "symbol": "ζ",
     "tempo": 360,
     "website_url": "https://numinouslabs.io/"
@@ -816,72 +310,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-1",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "subnet_name": "Numinous",
-      "subnet_slug": "sn-6",
-      "url": "https://app.hex.tech/1644b22a-abe5-4113-9d5f-3ad05e4a8de7/app/Numinous-031erYRYSssIrH3W3KcyHg/latest",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 266,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.418Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-2",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "subnet_name": "Numinous",
-      "subnet_slug": "sn-6",
-      "url": "https://taostats.io/subnets/6/chart",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 339,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.442Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-6-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Numinous TaoMarketCap dashboard",
@@ -895,6 +323,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/6"
@@ -904,12 +340,13 @@
       "url": "https://taomarketcap.com/subnets/6",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 157,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.444Z"
+        "verified_at": "2026-06-06T07:43:52.272Z"
       }
     },
     {
@@ -928,25 +365,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/6",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/6"
       ],
       "subnet_name": "Numinous",
       "subnet_slug": "sn-6",
       "url": "https://github.com/numinouslabs/numinous",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/numinouslabs/numinous",
-        "homepage": null,
-        "last_push_at": "2026-06-05T09:27:27Z",
+        "latency_ms": 1019,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:21.462Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:52.319Z"
       }
     },
     {
@@ -965,6 +408,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/6"
@@ -974,12 +425,13 @@
       "url": "https://numinouslabs.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 123,
+        "latency_ms": 770,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.463Z"
+        "verified_at": "2026-06-06T07:43:52.344Z"
       }
     },
     {
@@ -989,7 +441,7 @@
       "kind": "docs",
       "name": "Numinous Taopedia article",
       "netuid": 6,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -998,6 +450,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_6/index.mdx"
@@ -1007,12 +467,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_6/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 460,
+        "latency_ms": 1065,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.467Z"
+        "verified_at": "2026-06-06T07:43:52.347Z"
       }
     },
     {
@@ -1022,7 +483,7 @@
       "kind": "docs",
       "name": "Numinous Tensorplex subnet docs",
       "netuid": 6,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1031,6 +492,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
@@ -1040,12 +509,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/6",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 459,
+        "latency_ms": 1035,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.467Z"
+        "verified_at": "2026-06-06T07:43:52.377Z"
       }
     }
   ],
@@ -1053,72 +523,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-1",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "subnet_name": "Numinous",
-      "subnet_slug": "sn-6",
-      "url": "https://app.hex.tech/1644b22a-abe5-4113-9d5f-3ad05e4a8de7/app/Numinous-031erYRYSssIrH3W3KcyHg/latest",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 266,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.418Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-6-github-readme-numinouslabs-numinous-dashboard-2",
-      "kind": "dashboard",
-      "name": "Numinous dashboard",
-      "netuid": 6,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/numinouslabs/numinous/blob/main/README.md"
-      ],
-      "subnet_name": "Numinous",
-      "subnet_slug": "sn-6",
-      "url": "https://taostats.io/subnets/6/chart",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 339,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.442Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-6-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Numinous TaoMarketCap dashboard",
@@ -1132,6 +536,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/6"
@@ -1141,12 +553,13 @@
       "url": "https://taomarketcap.com/subnets/6",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 157,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.444Z"
+        "verified_at": "2026-06-06T07:43:52.272Z"
       }
     },
     {
@@ -1165,25 +578,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/6",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/6"
       ],
       "subnet_name": "Numinous",
       "subnet_slug": "sn-6",
       "url": "https://github.com/numinouslabs/numinous",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/numinouslabs/numinous",
-        "homepage": null,
-        "last_push_at": "2026-06-05T09:27:27Z",
+        "latency_ms": 1019,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:21.462Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:52.319Z"
       }
     },
     {
@@ -1202,6 +621,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/6"
@@ -1211,12 +638,13 @@
       "url": "https://numinouslabs.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html",
-        "latency_ms": 123,
+        "latency_ms": 770,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.463Z"
+        "verified_at": "2026-06-06T07:43:52.344Z"
       }
     },
     {
@@ -1226,7 +654,7 @@
       "kind": "docs",
       "name": "Numinous Taopedia article",
       "netuid": 6,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1235,6 +663,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_6/index.mdx"
@@ -1244,12 +680,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_6/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 460,
+        "latency_ms": 1065,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.467Z"
+        "verified_at": "2026-06-06T07:43:52.347Z"
       }
     },
     {
@@ -1259,7 +696,7 @@
       "kind": "docs",
       "name": "Numinous Tensorplex subnet docs",
       "netuid": 6,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1268,6 +705,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/6/subnet.json"
@@ -1277,12 +722,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/6",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 459,
+        "latency_ms": 1035,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:21.467Z"
+        "verified_at": "2026-06-06T07:43:52.377Z"
       }
     }
   ]

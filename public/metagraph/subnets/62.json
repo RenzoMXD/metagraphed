@@ -37,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/62",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/62",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/62/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/62"
       ],
       "state": "schema-valid",
       "url": "https://github.com/ridgesai/ridges"
@@ -74,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -84,132 +83,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/62"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-api",
-      "kind": "subnet-api",
-      "name": "Ridges API",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-docs",
-      "kind": "docs",
-      "name": "Ridges docs",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-health",
-      "kind": "subnet-api",
-      "name": "Ridges health endpoint",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Ridges OpenAPI JSON",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-swagger",
-      "kind": "openapi",
-      "name": "Ridges Swagger UI",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Ridges Swagger JSON",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/swagger.json"
     }
   ],
   "candidates": [
@@ -250,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/62",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/62",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/62/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/62"
       ],
       "state": "schema-valid",
       "url": "https://github.com/ridgesai/ridges"
@@ -287,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -297,138 +169,10 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/62"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-api",
-      "kind": "subnet-api",
-      "name": "Ridges API",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-docs",
-      "kind": "docs",
-      "name": "Ridges docs",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-health",
-      "kind": "subnet-api",
-      "name": "Ridges health endpoint",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Ridges OpenAPI JSON",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-swagger",
-      "kind": "openapi",
-      "name": "Ridges Swagger UI",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-62-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Ridges Swagger JSON",
-      "netuid": 62,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://www.ridges.ai/",
-      "source_urls": [
-        "https://www.ridges.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.ridges.ai/swagger.json"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified project docs surface yet.",
-      "No verified source repository yet.",
       "No verified project website yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
@@ -436,8 +180,6 @@
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "docs",
-      "source-repo",
       "website",
       "openapi",
       "subnet-api",
@@ -445,22 +187,22 @@
       "data-artifact"
     ],
     "supported_kinds": [
-      "dashboard"
+      "dashboard",
+      "docs",
+      "source-repo"
     ]
   },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 10,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -470,15 +212,13 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 1,
-      "verified_at": "2026-06-06T07:17:43.855Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:01.988Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/62",
-    "docs_url": null,
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/62",
     "gaps": {
       "gap_notes": [
-        "No verified project docs surface yet.",
-        "No verified source repository yet.",
         "No verified project website yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
@@ -486,8 +226,6 @@
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "docs",
-        "source-repo",
         "website",
         "openapi",
         "subnet-api",
@@ -495,7 +233,9 @@
         "data-artifact"
       ],
       "supported_kinds": [
-        "dashboard"
+        "dashboard",
+        "docs",
+        "source-repo"
       ]
     },
     "links": [],
@@ -506,7 +246,7 @@
     "netuid": 62,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 1,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -519,10 +259,10 @@
     },
     "registered_at_block": 4474225,
     "slug": "sn-62",
-    "source_repo": null,
+    "source_repo": "https://github.com/ridgesai/ridges",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 1,
+    "surface_count": 3,
     "symbol": "ز",
     "tempo": 360,
     "website_url": null
@@ -544,6 +284,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/62"
@@ -553,12 +301,98 @@
       "url": "https://taomarketcap.com/subnets/62",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 181,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:43.855Z"
+        "verified_at": "2026-06-06T07:44:01.848Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-62-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Ridges source repository",
+      "netuid": 62,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/62"
+      ],
+      "subnet_name": "Ridges",
+      "subnet_slug": "sn-62",
+      "url": "https://github.com/ridgesai/ridges",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/ridgesai/ridges",
+        "latency_ms": 501,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.912Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-62-tensorplex-docs",
+      "kind": "docs",
+      "name": "Ridges Tensorplex subnet docs",
+      "netuid": 62,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/62/subnet.json"
+      ],
+      "subnet_name": "Ridges",
+      "subnet_slug": "sn-62",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/62",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 413,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.988Z"
       }
     }
   ],
@@ -579,6 +413,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/62"
@@ -588,12 +430,98 @@
       "url": "https://taomarketcap.com/subnets/62",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 181,
+        "latency_ms": 140,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:43.855Z"
+        "verified_at": "2026-06-06T07:44:01.848Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-62-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Ridges source repository",
+      "netuid": 62,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/62"
+      ],
+      "subnet_name": "Ridges",
+      "subnet_slug": "sn-62",
+      "url": "https://github.com/ridgesai/ridges",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/ridgesai/ridges",
+        "latency_ms": 501,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.912Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-62-tensorplex-docs",
+      "kind": "docs",
+      "name": "Ridges Tensorplex subnet docs",
+      "netuid": 62,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/62/subnet.json"
+      ],
+      "subnet_name": "Ridges",
+      "subnet_slug": "sn-62",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/62",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 413,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:01.988Z"
       }
     }
   ]

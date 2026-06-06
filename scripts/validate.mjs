@@ -41,7 +41,7 @@ const surfaceKinds = new Set([
   "data-artifact"
 ]);
 
-const probeMethods = new Set(["GET", "HEAD"]);
+const probeMethods = new Set(["GET", "HEAD", "JSON-RPC", "WSS-RPC"]);
 const probeExpectations = new Set(["json", "html", "sse", "any"]);
 const coverageLevels = new Set(["native-only", "manifested", "probed"]);
 const subnetTypes = new Set(["root", "application"]);
@@ -73,8 +73,13 @@ const verificationClassifications = new Set([
   "auth-required",
   "dead",
   "unsafe",
-  "unsupported"
+  "unsupported",
+  "rate-limited",
+  "transient",
+  "timeout",
+  "content-mismatch"
 ]);
+const reviewDecisions = new Set(["maintainer-reviewed", "needs-review", "stale"]);
 
 const slugPattern = /^[a-z0-9][a-z0-9-]*$/;
 
@@ -285,6 +290,21 @@ function validateCandidate(candidate, nativeNetuids, providerIds) {
   assert(typeof candidate.public_safe === "boolean", `${key}: public_safe must be boolean`);
 }
 
+function validateReviewDecision(decision, nativeNetuids) {
+  const key = `review:${decision.netuid ?? "unknown"}`;
+  assert(Number.isInteger(decision.netuid) && decision.netuid >= 0, `${key}: netuid must be a non-negative integer`);
+  assert(nativeNetuids.has(decision.netuid), `${key}: netuid is not in native snapshot`);
+  assert(slugPattern.test(decision.slug || ""), `${key}: invalid slug`);
+  assert(reviewDecisions.has(decision.decision), `${key}: invalid decision`);
+  assert(typeof decision.reviewed_at === "string", `${key}: reviewed_at is required`);
+  assert(["low", "medium", "high"].includes(decision.confidence), `${key}: invalid confidence`);
+  assert(Array.isArray(decision.source_urls), `${key}: source_urls must be an array`);
+  for (const sourceUrl of decision.source_urls || []) {
+    assert(isValidUrl(sourceUrl), `${key}: source_urls must contain URLs`);
+  }
+  assert(typeof decision.notes === "string" && decision.notes.length > 0, `${key}: notes are required`);
+}
+
 async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) {
   const subnetsArtifact = await readJson(path.join(repoRoot, "public/metagraph/subnets.json"));
   const surfacesArtifact = await readJson(path.join(repoRoot, "public/metagraph/surfaces.json"));
@@ -294,6 +314,16 @@ async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) 
   const reviewQueueArtifact = await readJson(path.join(repoRoot, "public/metagraph/review-queue.json"));
   const verificationArtifact = await readJson(path.join(repoRoot, "public/metagraph/verification/latest.json"));
   const coverageArtifact = await readJson(path.join(repoRoot, "public/metagraph/coverage.json"));
+  const contractsArtifact = await readJson(path.join(repoRoot, "public/metagraph/contracts.json"));
+  const healthArtifact = await readJson(path.join(repoRoot, "public/metagraph/health/latest.json"));
+  const healthSummaryArtifact = await readJson(path.join(repoRoot, "public/metagraph/health/summary.json"));
+  const rpcEndpointsArtifact = await readJson(path.join(repoRoot, "public/metagraph/rpc-endpoints.json"));
+  const schemaDriftArtifact = await readJson(path.join(repoRoot, "public/metagraph/schema-drift.json"));
+  const schemaIndexArtifact = await readJson(path.join(repoRoot, "public/metagraph/schemas/index.json"));
+  const reviewCurationArtifact = await readJson(path.join(repoRoot, "public/metagraph/review/curation.json"));
+  const reviewGapPrioritiesArtifact = await readJson(path.join(repoRoot, "public/metagraph/review/gap-priorities.json"));
+  const reviewAdapterCandidatesArtifact = await readJson(path.join(repoRoot, "public/metagraph/review/adapter-candidates.json"));
+  const reviewDecisionsArtifact = await readJson(path.join(repoRoot, "public/metagraph/review/maintainer-decisions.json"));
 
   const nativeNetuids = nativeSnapshot.subnets.map((subnet) => subnet.netuid);
   const generatedNetuids = subnetsArtifact.subnets.map((subnet) => subnet.netuid);
@@ -335,12 +365,78 @@ async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) 
     reviewQueueArtifact.count === reviewQueueArtifact.candidates.length,
     "review queue artifact: count must match candidates length"
   );
+  assert(contractsArtifact.contract_version, "contracts artifact: contract_version is required");
+  assert(contractsArtifact.primary_domain === "metagraph.sh", "contracts artifact: primary_domain must be metagraph.sh");
+  assert(contractsArtifact.status_domain === null, "contracts artifact: status_domain must remain null for v1");
+  assert(Array.isArray(contractsArtifact.artifacts), "contracts artifact: artifacts must be an array");
+  assert(
+    contractsArtifact.artifacts.every((artifact) => String(artifact.path || "").startsWith("/metagraph/")),
+    "contracts artifact: all artifact paths must stay under /metagraph"
+  );
+  assert(
+    new Set(contractsArtifact.artifacts.map((artifact) => artifact.id)).size === contractsArtifact.artifacts.length,
+    "contracts artifact: artifact ids must be unique"
+  );
+  assert(
+    healthArtifact.surfaces.length === surfacesArtifact.surfaces.filter((surface) => surface.probe?.enabled && surface.public_safe).length,
+    "health artifact: probed surface count mismatch"
+  );
+  assert(healthSummaryArtifact.subnets.length === nativeSnapshot.subnets.length, "health summary: subnet count mismatch");
+  assert(
+    rpcEndpointsArtifact.endpoints.length ===
+      surfacesArtifact.surfaces.filter((surface) => ["subtensor-rpc", "subtensor-wss"].includes(surface.kind)).length,
+    "rpc endpoints artifact: endpoint count mismatch"
+  );
+  assert(
+    rpcEndpointsArtifact.endpoints.every((endpoint) => endpoint.netuid === 0),
+    "rpc endpoints artifact: base-layer RPC endpoints must be rooted at netuid 0"
+  );
+  assert(
+    (schemaDriftArtifact.openapi_surface_count ?? schemaDriftArtifact.summary?.surface_count) ===
+      surfacesArtifact.surfaces.filter((surface) => surface.kind === "openapi").length,
+    "schema drift: OpenAPI surface count mismatch"
+  );
+  assert(Array.isArray(schemaIndexArtifact.schemas), "schema index: schemas must be an array");
+  assert(reviewCurationArtifact.summary?.subnet_count === nativeSnapshot.subnets.length, "review curation: subnet count mismatch");
+  assert(
+    reviewGapPrioritiesArtifact.priorities.length === nativeSnapshot.subnets.length,
+    "review gap priorities: subnet count mismatch"
+  );
+  assert(Array.isArray(reviewAdapterCandidatesArtifact.candidates), "review adapter candidates: candidates must be an array");
+  assert(Array.isArray(reviewDecisionsArtifact.decisions), "review decisions: decisions must be an array");
+
+  for (const netuid of nativeNetuids) {
+    for (const artifactPath of [
+      `public/metagraph/health/subnets/${netuid}.json`,
+      `public/metagraph/health/badges/${netuid}.json`
+    ]) {
+      try {
+        await fs.access(path.join(repoRoot, artifactPath));
+      } catch {
+        assert(false, `${artifactPath}: missing health artifact`);
+      }
+    }
+  }
+
+  for (const schemaPath of [
+    "schemas/provider.schema.json",
+    "schemas/subnet-manifest.schema.json",
+    "schemas/candidate-surface.schema.json",
+    "schemas/public-artifacts.schema.json"
+  ]) {
+    try {
+      await fs.access(path.join(repoRoot, schemaPath));
+    } catch {
+      assert(false, `${schemaPath}: missing JSON schema contract`);
+    }
+  }
 }
 
 const providers = await loadProviders();
 const subnets = await loadSubnets();
 const nativeSnapshot = await loadNativeSnapshot();
 const candidates = await loadCandidates();
+const reviewDecisionsDocument = await readJson(path.join(repoRoot, "registry/reviews/maintainer-reviewed.json"));
 const providerIds = new Set();
 const netuids = new Set();
 const slugs = new Set();
@@ -377,6 +473,12 @@ for (const candidate of candidates) {
   assert(!candidateIds.has(candidate.id), `${candidate.id}: duplicate candidate id`);
   candidateIds.add(candidate.id);
   validateCandidate(candidate, nativeNetuids, providerIds);
+}
+
+assert(reviewDecisionsDocument.schema_version === 1, "review decisions: schema_version must be 1");
+assert(Array.isArray(reviewDecisionsDocument.decisions), "review decisions: decisions must be an array");
+for (const decision of reviewDecisionsDocument.decisions || []) {
+  validateReviewDecision(decision, nativeNetuids);
 }
 
 await validateGeneratedArtifacts(nativeSnapshot, subnets, candidates);

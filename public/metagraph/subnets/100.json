@@ -2,72 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-100-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -139,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -160,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -181,7 +115,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -191,665 +125,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/PlatformNetwork"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-api",
-      "kind": "subnet-api",
-      "name": "Plaτform API",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Plaτform API",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-docs",
-      "kind": "docs",
-      "name": "Plaτform docs",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Plaτform docs",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-health",
-      "kind": "subnet-api",
-      "name": "Plaτform health endpoint",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Plaτform health endpoint",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Plaτform OpenAPI JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Plaτform OpenAPI JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger",
-      "kind": "openapi",
-      "name": "Plaτform Swagger UI",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Plaτform Swagger UI",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Plaτform Swagger JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Plaτform Swagger JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FPlatformNetwork%2Fplatform%2Factions%2Fworkflows%2Fci.yml"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-2-11839od",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FPlatformNetwork%2Fplatform%2Fblob%2Fmain%2FLICENSE"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/challenges"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/how-it-works"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/features"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-4",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/auth"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-github-readme-platformnetwork-platform-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/CortexLM/platform/blob/main/README.md",
-        "https://github.com/PlatformNetwork/platform/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-100-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -921,7 +201,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -942,7 +222,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -963,7 +243,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -973,606 +253,16 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/PlatformNetwork"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-api",
-      "kind": "subnet-api",
-      "name": "Plaτform API",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "Plaτform API",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-docs",
-      "kind": "docs",
-      "name": "Plaτform docs",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Plaτform docs",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-health",
-      "kind": "subnet-api",
-      "name": "Plaτform health endpoint",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "Plaτform health endpoint",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Plaτform OpenAPI JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "Plaτform OpenAPI JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger",
-      "kind": "openapi",
-      "name": "Plaτform Swagger UI",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Plaτform Swagger UI",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Plaτform Swagger JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "Plaτform Swagger JSON",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FPlatformNetwork%2Fplatform%2Factions%2Fworkflows%2Fci.yml"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-2-11839od",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/blob/main/LICENSE",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FPlatformNetwork%2Fplatform%2Fblob%2Fmain%2FLICENSE"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-      "source_urls": [
-        "https://github.com/PlatformNetwork/platform/actions/workflows/ci.yml",
-        "https://github.com/PlatformNetwork/platform/blob/main/LICENSE"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-1",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/challenges"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-2",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/how-it-works"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-3",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/features"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-100-website-link-platform-network-website-4",
-      "kind": "website",
-      "name": "Plaτform website page",
-      "netuid": 100,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://platform.network/",
-      "source_urls": [
-        "https://platform.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://platform.network/auth"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
       "openapi",
       "subnet-api",
       "sse",
@@ -1581,6 +271,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
+      "source-repo",
       "website"
     ]
   },
@@ -1588,14 +279,13 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 36,
+    "candidate_count": 6,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
@@ -1605,20 +295,18 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:18:00.730Z"
+      "verified_at": "2026-06-06T07:44:07.741Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/100",
-    "docs_url": "https://platform.network/docs",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/100",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
         "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
         "openapi",
         "subnet-api",
         "sse",
@@ -1627,6 +315,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
+        "source-repo",
         "website"
       ]
     },
@@ -1638,7 +327,7 @@
     "netuid": 100,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 3,
+    "probed_surface_count": 6,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1651,10 +340,10 @@
     },
     "registered_at_block": 6693448,
     "slug": "sn-100",
-    "source_repo": null,
+    "source_repo": "https://github.com/PlatformNetwork/platform",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 3,
+    "surface_count": 6,
     "symbol": "დ",
     "tempo": 360,
     "website_url": "https://platform.network/"
@@ -1676,6 +365,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/100"
@@ -1685,12 +382,56 @@
       "url": "https://taomarketcap.com/subnets/100",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 134,
+        "latency_ms": 176,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.662Z"
+        "verified_at": "2026-06-06T07:44:07.620Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/100"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/PlatformNetwork/platform",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/PlatformNetwork/platform",
+        "latency_ms": 522,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.629Z"
       }
     },
     {
@@ -1709,6 +450,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/100"
@@ -1718,45 +467,140 @@
       "url": "https://platform.network/",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 385,
+        "latency_ms": 376,
         "method_tested": "HEAD",
         "redirect_target": "https://www.platform.network/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.688Z"
+        "verified_at": "2026-06-06T07:44:07.676Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-100-website-common-docs",
+      "id": "sn-100-tensorplex-docs",
       "kind": "docs",
-      "name": "Plaτform docs",
+      "name": "Plaτform Tensorplex subnet docs",
       "netuid": 100,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://platform.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
       ],
       "subnet_name": "Plaτform",
       "subnet_slug": "sn-100",
-      "url": "https://platform.network/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/100",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 312,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.702Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/CortexLM/platform",
       "verification": {
         "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 369,
+        "confidence_score": 50,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/CortexLM/platform",
+        "latency_ms": 458,
         "method_tested": "HEAD",
-        "redirect_target": "https://www.platform.network/docs",
+        "redirect_target": "https://github.com/PlatformNetwork/platform",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.730Z"
+        "verified_at": "2026-06-06T07:44:07.705Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-tensorplex-source-repo-2",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/PlatformNetwork",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 65,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 444,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.741Z"
       }
     }
   ],
@@ -1777,6 +621,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/100"
@@ -1786,12 +638,56 @@
       "url": "https://taomarketcap.com/subnets/100",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 134,
+        "latency_ms": 176,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.662Z"
+        "verified_at": "2026-06-06T07:44:07.620Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/100"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/PlatformNetwork/platform",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/PlatformNetwork/platform",
+        "latency_ms": 522,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.629Z"
       }
     },
     {
@@ -1810,6 +706,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/100"
@@ -1819,45 +723,140 @@
       "url": "https://platform.network/",
       "verification": {
         "classification": "redirected",
+        "confidence_score": 72,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 385,
+        "latency_ms": 376,
         "method_tested": "HEAD",
         "redirect_target": "https://www.platform.network/",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.688Z"
+        "verified_at": "2026-06-06T07:44:07.676Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-100-website-common-docs",
+      "id": "sn-100-tensorplex-docs",
       "kind": "docs",
-      "name": "Plaτform docs",
+      "name": "Plaτform Tensorplex subnet docs",
       "netuid": 100,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://platform.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
       ],
       "subnet_name": "Plaτform",
       "subnet_slug": "sn-100",
-      "url": "https://platform.network/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/100",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 312,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.702Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/CortexLM/platform",
       "verification": {
         "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 369,
+        "confidence_score": 50,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/CortexLM/platform",
+        "latency_ms": 458,
         "method_tested": "HEAD",
-        "redirect_target": "https://www.platform.network/docs",
+        "redirect_target": "https://github.com/PlatformNetwork/platform",
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:00.730Z"
+        "verified_at": "2026-06-06T07:44:07.705Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-100-tensorplex-source-repo-2",
+      "kind": "source-repo",
+      "name": "Plaτform source repository",
+      "netuid": 100,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/100/subnet.json"
+      ],
+      "subnet_name": "Plaτform",
+      "subnet_slug": "sn-100",
+      "url": "https://github.com/PlatformNetwork",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 65,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 444,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:07.741Z"
       }
     }
   ]

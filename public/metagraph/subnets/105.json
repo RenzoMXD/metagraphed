@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -83,153 +83,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/105"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-api",
-      "kind": "subnet-api",
-      "name": "Beam API",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-docs",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-health",
-      "kind": "subnet-api",
-      "name": "Beam health endpoint",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Beam OpenAPI JSON",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-swagger",
-      "kind": "openapi",
-      "name": "Beam Swagger UI",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Beam Swagger JSON",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-link-b1m-ai-docs-1",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/docs/BEAM_Whitepaper.pdf"
     }
   ],
   "candidates": [
@@ -306,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -316,164 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/105"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-api",
-      "kind": "subnet-api",
-      "name": "Beam API",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-docs",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-health",
-      "kind": "subnet-api",
-      "name": "Beam health endpoint",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Beam OpenAPI JSON",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-swagger",
-      "kind": "openapi",
-      "name": "Beam Swagger UI",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Beam Swagger JSON",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-105-website-link-b1m-ai-docs-1",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://b1m.ai/",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "state": "schema-valid",
-      "url": "https://b1m.ai/docs/BEAM_Whitepaper.pdf"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -481,7 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
+      "source-repo",
       "website"
     ]
   },
@@ -489,14 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 11,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -505,19 +211,19 @@
       "review_state": "machine-generated",
       "reviewed_at": null,
       "source_count": 2,
-      "verified_at": "2026-06-06T07:18:02.270Z"
+      "verified_at": "2026-06-06T07:44:08.080Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/105",
-    "docs_url": "https://b1m.ai/docs",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/105",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -525,7 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
+        "source-repo",
         "website"
       ]
     },
@@ -537,7 +243,7 @@
     "netuid": 105,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 5,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -550,10 +256,10 @@
     },
     "registered_at_block": 6841399,
     "slug": "sn-105",
-    "source_repo": null,
+    "source_repo": "https://github.com/orgs/Beam-Network/repositories",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 5,
+    "surface_count": 4,
     "symbol": "Գ",
     "tempo": 360,
     "website_url": "https://b1m.ai/"
@@ -575,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/105"
@@ -584,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/105",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 179,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.166Z"
+        "verified_at": "2026-06-06T07:44:08.052Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-105-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Beam source repository",
+      "netuid": 105,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/105"
+      ],
+      "subnet_name": "Beam",
+      "subnet_slug": "sn-105",
+      "url": "https://github.com/orgs/Beam-Network/repositories",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/orgs/Beam-Network",
+        "latency_ms": 308,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.068Z"
       }
     },
     {
@@ -608,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/105"
@@ -617,111 +383,55 @@
       "url": "https://b1m.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 189,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.200Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-common-docs",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 360,
-        "method_tested": "HEAD",
-        "redirect_target": "https://b1m.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.223Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-common-swagger",
-      "kind": "openapi",
-      "name": "Beam Swagger UI",
-      "netuid": 105,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/swagger",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 329,
-        "method_tested": "HEAD",
-        "redirect_target": "https://b1m.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.244Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-link-b1m-ai-docs-1",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/docs/BEAM_Whitepaper.pdf",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/pdf",
         "latency_ms": 259,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.270Z"
+        "verified_at": "2026-06-06T07:44:08.073Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-105-tensorplex-docs",
+      "kind": "docs",
+      "name": "Beam Tensorplex subnet docs",
+      "netuid": 105,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/105/subnet.json"
+      ],
+      "subnet_name": "Beam",
+      "subnet_slug": "sn-105",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/105",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 416,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.080Z"
       }
     }
   ],
@@ -742,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/105"
@@ -751,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/105",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 179,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.166Z"
+        "verified_at": "2026-06-06T07:44:08.052Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-105-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Beam source repository",
+      "netuid": 105,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/105"
+      ],
+      "subnet_name": "Beam",
+      "subnet_slug": "sn-105",
+      "url": "https://github.com/orgs/Beam-Network/repositories",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/orgs/Beam-Network",
+        "latency_ms": 308,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.068Z"
       }
     },
     {
@@ -775,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/105"
@@ -784,111 +554,55 @@
       "url": "https://b1m.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 189,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.200Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-common-docs",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 360,
-        "method_tested": "HEAD",
-        "redirect_target": "https://b1m.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.223Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-common-swagger",
-      "kind": "openapi",
-      "name": "Beam Swagger UI",
-      "netuid": 105,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/swagger",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 329,
-        "method_tested": "HEAD",
-        "redirect_target": "https://b1m.ai/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.244Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-105-website-link-b1m-ai-docs-1",
-      "kind": "docs",
-      "name": "Beam docs",
-      "netuid": 105,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://b1m.ai/"
-      ],
-      "subnet_name": "Beam",
-      "subnet_slug": "sn-105",
-      "url": "https://b1m.ai/docs/BEAM_Whitepaper.pdf",
-      "verification": {
-        "classification": "live",
-        "content_type": "application/pdf",
         "latency_ms": 259,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:18:02.270Z"
+        "verified_at": "2026-06-06T07:44:08.073Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-105-tensorplex-docs",
+      "kind": "docs",
+      "name": "Beam Tensorplex subnet docs",
+      "netuid": 105,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/105/subnet.json"
+      ],
+      "subnet_name": "Beam",
+      "subnet_slug": "sn-105",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/105",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 73,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 416,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:08.080Z"
       }
     }
   ]

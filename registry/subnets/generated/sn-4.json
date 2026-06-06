@@ -12,8 +12,8 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 4,
-    "verified_at": "2026-06-06T07:17:20.810Z"
+    "source_count": 3,
+    "verified_at": "2026-06-06T07:43:52.140Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/4",
   "docs_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx",
@@ -41,23 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/4",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/4"
       ],
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/manifold-inc/targon",
-        "homepage": null,
-        "last_push_at": "2026-06-05T20:39:53Z",
+        "latency_ms": 1074,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:20.726Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:52.111Z"
       }
     },
     {
@@ -75,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -82,12 +96,13 @@
       "url": "https://targon.com/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 175,
+        "latency_ms": 273,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.730Z"
+        "verified_at": "2026-06-06T07:43:52.120Z"
       }
     },
     {
@@ -96,7 +111,7 @@
       "id": "sn-4-taopedia-article",
       "kind": "docs",
       "name": "Targon Taopedia article",
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -105,6 +120,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx"
@@ -112,12 +135,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_4/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 1531,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.742Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -126,7 +150,7 @@
       "id": "sn-4-tensorplex-docs",
       "kind": "docs",
       "name": "Targon Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -135,6 +159,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -142,12 +174,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 416,
+        "latency_ms": 342,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
+        "verified_at": "2026-06-06T07:43:52.137Z"
       }
     },
     {
@@ -156,7 +189,7 @@
       "id": "sn-4-tensorplex-hardware-docs",
       "kind": "docs",
       "name": "Targon hardware requirements",
-      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -165,6 +198,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/4/subnet.json"
@@ -172,42 +213,13 @@
       "url": "https://github.com/manifold-inc/targon",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 440,
+        "latency_ms": 1459,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.758Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-docs-4",
-      "kind": "docs",
-      "name": "Targon docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "url": "https://docs.targon.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 215,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.810Z"
+        "verified_at": "2026-06-06T07:43:52.140Z"
       }
     },
     {
@@ -225,6 +237,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/4"
@@ -232,42 +252,13 @@
       "url": "https://taomarketcap.com/subnets/4",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 137,
+        "latency_ms": 182,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.715Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-4-website-link-targon-com-dashboard-6",
-      "kind": "dashboard",
-      "name": "Targon dashboard",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://targon.com/"
-      ],
-      "url": "https://targon.com/dashboard",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 258,
-        "method_tested": "HEAD",
-        "redirect_target": "https://targon.com/sign-in",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.794Z"
+        "verified_at": "2026-06-06T07:43:52.090Z"
       }
     }
   ],

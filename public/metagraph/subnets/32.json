@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-dashboard-2",
-      "kind": "dashboard",
-      "name": "ItsAI dashboard",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/It-s-AI/llm-detection/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://raid-bench.xyz/leaderboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-docs-1",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/It-s-AI/llm-detection/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://arxiv.org/abs/2405.07940"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-32-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/32",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/32",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/32"
       ],
       "state": "schema-valid",
       "url": "https://github.com/It-s-AI/llm-detection"
@@ -116,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -126,389 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/32"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-api",
-      "kind": "subnet-api",
-      "name": "ItsAI API",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-docs",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-health",
-      "kind": "subnet-api",
-      "name": "ItsAI health endpoint",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "ItsAI OpenAPI JSON",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-swagger",
-      "kind": "openapi",
-      "name": "ItsAI Swagger UI",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "ItsAI Swagger JSON",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-subnet-api-5",
-      "kind": "subnet-api",
-      "name": "ItsAI API surface",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.its-ai.org/en/main/api/table"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-1",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-10",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/students"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-2",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/blog"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-3",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/accuracy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-4",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/contacts"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-6",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/coming-soon"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-7",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/teachers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-8",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/writers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-9",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/managers"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-dashboard-2",
-      "kind": "dashboard",
-      "name": "ItsAI dashboard",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/It-s-AI/llm-detection/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://raid-bench.xyz/leaderboard"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-docs-1",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/It-s-AI/llm-detection/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://arxiv.org/abs/2405.07940"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-32-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -544,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/32",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/32",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/32"
       ],
       "state": "schema-valid",
       "url": "https://github.com/It-s-AI/llm-detection"
@@ -581,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -591,342 +169,6 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/32"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-api",
-      "kind": "subnet-api",
-      "name": "ItsAI API",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-docs",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-health",
-      "kind": "subnet-api",
-      "name": "ItsAI health endpoint",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "ItsAI OpenAPI JSON",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-swagger",
-      "kind": "openapi",
-      "name": "ItsAI Swagger UI",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "ItsAI Swagger JSON",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-subnet-api-5",
-      "kind": "subnet-api",
-      "name": "ItsAI API surface",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://app.its-ai.org/en/main/api/table"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-1",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/about"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-10",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/students"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-2",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/blog"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-3",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/accuracy"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-4",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/contacts"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-6",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/coming-soon"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-7",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/teachers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-8",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/writers"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-32-website-link-its-ai-org-website-9",
-      "kind": "website",
-      "name": "ItsAI website page",
-      "netuid": 32,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://its-ai.org/en",
-      "source_urls": [
-        "https://its-ai.org/en"
-      ],
-      "state": "schema-valid",
-      "url": "https://its-ai.org/en/managers"
     }
   ],
   "gaps": {
@@ -953,7 +195,7 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 22,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
@@ -968,11 +210,11 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:31.695Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:43:56.180Z"
     },
     "dashboard_url": "https://taomarketcap.com/subnets/32",
-    "docs_url": "https://arxiv.org/abs/2405.07940",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/32",
     "gaps": {
       "gap_notes": [
         "No verified OpenAPI/Swagger surface yet.",
@@ -1001,7 +243,7 @@
     "netuid": 32,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 5,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1017,7 +259,7 @@
     "source_repo": "https://github.com/It-s-AI/llm-detection",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 5,
+    "surface_count": 4,
     "symbol": "ח",
     "tempo": 360,
     "website_url": "https://its-ai.org/en"
@@ -1026,39 +268,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-docs-1",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "subnet_name": "ItsAI",
-      "subnet_slug": "sn-32",
-      "url": "https://arxiv.org/abs/2405.07940",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 226,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.515Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-32-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "ItsAI TaoMarketCap dashboard",
@@ -1072,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/32"
@@ -1081,12 +298,13 @@
       "url": "https://taomarketcap.com/subnets/32",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 178,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.540Z"
+        "verified_at": "2026-06-06T07:43:56.144Z"
       }
     },
     {
@@ -1105,25 +323,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/32",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/32"
       ],
       "subnet_name": "ItsAI",
       "subnet_slug": "sn-32",
       "url": "https://github.com/It-s-AI/llm-detection",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/It-s-AI/llm-detection",
-        "homepage": "https://app.its-ai.org/",
-        "last_push_at": "2026-05-16T23:09:06Z",
+        "latency_ms": 605,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:31.586Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:56.147Z"
       }
     },
     {
@@ -1142,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/32"
@@ -1151,12 +383,13 @@
       "url": "https://its-ai.org/en",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 623,
+        "latency_ms": 647,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.644Z"
+        "verified_at": "2026-06-06T07:43:56.161Z"
       }
     },
     {
@@ -1166,7 +399,7 @@
       "kind": "docs",
       "name": "ItsAI Tensorplex subnet docs",
       "netuid": 32,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1175,6 +408,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
@@ -1184,12 +425,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/32",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
+        "latency_ms": 282,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.695Z"
+        "verified_at": "2026-06-06T07:43:56.180Z"
       }
     }
   ],
@@ -1197,39 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-32-github-readme-it-s-ai-llm-detection-docs-1",
-      "kind": "docs",
-      "name": "ItsAI docs",
-      "netuid": 32,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/It-s-AI/llm-detection/blob/main/README.md"
-      ],
-      "subnet_name": "ItsAI",
-      "subnet_slug": "sn-32",
-      "url": "https://arxiv.org/abs/2405.07940",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 226,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.515Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-32-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "ItsAI TaoMarketCap dashboard",
@@ -1243,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/32"
@@ -1252,12 +469,13 @@
       "url": "https://taomarketcap.com/subnets/32",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 178,
+        "latency_ms": 160,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.540Z"
+        "verified_at": "2026-06-06T07:43:56.144Z"
       }
     },
     {
@@ -1276,25 +494,31 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/32",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/32"
       ],
       "subnet_name": "ItsAI",
       "subnet_slug": "sn-32",
       "url": "https://github.com/It-s-AI/llm-detection",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/It-s-AI/llm-detection",
-        "homepage": "https://app.its-ai.org/",
-        "last_push_at": "2026-05-16T23:09:06Z",
+        "latency_ms": 605,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:31.586Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:56.147Z"
       }
     },
     {
@@ -1313,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/32"
@@ -1322,12 +554,13 @@
       "url": "https://its-ai.org/en",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 623,
+        "latency_ms": 647,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.644Z"
+        "verified_at": "2026-06-06T07:43:56.161Z"
       }
     },
     {
@@ -1337,7 +570,7 @@
       "kind": "docs",
       "name": "ItsAI Tensorplex subnet docs",
       "netuid": 32,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1346,6 +579,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/32/subnet.json"
@@ -1355,12 +596,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/32",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
+        "latency_ms": 282,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:31.695Z"
+        "verified_at": "2026-06-06T07:43:56.180Z"
       }
     }
   ]

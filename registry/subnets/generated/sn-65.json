@@ -4,7 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -12,19 +12,60 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 3,
-    "verified_at": "2026-06-06T07:17:45.894Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:44:02.657Z"
   },
-  "dashboard_url": "https://taostats.io/subnets/65/registration",
-  "docs_url": "https://tpn.taofu.xyz/docs",
+  "dashboard_url": "https://taomarketcap.com/subnets/65",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65",
   "links": [],
   "name": "TAO Private Network",
   "netuid": 65,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-65",
+  "source_repo": "https://github.com/taofu-labs/tpn-subnet",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-65-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "TAO Private Network source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/65"
+      ],
+      "url": "https://github.com/taofu-labs/tpn-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/taofu-labs/tpn-subnet",
+        "latency_ms": 521,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:02.621Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -40,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -47,162 +96,52 @@
       "url": "https://tpn.taofu.xyz/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 112,
+        "latency_ms": 147,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.619Z"
+        "verified_at": "2026-06-06T07:44:02.632Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-65-website-common-docs",
+      "id": "sn-65-tensorplex-docs",
       "kind": "docs",
-      "name": "TAO Private Network docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "name": "TAO Private Network Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://tpn.taofu.xyz/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/65/subnet.json"
       ],
-      "url": "https://tpn.taofu.xyz/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 128,
+        "latency_ms": 341,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.656Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-1",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "url": "https://tpn.taofu.xyz/docs/Examples/quickstart",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 52,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/Examples/quickstart/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.854Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-2",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "url": "https://tpn.taofu.xyz/docs/worker",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 58,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/worker/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.870Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-link-tpn-taofu-xyz-docs-3",
-      "kind": "docs",
-      "name": "TAO Private Network docs",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "url": "https://tpn.taofu.xyz/docs/mining-pool",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 83,
-        "method_tested": "HEAD",
-        "redirect_target": "https://tpn.taofu.xyz/docs/mining-pool/",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.894Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-github-readme-taofu-labs-tpn-subnet-dashboard-2",
-      "kind": "dashboard",
-      "name": "TAO Private Network dashboard",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/taofu-labs/tpn-subnet/blob/main/README.md"
-      ],
-      "url": "https://taostats.io/subnets/65/registration",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 236,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.566Z"
+        "verified_at": "2026-06-06T07:44:02.657Z"
       }
     },
     {
@@ -220,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/65"
@@ -227,42 +174,13 @@
       "url": "https://taomarketcap.com/subnets/65",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 143,
+        "latency_ms": 207,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.604Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-65-website-common-swagger",
-      "kind": "openapi",
-      "name": "TAO Private Network Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://tpn.taofu.xyz/"
-      ],
-      "url": "https://tpn.taofu.xyz/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 53,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:45.730Z"
+        "verified_at": "2026-06-06T07:44:02.617Z"
       }
     }
   ],

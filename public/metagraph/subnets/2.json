@@ -2,195 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-2",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn2-stats.inferencelabs.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-3",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://wandb.ai/inferencelabs/subnet-2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-1",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn2-docs.inferencelabs.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-6",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.bittensor.com/getting-started/installation"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/lightning"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/subnet-2/releases"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-7",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/Expander"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-8",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/paritytech/subxt"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-9",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/subnet-2.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-2-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -226,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/2",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/2",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/2"
       ],
       "state": "schema-valid",
       "url": "https://github.com/inference-labs-inc/subnet-2"
@@ -263,7 +73,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -284,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -294,806 +104,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-api",
-      "kind": "subnet-api",
-      "name": "DSperse API",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "DSperse API",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-docs",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-health",
-      "kind": "subnet-api",
-      "name": "DSperse health endpoint",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "DSperse health endpoint",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "DSperse OpenAPI JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "DSperse OpenAPI JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "DSperse Swagger JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "DSperse Swagger JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/lightning"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fbtlightning"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-144yjfs",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2.git",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fsubnet-2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-17b3f2l",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/Expander",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2FExpander"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-19zqscu",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/paritytech/subxt",
-      "source_urls": [
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fparitytech%2Fsubxt"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-1a9i3z1",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/releases",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/releases"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fsubnet-2%2Freleases"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-2",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn2-stats.inferencelabs.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-3",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://wandb.ai/inferencelabs/subnet-2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-1",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://sn2-docs.inferencelabs.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-6",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://docs.bittensor.com/getting-started/installation"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/lightning"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/subnet-2/releases"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-7",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/Expander"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-8",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/paritytech/subxt"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-9",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/inference-labs-inc/subnet-2.git"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-2-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -1129,8 +144,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/2",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/2",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/2"
       ],
       "state": "schema-valid",
       "url": "https://github.com/inference-labs-inc/subnet-2"
@@ -1166,7 +180,7 @@
       "provider": "taopedia-articles",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "taopedia-article",
@@ -1187,7 +201,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -1197,621 +211,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-api",
-      "kind": "subnet-api",
-      "name": "DSperse API",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-api-1hh6mts",
-      "kind": "subnet-api",
-      "name": "DSperse API",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-docs",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-health",
-      "kind": "subnet-api",
-      "name": "DSperse health endpoint",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-health-1tfwazq",
-      "kind": "subnet-api",
-      "name": "DSperse health endpoint",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "DSperse OpenAPI JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-openapi-json-61w4sw",
-      "kind": "openapi",
-      "name": "DSperse OpenAPI JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "DSperse Swagger JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://subnet2.inferencelabs.com/",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "state": "schema-valid",
-      "url": "https://subnet2.inferencelabs.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-common-swagger-json-18juwly",
-      "kind": "openapi",
-      "name": "DSperse Swagger JSON",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-1",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-10",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security/code-security"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/lightning"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fbtlightning"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-144yjfs",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2.git",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2.git"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fsubnet-2"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-17b3f2l",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/Expander",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2FExpander"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-19zqscu",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/paritytech/subxt",
-      "source_urls": [
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fparitytech%2Fsubxt"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-2-1a9i3z1",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/subnet-2/releases",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/releases"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Finference-labs-inc%2Fsubnet-2%2Freleases"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-3",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/ai/github-app"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/mcp"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-6",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/actions"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-7",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/codespaces"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-8",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/features/code-review"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-2-website-link-github-com-website-9",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://github.com/inference-labs-inc/lightning",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "state": "schema-valid",
-      "url": "https://github.com/security/advanced-security"
     }
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1819,7 +229,6 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -1828,13 +237,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 40,
+    "candidate_count": 5,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1842,18 +252,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 10,
-      "verified_at": "2026-06-06T07:17:19.954Z"
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:43:50.771Z"
     },
-    "dashboard_url": "https://sn2-stats.inferencelabs.com/",
-    "docs_url": "https://sn2-docs.inferencelabs.com/",
+    "dashboard_url": "https://taomarketcap.com/subnets/2",
+    "docs_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_2/index.mdx",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1861,7 +273,6 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -1874,7 +285,7 @@
     "netuid": 2,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 12,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1890,210 +301,12 @@
     "source_repo": "https://github.com/inference-labs-inc/subnet-2",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 12,
+    "surface_count": 5,
     "symbol": "β",
     "tempo": 360,
-    "website_url": "https://github.com/inference-labs-inc/lightning"
+    "website_url": "https://subnet2.inferencelabs.com/"
   },
   "surfaces": [
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-2",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://sn2-stats.inferencelabs.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 162,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.462Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-3",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://wandb.ai/inferencelabs/subnet-2",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 190,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.522Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-1",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://sn2-docs.inferencelabs.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 223,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.523Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-6",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://docs.bittensor.com/getting-started/installation",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.learnbittensor.org/getting-started/installation",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.583Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/inference-labs-inc/lightning",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 486,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/inference-labs-inc/btlightning",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.584Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/inference-labs-inc/subnet-2/releases",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 823,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.590Z"
-      }
-    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -2110,6 +323,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/2"
@@ -2119,12 +340,13 @@
       "url": "https://taomarketcap.com/subnets/2",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 191,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.666Z"
+        "verified_at": "2026-06-06T07:43:50.769Z"
       }
     },
     {
@@ -2143,29 +365,73 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/2",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/2"
       ],
       "subnet_name": "DSperse",
       "subnet_slug": "sn-2",
       "url": "https://github.com/inference-labs-inc/subnet-2",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/inference-labs-inc/subnet-2",
-        "homepage": "https://subnet2.inferencelabs.com/",
-        "last_push_at": "2026-06-04T02:15:53Z",
+        "latency_ms": 1361,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [
-          "bittensor",
-          "zk",
-          "zkml"
-        ],
-        "verified_at": "2026-06-06T07:17:19.712Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:50.769Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-2-taomarketcap-website",
+      "kind": "website",
+      "name": "DSperse website",
+      "netuid": 2,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/2"
+      ],
+      "subnet_name": "DSperse",
+      "subnet_slug": "sn-2",
+      "url": "https://subnet2.inferencelabs.com/",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 77,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 222,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:50.770Z"
       }
     },
     {
@@ -2175,7 +441,7 @@
       "kind": "docs",
       "name": "DSperse Taopedia article",
       "netuid": 2,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2184,6 +450,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_2/index.mdx"
@@ -2193,12 +467,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_2/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 712,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.775Z"
+        "verified_at": "2026-06-06T07:43:50.770Z"
       }
     },
     {
@@ -2208,7 +483,7 @@
       "kind": "docs",
       "name": "DSperse Tensorplex subnet docs",
       "netuid": 2,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2217,6 +492,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
@@ -2226,82 +509,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/2",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 540,
+        "latency_ms": 583,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.782Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-website-common-swagger",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://subnet2.inferencelabs.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 46,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.948Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 500,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.954Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     }
   ],
@@ -2309,204 +523,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-2",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://sn2-stats.inferencelabs.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 162,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.462Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-dashboard-3",
-      "kind": "dashboard",
-      "name": "DSperse dashboard",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://wandb.ai/inferencelabs/subnet-2",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 190,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.522Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-1",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://sn2-docs.inferencelabs.com/",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 223,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.523Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-docs-6",
-      "kind": "docs",
-      "name": "DSperse docs",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://docs.bittensor.com/getting-started/installation",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 382,
-        "method_tested": "HEAD",
-        "redirect_target": "https://docs.learnbittensor.org/getting-started/installation",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.583Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-4",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/inference-labs-inc/lightning",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 486,
-        "method_tested": "HEAD",
-        "redirect_target": "https://github.com/inference-labs-inc/btlightning",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.584Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-github-readme-inference-labs-inc-subnet-2-website-5",
-      "kind": "website",
-      "name": "DSperse website page",
-      "netuid": 2,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/subnet-2/blob/main/README.md"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/inference-labs-inc/subnet-2/releases",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 823,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.590Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-2-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "DSperse TaoMarketCap dashboard",
@@ -2520,6 +536,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/2"
@@ -2529,12 +553,13 @@
       "url": "https://taomarketcap.com/subnets/2",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 191,
+        "latency_ms": 328,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.666Z"
+        "verified_at": "2026-06-06T07:43:50.769Z"
       }
     },
     {
@@ -2553,29 +578,73 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/2",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/2"
       ],
       "subnet_name": "DSperse",
       "subnet_slug": "sn-2",
       "url": "https://github.com/inference-labs-inc/subnet-2",
       "verification": {
-        "archived": false,
         "classification": "live",
+        "confidence_score": 59,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/inference-labs-inc/subnet-2",
-        "homepage": "https://subnet2.inferencelabs.com/",
-        "last_push_at": "2026-06-04T02:15:53Z",
+        "latency_ms": 1361,
+        "method_tested": "HEAD",
         "redirect_target": null,
-        "topics": [
-          "bittensor",
-          "zk",
-          "zkml"
-        ],
-        "verified_at": "2026-06-06T07:17:19.712Z"
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:50.769Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-2-taomarketcap-website",
+      "kind": "website",
+      "name": "DSperse website",
+      "netuid": 2,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/2"
+      ],
+      "subnet_name": "DSperse",
+      "subnet_slug": "sn-2",
+      "url": "https://subnet2.inferencelabs.com/",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 77,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 222,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:50.770Z"
       }
     },
     {
@@ -2585,7 +654,7 @@
       "kind": "docs",
       "name": "DSperse Taopedia article",
       "netuid": 2,
-      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2594,6 +663,14 @@
       },
       "provider": "taopedia-articles",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_2/index.mdx"
@@ -2603,12 +680,13 @@
       "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_2/index.mdx",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 712,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.775Z"
+        "verified_at": "2026-06-06T07:43:50.770Z"
       }
     },
     {
@@ -2618,7 +696,7 @@
       "kind": "docs",
       "name": "DSperse Tensorplex subnet docs",
       "netuid": 2,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2627,6 +705,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/2/subnet.json"
@@ -2636,82 +722,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/2",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 540,
+        "latency_ms": 583,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.782Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-website-common-swagger",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://subnet2.inferencelabs.com/"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://subnet2.inferencelabs.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 46,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.948Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-2-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "DSperse Swagger UI",
-      "netuid": 2,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/inference-labs-inc/Expander",
-        "https://github.com/inference-labs-inc/lightning",
-        "https://github.com/inference-labs-inc/subnet-2.git",
-        "https://github.com/inference-labs-inc/subnet-2/releases",
-        "https://github.com/paritytech/subxt"
-      ],
-      "subnet_name": "DSperse",
-      "subnet_slug": "sn-2",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 500,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:19.954Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     }
   ]

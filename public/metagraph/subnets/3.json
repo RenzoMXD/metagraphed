@@ -10,7 +10,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -31,7 +31,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -52,7 +52,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -73,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -94,7 +94,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -115,7 +115,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -136,7 +136,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -157,7 +157,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -199,7 +199,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -220,7 +220,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -241,17 +241,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
@@ -266,17 +262,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
@@ -291,17 +283,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
@@ -316,17 +304,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
@@ -341,17 +325,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
@@ -366,17 +346,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger.json"
@@ -391,16 +367,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/"
@@ -415,16 +388,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security/code-security"
@@ -439,7 +409,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -460,7 +430,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -481,7 +451,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -502,7 +472,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -523,16 +493,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/copilot"
@@ -547,16 +514,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/ai/github-app"
@@ -571,16 +535,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mcp"
@@ -595,16 +556,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/actions"
@@ -619,16 +577,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/codespaces"
@@ -643,16 +598,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/code-review"
@@ -667,16 +619,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
@@ -693,7 +642,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -714,7 +663,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -735,7 +684,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -756,7 +705,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -777,7 +726,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -798,7 +747,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -819,7 +768,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -840,7 +789,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "github-readme-link",
@@ -882,7 +831,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -903,7 +852,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs-github",
@@ -924,17 +873,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/api"
@@ -949,17 +894,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/docs"
@@ -974,17 +915,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/health"
@@ -999,17 +936,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/openapi.json"
@@ -1024,17 +957,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger"
@@ -1049,17 +978,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-common-path",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/swagger.json"
@@ -1074,16 +999,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/"
@@ -1098,16 +1020,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security/code-security"
@@ -1122,7 +1041,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1143,7 +1062,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1164,7 +1083,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1185,7 +1104,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
@@ -1206,16 +1125,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/copilot"
@@ -1230,16 +1146,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/ai/github-app"
@@ -1254,16 +1167,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/mcp"
@@ -1278,16 +1188,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/actions"
@@ -1302,16 +1209,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/codespaces"
@@ -1326,16 +1230,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/features/code-review"
@@ -1350,16 +1251,13 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "provider-claimed",
       "source_type": "project-website-link",
       "source_url": "https://github.com/one-covenant/crusades",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "state": "schema-valid",
       "url": "https://github.com/security/advanced-security"
@@ -1367,11 +1265,13 @@
   ],
   "gaps": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -1379,7 +1279,6 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
       "source-repo",
       "website"
     ]
@@ -1395,6 +1294,7 @@
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -1402,18 +1302,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 8,
-      "verified_at": "2026-06-06T07:17:20.502Z"
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:43:51.482Z"
     },
     "dashboard_url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
     "docs_url": "https://github.com/one-covenant/templar/blob/main/docs/miner.md",
     "gaps": {
       "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -1421,7 +1323,6 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
         "source-repo",
         "website"
       ]
@@ -1434,7 +1335,7 @@
     "netuid": 3,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 10,
+    "probed_surface_count": 9,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -1450,7 +1351,7 @@
     "source_repo": "https://github.com/tplr-ai/templar",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 10,
+    "surface_count": 9,
     "symbol": "γ",
     "tempo": 360,
     "website_url": "https://github.com/one-covenant/crusades"
@@ -1463,7 +1364,7 @@
       "kind": "dashboard",
       "name": "deprecated dashboard",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1472,6 +1373,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1481,12 +1390,13 @@
       "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "image/svg+xml;charset=utf-8",
-        "latency_ms": 28,
+        "latency_ms": 198,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.322Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1496,7 +1406,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1505,6 +1415,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1514,12 +1432,13 @@
       "url": "https://github.com/one-covenant/templar/blob/main/docs/miner.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 739,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.334Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1529,7 +1448,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1538,6 +1457,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1547,12 +1474,13 @@
       "url": "https://github.com/one-covenant/templar/blob/main/docs/validator.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 444,
+        "latency_ms": 738,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.334Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1562,7 +1490,7 @@
       "kind": "website",
       "name": "deprecated website page",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1571,6 +1499,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1580,12 +1516,13 @@
       "url": "https://github.com/one-covenant/crusades",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 346,
+        "latency_ms": 1033,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.339Z"
+        "verified_at": "2026-06-06T07:43:50.969Z"
       }
     },
     {
@@ -1595,7 +1532,7 @@
       "kind": "website",
       "name": "deprecated website page",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1604,6 +1541,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1613,12 +1558,13 @@
       "url": "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 882,
+        "latency_ms": 1145,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.350Z"
+        "verified_at": "2026-06-06T07:43:50.992Z"
       }
     },
     {
@@ -1637,6 +1583,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/3"
@@ -1646,12 +1600,13 @@
       "url": "https://taomarketcap.com/subnets/3",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 170,
+        "latency_ms": 375,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.366Z"
+        "verified_at": "2026-06-06T07:43:51.234Z"
       }
     },
     {
@@ -1661,7 +1616,7 @@
       "kind": "docs",
       "name": "deprecated Tensorplex subnet docs",
       "netuid": 3,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1670,6 +1625,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/3/subnet.json"
@@ -1679,12 +1642,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/3",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 698,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.374Z"
+        "verified_at": "2026-06-06T07:43:51.354Z"
       }
     },
     {
@@ -1694,7 +1658,7 @@
       "kind": "source-repo",
       "name": "deprecated source repository",
       "netuid": 3,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1703,6 +1667,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/3/subnet.json"
@@ -1711,16 +1683,15 @@
       "subnet_slug": "sn-3",
       "url": "https://github.com/tplr-ai/templar",
       "verification": {
-        "archived": false,
-        "classification": "live",
+        "classification": "redirected",
+        "confidence_score": 50,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/tplr-ai/templar",
-        "homepage": "https://www.tplr.ai/",
-        "last_push_at": "2026-03-31T02:52:51Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:20.374Z"
+        "latency_ms": 604,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/one-covenant/templar",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:51.402Z"
       }
     },
     {
@@ -1730,7 +1701,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1739,62 +1710,30 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "subnet_name": "deprecated",
       "subnet_slug": "sn-3",
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 88,
+        "latency_ms": 496,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.414Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-3-website-common-swagger",
-      "kind": "openapi",
-      "name": "deprecated Swagger UI",
-      "netuid": 3,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
-      ],
-      "subnet_name": "deprecated",
-      "subnet_slug": "sn-3",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 76,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.502Z"
+        "verified_at": "2026-06-06T07:43:51.482Z"
       }
     }
   ],
@@ -1806,7 +1745,7 @@
       "kind": "dashboard",
       "name": "deprecated dashboard",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1815,6 +1754,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1824,12 +1771,13 @@
       "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
       "verification": {
         "classification": "live",
+        "confidence_score": 58,
         "content_type": "image/svg+xml;charset=utf-8",
-        "latency_ms": 28,
+        "latency_ms": 198,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.322Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1839,7 +1787,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1848,6 +1796,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1857,12 +1813,13 @@
       "url": "https://github.com/one-covenant/templar/blob/main/docs/miner.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 739,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.334Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1872,7 +1829,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1881,6 +1838,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1890,12 +1855,13 @@
       "url": "https://github.com/one-covenant/templar/blob/main/docs/validator.md",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 444,
+        "latency_ms": 738,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.334Z"
+        "verified_at": "2026-06-06T07:43:50.771Z"
       }
     },
     {
@@ -1905,7 +1871,7 @@
       "kind": "website",
       "name": "deprecated website page",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1914,6 +1880,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1923,12 +1897,13 @@
       "url": "https://github.com/one-covenant/crusades",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 346,
+        "latency_ms": 1033,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.339Z"
+        "verified_at": "2026-06-06T07:43:50.969Z"
       }
     },
     {
@@ -1938,7 +1913,7 @@
       "kind": "website",
       "name": "deprecated website page",
       "netuid": 3,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -1947,6 +1922,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tplr-ai/templar/blob/main/README.md"
@@ -1956,12 +1939,13 @@
       "url": "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
       "verification": {
         "classification": "live",
+        "confidence_score": 66,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 882,
+        "latency_ms": 1145,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.350Z"
+        "verified_at": "2026-06-06T07:43:50.992Z"
       }
     },
     {
@@ -1980,6 +1964,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/3"
@@ -1989,12 +1981,13 @@
       "url": "https://taomarketcap.com/subnets/3",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 170,
+        "latency_ms": 375,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.366Z"
+        "verified_at": "2026-06-06T07:43:51.234Z"
       }
     },
     {
@@ -2004,7 +1997,7 @@
       "kind": "docs",
       "name": "deprecated Tensorplex subnet docs",
       "netuid": 3,
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2013,6 +2006,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/3/subnet.json"
@@ -2022,12 +2023,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/3",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 436,
+        "latency_ms": 698,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.374Z"
+        "verified_at": "2026-06-06T07:43:51.354Z"
       }
     },
     {
@@ -2037,7 +2039,7 @@
       "kind": "source-repo",
       "name": "deprecated source repository",
       "netuid": 3,
-      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2046,6 +2048,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": true,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/3/subnet.json"
@@ -2054,16 +2064,15 @@
       "subnet_slug": "sn-3",
       "url": "https://github.com/tplr-ai/templar",
       "verification": {
-        "archived": false,
-        "classification": "live",
+        "classification": "redirected",
+        "confidence_score": 50,
         "content_type": null,
-        "default_branch": "main",
         "github_api_url": "https://api.github.com/repos/tplr-ai/templar",
-        "homepage": "https://www.tplr.ai/",
-        "last_push_at": "2026-03-31T02:52:51Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:20.374Z"
+        "latency_ms": 604,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/one-covenant/templar",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:43:51.402Z"
       }
     },
     {
@@ -2073,7 +2082,7 @@
       "kind": "docs",
       "name": "deprecated docs",
       "netuid": 3,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -2082,62 +2091,30 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "provider-claimed",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
+        "https://github.com/one-covenant/crusades"
       ],
       "subnet_name": "deprecated",
       "subnet_slug": "sn-3",
       "url": "https://github.com/docs",
       "verification": {
         "classification": "live",
+        "confidence_score": 76,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 88,
+        "latency_ms": 496,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.414Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-3-website-common-swagger",
-      "kind": "openapi",
-      "name": "deprecated Swagger UI",
-      "netuid": 3,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "tensorplex-subnet-docs",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/one-covenant/crusades",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml",
-        "https://github.com/one-covenant/templar/actions/workflows/ci.yml/badge.svg",
-        "https://github.com/one-covenant/templar/blob/main/LICENSE",
-        "https://github.com/one-covenant/templar/commits/main"
-      ],
-      "subnet_name": "deprecated",
-      "subnet_slug": "sn-3",
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 76,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:20.502Z"
+        "verified_at": "2026-06-06T07:43:51.482Z"
       }
     }
   ]

@@ -4,7 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -12,19 +12,60 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 3,
-    "verified_at": "2026-06-06T07:17:53.455Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:44:05.909Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/85",
-  "docs_url": "https://docs.bittensor.com/",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85",
   "links": [],
   "name": "Vidaio",
   "netuid": 85,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-85",
+  "source_repo": "https://github.com/vidaio-subnet/vidaio-subnet",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-85-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Vidaio source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/85"
+      ],
+      "url": "https://github.com/vidaio-subnet/vidaio-subnet",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/vidaio-subnet/vidaio-subnet",
+        "latency_ms": 566,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:05.897Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -40,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -47,72 +96,52 @@
       "url": "https://vidaio.io/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 277,
+        "latency_ms": 336,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.006Z"
+        "verified_at": "2026-06-06T07:44:05.905Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-85-github-readme-vidaio-subnet-vidaio-subnet-docs-4",
+      "id": "sn-85-tensorplex-docs",
       "kind": "docs",
-      "name": "Vidaio docs",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "name": "Vidaio Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/vidaio-subnet/vidaio-subnet/blob/main/README.md"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/85/subnet.json"
       ],
-      "url": "https://docs.bittensor.com/",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/85",
       "verification": {
-        "classification": "redirected",
+        "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 92,
+        "latency_ms": 368,
         "method_tested": "HEAD",
-        "redirect_target": "https://docs.learnbittensor.org/",
+        "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:52.997Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-common-docs",
-      "kind": "docs",
-      "name": "Vidaio docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "url": "https://vidaio.io/docs",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 780,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fdocs",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.095Z"
+        "verified_at": "2026-06-06T07:44:05.909Z"
       }
     },
     {
@@ -130,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/85"
@@ -137,102 +174,13 @@
       "url": "https://taomarketcap.com/subnets/85",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 126,
+        "latency_ms": 136,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.004Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-3",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "url": "https://vidaio.io/dashboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 171,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.396Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-link-vidaio-io-dashboard-4",
-      "kind": "dashboard",
-      "name": "Vidaio dashboard",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "url": "https://vidaio.io/dashboard/upscaling",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 296,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.455Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-85-website-common-swagger",
-      "kind": "openapi",
-      "name": "Vidaio Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://vidaio.io/"
-      ],
-      "url": "https://vidaio.io/swagger",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 326,
-        "method_tested": "GET",
-        "redirect_target": "https://vidaio.io/sign-in?authRedir=%2Fswagger",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:53.161Z"
+        "verified_at": "2026-06-06T07:44:05.891Z"
       }
     }
   ],

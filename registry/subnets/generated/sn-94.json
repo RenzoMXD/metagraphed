@@ -4,7 +4,6 @@
   ],
   "curation": {
     "gap_notes": [
-      "No verified source repository yet.",
       "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
@@ -14,18 +13,59 @@
     "review_state": "machine-generated",
     "reviewed_at": null,
     "source_count": 2,
-    "verified_at": "2026-06-06T07:17:57.473Z"
+    "verified_at": "2026-06-06T07:44:06.608Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/94",
-  "docs_url": "https://bitsota.ai/docs",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94",
   "links": [],
   "name": "Bitsota",
   "netuid": 94,
   "notes": "Machine-generated baseline overlay from verified public-source candidates.",
   "schema_version": 1,
   "slug": "sn-94",
+  "source_repo": "https://github.com/AlveusLabs/SN94-BitSota",
   "status": "active",
   "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-94-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Bitsota source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/94"
+      ],
+      "url": "https://github.com/AlveusLabs/SN94-BitSota",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/AlveusLabs/SN94-BitSota",
+        "latency_ms": 360,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.537Z"
+      }
+    },
     {
       "auth_required": false,
       "authority": "registry-observed",
@@ -41,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -48,42 +96,52 @@
       "url": "https://bitsota.ai/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 702,
+        "latency_ms": 717,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.895Z"
+        "verified_at": "2026-06-06T07:44:06.560Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-94-website-common-docs",
+      "id": "sn-94-tensorplex-docs",
       "kind": "docs",
-      "name": "Bitsota docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "name": "Bitsota Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://bitsota.ai/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/94/subnet.json"
       ],
-      "url": "https://bitsota.ai/docs",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 728,
+        "latency_ms": 354,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.038Z"
+        "verified_at": "2026-06-06T07:44:06.608Z"
       }
     },
     {
@@ -101,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/94"
@@ -108,42 +174,13 @@
       "url": "https://taomarketcap.com/subnets/94",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 130,
+        "latency_ms": 146,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.832Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-94-website-link-bitsota-ai-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitsota dashboard",
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://bitsota.ai/"
-      ],
-      "url": "https://bitsota.ai/leaderboard",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 700,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:57.473Z"
+        "verified_at": "2026-06-06T07:44:06.493Z"
       }
     }
   ],

@@ -4,6 +4,7 @@
   ],
   "curation": {
     "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
@@ -11,8 +12,8 @@
     "level": "machine-verified",
     "review_state": "machine-generated",
     "reviewed_at": null,
-    "source_count": 4,
-    "verified_at": "2026-06-06T07:17:22.801Z"
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:43:53.560Z"
   },
   "dashboard_url": "https://taomarketcap.com/subnets/10",
   "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/10",
@@ -40,53 +41,29 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/10",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/10/subnet.json"
-      ],
-      "url": "https://github.com/Swap-Subnet/swap-subnet",
-      "verification": {
-        "archived": false,
-        "classification": "live",
-        "content_type": null,
-        "default_branch": "main",
-        "github_api_url": "https://api.github.com/repos/Swap-Subnet/swap-subnet",
-        "homepage": null,
-        "last_push_at": "2025-11-05T05:40:17Z",
-        "redirect_target": null,
-        "topics": [],
-        "verified_at": "2026-06-06T07:17:22.699Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-10-github-readme-swap-subnet-swap-subnet-website-1",
-      "kind": "website",
-      "name": "Swap website page",
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://github.com/Swap-Subnet/swap-subnet/blob/main/README.md"
+        "https://api.taomarketcap.com/public/v1/subnets/10"
       ],
       "url": "https://github.com/Swap-Subnet/swap-subnet",
       "verification": {
         "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 373,
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/Swap-Subnet/swap-subnet",
+        "latency_ms": 516,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.662Z"
+        "verified_at": "2026-06-06T07:43:53.531Z"
       }
     },
     {
@@ -104,6 +81,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/10"
@@ -111,12 +96,13 @@
       "url": "https://www.taofi.com/pool",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 174,
+        "latency_ms": 442,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.706Z"
+        "verified_at": "2026-06-06T07:43:53.531Z"
       }
     },
     {
@@ -125,7 +111,7 @@
       "id": "sn-10-tensorplex-docs",
       "kind": "docs",
       "name": "Swap Tensorplex subnet docs",
-      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
@@ -134,6 +120,14 @@
       },
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/10/subnet.json"
@@ -141,42 +135,13 @@
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/10",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 379,
+        "latency_ms": 389,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.721Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-10-website-common-docs-o36adh",
-      "kind": "docs",
-      "name": "Swap docs",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Swap-Subnet/swap-subnet"
-      ],
-      "url": "https://github.com/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 84,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.745Z"
+        "verified_at": "2026-06-06T07:43:53.560Z"
       }
     },
     {
@@ -194,6 +159,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/10"
@@ -201,44 +174,15 @@
       "url": "https://taomarketcap.com/subnets/10",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 172,
+        "latency_ms": 158,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.669Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-10-website-common-swagger-1vqiohs",
-      "kind": "openapi",
-      "name": "Swap Swagger UI",
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/Swap-Subnet/swap-subnet"
-      ],
-      "url": "https://github.com/swagger",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 78,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:22.801Z"
+        "verified_at": "2026-06-06T07:43:53.413Z"
       }
     }
   ],
-  "website_url": "https://github.com/Swap-Subnet/swap-subnet"
+  "website_url": "https://www.taofi.com/pool"
 }

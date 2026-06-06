@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "1970-01-01T00:00:00.000Z",
+  "notes": "Public-safe maintainer review decisions. This file records provenance and review state only; it must not contain secrets, wallet paths, PATs, private dashboards, or validator-local data.",
+  "decisions": [
+    {
+      "netuid": 0,
+      "slug": "root",
+      "decision": "maintainer-reviewed",
+      "reviewed_at": "2026-06-06T00:00:00.000Z",
+      "confidence": "high",
+      "source_urls": [
+        "https://docs.learnbittensor.org/concepts/bittensor-networks",
+        "https://docs.learnbittensor.org/subtensor-nodes",
+        "https://onfinality.io/en/networks/bittensor-finney"
+      ],
+      "notes": "Root/system overlay reviewed as Bittensor base-layer chain infrastructure, not a subnet application entry."
+    },
+    {
+      "netuid": 7,
+      "slug": "allways",
+      "decision": "maintainer-reviewed",
+      "reviewed_at": "2026-06-06T00:00:00.000Z",
+      "confidence": "high",
+      "source_urls": [
+        "https://docs.all-ways.io/how-it-works.html",
+        "https://api.all-ways.io/swagger",
+        "https://github.com/entrius/allways"
+      ],
+      "notes": "Allways pilot surfaces reviewed from provider docs, Swagger, and source repository."
+    },
+    {
+      "netuid": 74,
+      "slug": "gittensor",
+      "decision": "maintainer-reviewed",
+      "reviewed_at": "2026-06-06T00:00:00.000Z",
+      "confidence": "high",
+      "source_urls": [
+        "https://docs.gittensor.io/",
+        "https://docs.gittensor.io/repository-hyperparameters",
+        "https://github.com/entrius/gittensor"
+      ],
+      "notes": "Gittensor pilot surfaces reviewed from provider docs, public repository config, and source repository."
+    }
+  ]
+}

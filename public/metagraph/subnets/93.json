@@ -2,48 +2,6 @@
   "candidate_surfaces": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/bitcast-network/bitcast/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.dashboard.bitcast.network/briefs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/bitcast-network/bitcast/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://dashboard.bitcast.network/"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-93-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -79,8 +37,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/93",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/93",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/93/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/93"
       ],
       "state": "schema-valid",
       "url": "https://github.com/bitcast-network/bitcast"
@@ -116,7 +73,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -126,284 +83,11 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/93"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitcast API",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-docs",
-      "kind": "docs",
-      "name": "Bitcast docs",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitcast health endpoint",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitcast OpenAPI JSON",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitcast Swagger UI",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitcast Swagger JSON",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/bitcast"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/stitch3"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/rewards"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-4",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/revenue"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-website-5",
-      "kind": "website",
-      "name": "Bitcast website page",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitcast.network/"
     }
   ],
   "candidates": [
     {
       "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/bitcast-network/bitcast/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://www.dashboard.bitcast.network/briefs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "community-docs",
-      "source_type": "github-readme-link",
-      "source_url": "https://github.com/bitcast-network/bitcast/blob/main/README.md",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "state": "schema-valid",
-      "url": "https://dashboard.bitcast.network/"
-    },
-    {
-      "auth_required": false,
       "confidence": "medium",
       "id": "sn-93-taomarketcap-dashboard",
       "kind": "dashboard",
@@ -439,8 +123,7 @@
       "source_type": "taomarketcap-subnet-identity-v3",
       "source_url": "https://api.taomarketcap.com/public/v1/subnets/93",
       "source_urls": [
-        "https://api.taomarketcap.com/public/v1/subnets/93",
-        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/93/subnet.json"
+        "https://api.taomarketcap.com/public/v1/subnets/93"
       ],
       "state": "schema-valid",
       "url": "https://github.com/bitcast-network/bitcast"
@@ -476,7 +159,7 @@
       "provider": "tensorplex-subnet-docs",
       "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "schema_version": 1,
       "source_tier": "community-docs",
       "source_type": "tensorplex-subnet-docs",
@@ -486,248 +169,17 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/93"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-api",
-      "kind": "subnet-api",
-      "name": "Bitcast API",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/api"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-docs",
-      "kind": "docs",
-      "name": "Bitcast docs",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/docs"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-health",
-      "kind": "subnet-api",
-      "name": "Bitcast health endpoint",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/health"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-openapi-json",
-      "kind": "openapi",
-      "name": "Bitcast OpenAPI JSON",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/openapi.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitcast Swagger UI",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/swagger"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-common-swagger-json",
-      "kind": "openapi",
-      "name": "Bitcast Swagger JSON",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-common-path",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/swagger.json"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/bitcast"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/stitch3"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-3",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/rewards"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-4",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://stats.bitcast.network/revenue"
-    },
-    {
-      "auth_required": false,
-      "confidence": "low",
-      "id": "sn-93-website-link-stats-bitcast-network-website-5",
-      "kind": "website",
-      "name": "Bitcast website page",
-      "netuid": 93,
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "schema_version": 1,
-      "source_tier": "provider-claimed",
-      "source_type": "project-website-link",
-      "source_url": "https://stats.bitcast.network/",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "state": "schema-valid",
-      "url": "https://bitcast.network/"
     }
   ],
   "gaps": {
     "gap_notes": [
-      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
       "No verified subnet API surface yet.",
       "No verified SSE/event stream yet.",
       "No verified data artifact yet."
     ],
     "missing_kinds": [
-      "source-repo",
+      "openapi",
       "subnet-api",
       "sse",
       "data-artifact"
@@ -735,7 +187,7 @@
     "supported_kinds": [
       "dashboard",
       "docs",
-      "openapi",
+      "source-repo",
       "website"
     ]
   },
@@ -743,14 +195,14 @@
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 17,
+    "candidate_count": 4,
     "categories": [
       "baseline-curated"
     ],
     "coverage_level": "probed",
     "curation": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
@@ -758,20 +210,20 @@
       "level": "machine-verified",
       "review_state": "machine-generated",
       "reviewed_at": null,
-      "source_count": 3,
-      "verified_at": "2026-06-06T07:17:56.695Z"
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:44:06.488Z"
     },
-    "dashboard_url": "https://dashboard.bitcast.network/",
-    "docs_url": "https://stats.bitcast.network/docs",
+    "dashboard_url": "https://taomarketcap.com/subnets/93",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/93",
     "gaps": {
       "gap_notes": [
-        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
         "No verified subnet API surface yet.",
         "No verified SSE/event stream yet.",
         "No verified data artifact yet."
       ],
       "missing_kinds": [
-        "source-repo",
+        "openapi",
         "subnet-api",
         "sse",
         "data-artifact"
@@ -779,7 +231,7 @@
       "supported_kinds": [
         "dashboard",
         "docs",
-        "openapi",
+        "source-repo",
         "website"
       ]
     },
@@ -791,7 +243,7 @@
     "netuid": 93,
     "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 6,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -804,10 +256,10 @@
     },
     "registered_at_block": 5370681,
     "slug": "sn-93",
-    "source_repo": null,
+    "source_repo": "https://github.com/bitcast-network/bitcast",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 6,
+    "surface_count": 4,
     "symbol": "ᚃ",
     "tempo": 360,
     "website_url": "https://stats.bitcast.network/"
@@ -816,39 +268,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://dashboard.bitcast.network/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 584,
-        "method_tested": "HEAD",
-        "redirect_target": "https://creator.bitcast.network/briefs",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.310Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-93-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Bitcast TaoMarketCap dashboard",
@@ -862,6 +281,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/93"
@@ -871,12 +298,56 @@
       "url": "https://taomarketcap.com/subnets/93",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 162,
+        "latency_ms": 139,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.372Z"
+        "verified_at": "2026-06-06T07:44:06.421Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-93-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Bitcast source repository",
+      "netuid": 93,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/93"
+      ],
+      "subnet_name": "Bitcast",
+      "subnet_slug": "sn-93",
+      "url": "https://github.com/bitcast-network/bitcast",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/bitcast-network/bitcast",
+        "latency_ms": 599,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.465Z"
       }
     },
     {
@@ -895,6 +366,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/93"
@@ -904,111 +383,55 @@
       "url": "https://stats.bitcast.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 305,
+        "latency_ms": 308,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.430Z"
+        "verified_at": "2026-06-06T07:44:06.479Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-93-website-common-docs",
+      "id": "sn-93-tensorplex-docs",
       "kind": "docs",
-      "name": "Bitcast docs",
+      "name": "Bitcast Tensorplex subnet docs",
       "netuid": 93,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 1031,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.526Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-93-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitcast Swagger UI",
-      "netuid": 93,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://stats.bitcast.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/93/subnet.json"
       ],
       "subnet_name": "Bitcast",
       "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/swagger",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/93",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 980,
+        "latency_ms": 793,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.628Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/bitcast",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 711,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.695Z"
+        "verified_at": "2026-06-06T07:44:06.488Z"
       }
     }
   ],
@@ -1016,39 +439,6 @@
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-93-github-readme-bitcast-network-bitcast-dashboard-2",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://github.com/bitcast-network/bitcast/blob/main/README.md"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://dashboard.bitcast.network/",
-      "verification": {
-        "classification": "redirected",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 584,
-        "method_tested": "HEAD",
-        "redirect_target": "https://creator.bitcast.network/briefs",
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.310Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
       "id": "sn-93-taomarketcap-dashboard",
       "kind": "dashboard",
       "name": "Bitcast TaoMarketCap dashboard",
@@ -1062,6 +452,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/93"
@@ -1071,12 +469,56 @@
       "url": "https://taomarketcap.com/subnets/93",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 162,
+        "latency_ms": 139,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.372Z"
+        "verified_at": "2026-06-06T07:44:06.421Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-93-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Bitcast source repository",
+      "netuid": 93,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/93"
+      ],
+      "subnet_name": "Bitcast",
+      "subnet_slug": "sn-93",
+      "url": "https://github.com/bitcast-network/bitcast",
+      "verification": {
+        "classification": "live",
+        "confidence_score": 59,
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/bitcast-network/bitcast",
+        "latency_ms": 599,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:44:06.465Z"
       }
     },
     {
@@ -1095,6 +537,14 @@
       },
       "provider": "taomarketcap",
       "public_safe": true,
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "third-party-index",
+        "transient_failure": false
+      },
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
         "https://api.taomarketcap.com/public/v1/subnets/93"
@@ -1104,111 +554,55 @@
       "url": "https://stats.bitcast.network/",
       "verification": {
         "classification": "live",
+        "confidence_score": 77,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 305,
+        "latency_ms": 308,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.430Z"
+        "verified_at": "2026-06-06T07:44:06.479Z"
       }
     },
     {
       "auth_required": false,
       "authority": "registry-observed",
-      "id": "sn-93-website-common-docs",
+      "id": "sn-93-tensorplex-docs",
       "kind": "docs",
-      "name": "Bitcast docs",
+      "name": "Bitcast Tensorplex subnet docs",
       "netuid": 93,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority. Source refresh failed; preserved pending a successful refresh.",
       "probe": {
         "enabled": true,
         "expect": "any",
         "method": "HEAD",
         "timeout_ms": 10000
       },
-      "provider": "taomarketcap",
+      "provider": "tensorplex-subnet-docs",
       "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/docs",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 1031,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.526Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-93-website-common-swagger",
-      "kind": "openapi",
-      "name": "Bitcast Swagger UI",
-      "netuid": 93,
-      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "GET",
-        "timeout_ms": 10000
+      "quality_signals": {
+        "content_type_matches_kind": true,
+        "public_safe": true,
+        "rate_limited": false,
+        "redirected": false,
+        "source_tier": "community-docs",
+        "transient_failure": false
       },
-      "provider": "taomarketcap",
-      "public_safe": true,
       "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
       "source_urls": [
-        "https://stats.bitcast.network/"
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/93/subnet.json"
       ],
       "subnet_name": "Bitcast",
       "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/swagger",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/93",
       "verification": {
         "classification": "live",
+        "confidence_score": 73,
         "content_type": "text/html; charset=utf-8",
-        "latency_ms": 980,
+        "latency_ms": 793,
         "method_tested": "HEAD",
         "redirect_target": null,
         "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.628Z"
-      }
-    },
-    {
-      "auth_required": false,
-      "authority": "registry-observed",
-      "id": "sn-93-website-link-stats-bitcast-network-dashboard-1",
-      "kind": "dashboard",
-      "name": "Bitcast dashboard",
-      "netuid": 93,
-      "notes": "Discovered from a public project website link. Requires verification before promotion.",
-      "probe": {
-        "enabled": true,
-        "expect": "any",
-        "method": "HEAD",
-        "timeout_ms": 10000
-      },
-      "provider": "taomarketcap",
-      "public_safe": true,
-      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
-      "source_urls": [
-        "https://stats.bitcast.network/"
-      ],
-      "subnet_name": "Bitcast",
-      "subnet_slug": "sn-93",
-      "url": "https://stats.bitcast.network/bitcast",
-      "verification": {
-        "classification": "live",
-        "content_type": "text/html; charset=utf-8",
-        "latency_ms": 711,
-        "method_tested": "HEAD",
-        "redirect_target": null,
-        "status_code": 200,
-        "verified_at": "2026-06-06T07:17:56.695Z"
+        "verified_at": "2026-06-06T07:44:06.488Z"
       }
     }
   ]

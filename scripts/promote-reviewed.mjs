@@ -1,0 +1,61 @@
+import path from "node:path";
+import {
+  listJsonFilesRecursive,
+  readJson,
+  repoRoot,
+  stableStringify,
+  writeJson
+} from "./lib.mjs";
+
+const args = new Set(process.argv.slice(2));
+const shouldWrite = args.has("--write");
+const dryRun = args.has("--dry-run") || !shouldWrite;
+const decisionsPath = path.join(repoRoot, "registry/reviews/maintainer-reviewed.json");
+const decisionsDocument = await readJson(decisionsPath);
+const overlayFiles = await listJsonFilesRecursive(path.join(repoRoot, "registry/subnets"));
+const overlays = await Promise.all(overlayFiles.map(async (filePath) => ({ filePath, overlay: await readJson(filePath) })));
+const overlaysByNetuid = new Map(overlays.map((entry) => [entry.overlay.netuid, entry]));
+const results = [];
+
+for (const decision of decisionsDocument.decisions || []) {
+  const entry = overlaysByNetuid.get(decision.netuid);
+  if (!entry) {
+    results.push({
+      netuid: decision.netuid,
+      slug: decision.slug,
+      status: "missing-overlay"
+    });
+    continue;
+  }
+
+  const nextOverlay = structuredClone(entry.overlay);
+  nextOverlay.curation = {
+    ...(nextOverlay.curation || {}),
+    review_state: decision.decision,
+    reviewed_at: decision.reviewed_at
+  };
+  if (decision.decision === "maintainer-reviewed" && nextOverlay.curation.level === "machine-verified") {
+    nextOverlay.curation.level = "maintainer-reviewed";
+  }
+
+  const changed = stableStringify(nextOverlay) !== stableStringify(entry.overlay);
+  results.push({
+    netuid: decision.netuid,
+    slug: nextOverlay.slug,
+    decision: decision.decision,
+    changed
+  });
+
+  if (!dryRun && changed) {
+    await writeJson(entry.filePath, nextOverlay);
+  }
+}
+
+console.log(
+  stableStringify({
+    mode: dryRun ? "dry-run" : "write",
+    decision_count: decisionsDocument.decisions?.length || 0,
+    changed_count: results.filter((result) => result.changed).length,
+    results
+  })
+);

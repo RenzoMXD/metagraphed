@@ -2,6 +2,16 @@
 
 Metagraphed covers every active Finney subnet through chain-native data plus curated public-interface overlays.
 
+## Current Coverage
+
+- `129` active Finney netuids.
+- `1` root/system entry at netuid `0`.
+- `128` application subnets.
+- `129` curated overlays.
+- `0` native-only entries.
+- Allways SN7 and Gittensor SN74 are adapter-backed.
+- Root netuid `0` carries Bittensor base-layer Subtensor RPC/WSS surfaces.
+
 ## Native Snapshot
 
 `registry/native/finney-subnets.json` is generated from decoded Bittensor SDK data.
@@ -32,6 +42,7 @@ Overlays are canonical for:
 - docs;
 - repositories;
 - data artifacts;
+- Subtensor RPC/WSS endpoints on root/system;
 - read-only probe rules.
 
 An overlay must reference a netuid that exists in the native snapshot unless it is explicitly marked pending.
@@ -48,13 +59,26 @@ Curation levels:
 
 `registry/candidates` is for unverified public interface candidates from community submissions or third-party discovery.
 
-Candidates are never treated as verified surfaces. They must pass maintainer review before being promoted into `registry/subnets`.
+Candidates are never treated as verified surfaces. They must pass verification and maintainer review before being treated as reviewed registry truth.
 
-`npm run discover:candidates` generates a public-source candidate bundle from enrichment sources such as TaoMarketCap, Tensorplex subnet-docs, and Taopedia articles. Generated candidates are review inputs only.
+`npm run discover:candidates` generates a public-source candidate bundle from enrichment sources such as TaoMarketCap, Tensorplex subnet-docs, Taopedia articles, GitHub README links, and public websites.
 
-`npm run verify:candidates` writes `registry/verification/latest.json` with live, redirected, auth-required, dead, unsafe, or unsupported classifications.
+`npm run verify:candidates` writes `registry/verification/latest.json` with live, redirected, auth-required, dead, unsafe, unsupported, rate-limited, transient, timeout, or content-mismatch classifications.
 
 `npm run curate:baseline` promotes only live/redirected public-safe candidates into generated baseline overlays. It does not overwrite hand-curated overlays.
+
+## Review Workflow
+
+`registry/reviews/maintainer-reviewed.json` stores public-safe maintainer decisions.
+
+`npm run review:promote` applies those decisions to overlays. Review data is limited to netuid, slug, decision, reviewed timestamp, confidence, public source URLs, and notes.
+
+Generated artifacts expose review state through:
+
+- `/metagraph/review/curation.json`
+- `/metagraph/review/gap-priorities.json`
+- `/metagraph/review/adapter-candidates.json`
+- `/metagraph/review/maintainer-decisions.json`
 
 ## Generated Artifacts
 
@@ -62,7 +86,9 @@ Candidates are never treated as verified surfaces. They must pass maintainer rev
 
 `public/metagraph/surfaces.json` lists only curated/verified public interface surfaces.
 
-`public/metagraph/coverage.json` summarizes chain coverage, curated overlays, native-only stubs, probed subnets, and candidate counts.
+`public/metagraph/rpc-endpoints.json` lists Bittensor base-layer RPC/WSS endpoints and live probe metadata.
+
+`public/metagraph/coverage.json` summarizes chain coverage, curated overlays, native-only stubs, probed subnets, surfaces, and candidate counts.
 
 `public/metagraph/candidates.json` lists unverified candidate surfaces with source provenance.
 
@@ -75,3 +101,7 @@ Candidates are never treated as verified surfaces. They must pass maintainer rev
 `public/metagraph/verification/latest.json` exposes the latest candidate verification snapshot.
 
 `public/metagraph/subnets/{netuid}.json` exposes per-subnet static detail artifacts for app and API consumers.
+
+`public/metagraph/health/*` exposes surface health, per-subnet health, history, and badge-input data under `metagraph.sh`.
+
+`public/metagraph/adapters/*` exposes safe subnet-specific public metrics for adapter-backed pilots.
