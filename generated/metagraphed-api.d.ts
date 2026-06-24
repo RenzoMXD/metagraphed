@@ -11435,6 +11435,7 @@ export interface operations {
                 domain?: "agents" | "compute" | "data" | "finance" | "inference" | "media" | "prediction" | "privacy" | "robotics" | "science" | "search" | "security" | "storage" | "training";
                 status?: "active" | "inactive";
                 subnet_type?: "root" | "application";
+                q?: string;
                 fields?: string;
                 limit?: number;
                 cursor?: number;

@@ -575,6 +575,7 @@ export const API_QUERY_COLLECTIONS = {
       status: enumSchema(QUERY_ENUMS.subnetStatus),
       subnet_type: enumSchema(QUERY_ENUMS.subnetType),
     },
+    search: ["name", "slug"],
     sort: [
       "block",
       "candidate_count",

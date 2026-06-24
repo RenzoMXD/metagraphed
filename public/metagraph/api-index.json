@@ -748,6 +748,12 @@
           }
         },
         {
+          "name": "q",
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
           "name": "fields",
           "schema": {
             "pattern": "^[A-Za-z_][A-Za-z0-9_]*(,[A-Za-z_][A-Za-z0-9_]*)*$",
