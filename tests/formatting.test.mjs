@@ -382,4 +382,18 @@ describe("deriveDescriptionFromNotes", () => {
     assert.equal(result, "alpha beta…");
     assert.ok(result.length <= 13); // 12 + the single-char ellipsis
   });
+
+  test("does not split an astral character at the truncation boundary", () => {
+    // "abcd" + 😀 (a surrogate pair straddling index 4-5) followed by an unbroken
+    // tail with no whitespace, so the trailing-word cleanup can't rescue it. A raw
+    // .slice(0, 5) keeps the lone high surrogate; code-point slicing keeps the emoji.
+    const result = deriveDescriptionFromNotes("abcd😀efghijklmno", {
+      maxLength: 5,
+    });
+    assert.ok(
+      !/[\uD800-\uDBFF](?![\uDC00-\uDFFF])/.test(result),
+      "must not emit a lone high surrogate",
+    );
+    assert.ok(result.includes("😀"), "keeps the whole astral character");
+  });
 });

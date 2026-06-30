@@ -197,9 +197,14 @@ export function deriveDescriptionFromNotes(notes, { maxLength = 280 } = {}) {
   if (typeof notes !== "string") return null;
   const cleaned = cleanDescription(notes);
   if (!cleaned) return null;
-  if (cleaned.length <= maxLength) return cleaned;
-  return `${cleaned
+  // Slice by code points, not UTF-16 units (mirrors formatLlmMarkdownText): a raw
+  // .slice can cut an astral character in half and emit a lone surrogate when the
+  // truncation boundary or trailing-word cleanup falls between a surrogate pair.
+  const chars = Array.from(cleaned);
+  if (chars.length <= maxLength) return cleaned;
+  return `${chars
     .slice(0, maxLength)
+    .join("")
     .replace(/\s+\S*$/, "")
     .trimEnd()}…`;
 }
