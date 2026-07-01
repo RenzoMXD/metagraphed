@@ -35,21 +35,32 @@ export const EXTRINSIC_INSERT_COLUMNS = [
   "observed_at",
 ];
 
-function toIso(ms) {
-  return Number.isFinite(ms) ? new Date(ms).toISOString() : null;
-}
-
 // Coerce a chain-position cell (block_number / extrinsic_index) to a
 // non-negative integer, or null when missing, non-finite, or negative. D1 can
 // return an INTEGER column as a numeric string, so a bare `?? null` pass-through
 // would silently leak the string into the API payload and break downstream
-// arithmetic/comparisons. Mirrors the `toBlockNumber` already applied in
-// account-events.mjs / chain-analytics.mjs and the `toBlockNumber` added to
-// blocks.mjs in #2435.
+// arithmetic/comparisons.
 function toChainPosition(value) {
   if (value == null) return null;
   const n = Number(value);
   return Number.isInteger(n) && n >= 0 ? n : null;
+}
+
+// Round a TAO sum to rao precision (9 dp), preserving null. Coerces numeric
+// strings so D1 REAL cells like "0.5" become 0.5 instead of leaking as a
+// string into the number|null payload.
+function toTaoOrNull(value) {
+  if (value == null) return null;
+  const n = Number(value);
+  return Number.isFinite(n) ? Math.round(n * 1e9) / 1e9 : null;
+}
+
+// Format an epoch-ms timestamp as ISO 8601, coercing numeric strings so a
+// string D1 cell becomes an ISO string instead of being dropped to null.
+function toMsIsoOrNull(value) {
+  if (value == null) return null;
+  const ms = Number(value);
+  return Number.isFinite(ms) ? new Date(ms).toISOString() : null;
 }
 
 // Keep only well-formed extrinsics rows (a valid (block_number, extrinsic_index)
@@ -141,9 +152,9 @@ export function formatExtrinsic(row) {
     call_function: row.call_function ?? null,
     call_args,
     success: row.success == null ? null : row.success === 1,
-    fee_tao: row.fee_tao ?? null,
-    tip_tao: row.tip_tao ?? null,
-    observed_at: toIso(row.observed_at),
+    fee_tao: toTaoOrNull(row.fee_tao),
+    tip_tao: toTaoOrNull(row.tip_tao),
+    observed_at: toMsIsoOrNull(row.observed_at),
   };
 }
 

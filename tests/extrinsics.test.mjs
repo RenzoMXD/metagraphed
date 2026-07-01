@@ -237,6 +237,45 @@ test("formatExtrinsic rejects negative or non-integer chain-position cells to nu
   );
 });
 
+test("formatExtrinsic coerces string-typed fee/tip/observed_at cells", () => {
+  // D1 can return INTEGER/REAL/timestamp columns as numeric strings; the bare
+  // `?? null` pass-through this replaced would have leaked strings into the
+  // number|null payload. observed_at also flows through toMsIsoOrNull so a
+  // string epoch-ms is serialized to ISO 8601 instead of dropped to null.
+  const out = formatExtrinsic({
+    block_number: 1,
+    extrinsic_index: 0,
+    fee_tao: "0.5",
+    tip_tao: "0.0125",
+    observed_at: "1750000000000",
+  });
+  assert.equal(out.fee_tao, 0.5);
+  assert.equal(typeof out.fee_tao, "number");
+  assert.equal(out.tip_tao, 0.0125);
+  assert.equal(typeof out.tip_tao, "number");
+  assert.equal(out.observed_at, new Date(1750000000000).toISOString());
+});
+
+test("formatExtrinsic coerces a fully missing fee/tip/observed_at to null", () => {
+  // Mirrors the chain-position null guard: every required field absent must
+  // surface as null (not undefined), preserving the schema-stable contract.
+  const out = formatExtrinsic({ block_number: 1, extrinsic_index: 0 });
+  assert.equal(out.fee_tao, null);
+  assert.equal(out.tip_tao, null);
+  assert.equal(out.observed_at, null);
+});
+
+test("formatExtrinsic rejects invalid fee/tip/observed_at cells to null", () => {
+  // Non-finite numbers and unparseable strings fall back to null instead of
+  // crashing the formatter or leaking garbage into the payload.
+  assert.equal(formatExtrinsic({ fee_tao: "abc" }).fee_tao, null);
+  assert.equal(formatExtrinsic({ tip_tao: Infinity }).tip_tao, null);
+  assert.equal(
+    formatExtrinsic({ observed_at: "not-a-date" }).observed_at,
+    null,
+  );
+});
+
 test("buildExtrinsic wraps a row + is schema-stable when absent (#1345)", () => {
   const hash = `0x${"a".repeat(64)}`;
   const out = buildExtrinsic(
