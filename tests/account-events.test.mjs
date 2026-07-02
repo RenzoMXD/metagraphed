@@ -162,6 +162,44 @@ test("formatAccountEvent rejects non-integer or negative netuid/uid cells to nul
   assert.equal(formatAccountEvent({ netuid: "abc" }).netuid, null);
 });
 
+test("formatAccountEvent coerces string-typed amount_tao and alpha_amount cells to Numbers", () => {
+  // D1 can return a REAL column as a numeric string; the bare `?? null`
+  // pass-through this replaced would have leaked strings into the JSON payload.
+  // Mirrors the coercion in blocks.mjs (#2435), extrinsics.mjs (#2439), and
+  // metagraph-neurons.mjs (#2503). Rounded to rao precision (9 dp) so the
+  // IEEE-754 float noise from SUM() never carries into the payload.
+  const out = formatAccountEvent({
+    block_number: 1,
+    amount_tao: "1.5",
+    alpha_amount: "2.25",
+  });
+  assert.equal(out.amount_tao, 1.5);
+  assert.equal(typeof out.amount_tao, "number");
+  assert.equal(out.alpha_amount, 2.25);
+  assert.equal(typeof out.alpha_amount, "number");
+});
+
+test("formatAccountEvent coerces null amount_tao and alpha_amount to null (not 0)", () => {
+  // amount_tao / alpha_amount are nullable REAL columns. Null must surface
+  // as null, never coerced to 0 by the bare `?? null` fallback this replaced.
+  const out = formatAccountEvent({ block_number: 1 });
+  assert.equal(out.amount_tao, null);
+  assert.equal(out.alpha_amount, null);
+});
+
+test("formatAccountEvent rounds amount_tao and alpha_amount to rao precision", () => {
+  // The rao is the smallest TAO unit (1e-9). A SUM() over many REAL rows
+  // accumulates IEEE-754 noise below the rao floor; toTaoOrNull rounds to
+  // 9 dp so the payload never carries a long floating-point tail.
+  const out = formatAccountEvent({
+    block_number: 1,
+    amount_tao: 1.1234567899,
+    alpha_amount: 2.9876543211,
+  });
+  assert.equal(out.amount_tao, 1.12345679);
+  assert.equal(out.alpha_amount, 2.987654321);
+});
+
 test("utcDayBounds returns the UTC day window", () => {
   const b = utcDayBounds(Date.UTC(2026, 5, 21, 14, 30, 0));
   assert.equal(b.date, "2026-06-21");

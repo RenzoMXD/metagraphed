@@ -112,8 +112,12 @@ export function formatAccountEvent(row) {
     // sibling formatters in blocks.mjs (#2435) and extrinsics.mjs (#2439).
     netuid: toBlockNumber(row.netuid),
     uid: toBlockNumber(row.uid),
-    amount_tao: row.amount_tao ?? null,
-    alpha_amount: row.alpha_amount ?? null,
+    // amount_tao / alpha_amount (D1 REAL columns) — coerce through toTaoOrNull
+    // so a numeric string never leaks the string form into the JSON payload,
+    // and SUM float noise is rounded to rao precision. Mirrors the coercion
+    // applied in formatRegistration (#2487) and the sibling formatters.
+    amount_tao: toTaoOrNull(row.amount_tao),
+    alpha_amount: toTaoOrNull(row.alpha_amount),
     observed_at: toIso(row.observed_at),
     extrinsic_index: toBlockNumber(row.extrinsic_index),
   };
