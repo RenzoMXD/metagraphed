@@ -54,6 +54,81 @@ const RPC_POOL = {
   ],
 };
 
+const COVERAGE_DEPTH_ARTIFACT = {
+  schema_version: 1,
+  generated_at: "1970-01-01T00:00:00.000Z",
+  coverage_depth_version: 1,
+  rows: [
+    {
+      netuid: 7,
+      slug: "allways",
+      name: "Allways",
+      tier: "agent-ready",
+      score: 77,
+      priority_score: 86,
+      agent_status: "callable",
+      blocker_level: "none",
+      top_gap_codes: ["missing-fixture"],
+      recommended_next_action: "capture a sanitized fixture",
+    },
+    {
+      netuid: 31,
+      slug: "recall",
+      name: "Recall",
+      tier: "missing-interface",
+      score: 18,
+      priority_score: 67,
+      agent_status: "blocked",
+      blocker_level: "missing-data",
+      top_gap_codes: ["missing-callable-service"],
+      recommended_next_action: "find an official callable surface",
+    },
+  ],
+  ranked_queue: [
+    {
+      rank: 1,
+      netuid: 31,
+      tier: "missing-interface",
+      score: 18,
+      priority_score: 67,
+      severity: "missing-data",
+      top_gap_codes: ["missing-callable-service"],
+      recommended_next_action: "find an official callable surface",
+    },
+    {
+      rank: 2,
+      netuid: 7,
+      tier: "agent-ready",
+      score: 77,
+      priority_score: 86,
+      severity: "missing-data",
+      top_gap_codes: ["missing-fixture"],
+      recommended_next_action: "capture a sanitized fixture",
+    },
+  ],
+};
+
+function withCoverageDepthArchive(overrides = {}) {
+  const env = createLocalArtifactEnv(overrides);
+  const originalGet = env.METAGRAPH_ARCHIVE.get;
+  env.METAGRAPH_ARCHIVE.get = async (key) => {
+    const normalized = String(key).replace(/^latest\//, "");
+    if (normalized === "coverage-depth.json") {
+      const text = JSON.stringify(COVERAGE_DEPTH_ARTIFACT);
+      return {
+        async json() {
+          return COVERAGE_DEPTH_ARTIFACT;
+        },
+        async text() {
+          return text;
+        },
+      };
+    }
+    return originalGet(key);
+  };
+  return env;
+}
+
 // RPC-proxy env that serves the pool artifact through ASSETS + R2.
 function rpcEnv(overrides = {}) {
   return {
@@ -1241,6 +1316,45 @@ describe("registry list CSV export", () => {
     assert.equal(body.ok, true);
     // The economics collection projects onto the shared `subnets` data key.
     assert.equal(Array.isArray(body.data.subnets), true);
+  });
+});
+
+describe("coverage-depth CSV export", () => {
+  test("?format=csv returns projected coverage-depth rows", async () => {
+    const res = await handleRequest(
+      req(
+        "/api/v1/coverage-depth?format=csv&fields=netuid,tier,agent_status,priority_score,score&sort=netuid&limit=2",
+      ),
+      withCoverageDepthArchive(),
+      {},
+    );
+    assert.equal(res.status, 200);
+    assert.match(res.headers.get("content-type"), /^text\/csv/);
+    assert.equal(
+      res.headers.get("content-disposition"),
+      'attachment; filename="coverage-depth.csv"',
+    );
+
+    const lines = (await res.text()).split("\r\n");
+    assert.equal(lines[0], "netuid,tier,agent_status,priority_score,score");
+    assert.equal(lines.length, 3);
+    assert.equal(lines[1].startsWith("7,agent-ready,callable,86,77"), true);
+    assert.equal(lines[2].startsWith("31,missing-interface,blocked,67,18"), true);
+  });
+
+  test("?tier=agent-ready&format=csv applies coverage-depth filter", async () => {
+    const res = await handleRequest(
+      req("/api/v1/coverage-depth?tier=agent-ready&format=csv&fields=netuid,tier"),
+      withCoverageDepthArchive(),
+      {},
+    );
+    assert.equal(res.status, 200);
+    assert.match(res.headers.get("content-type"), /^text\/csv/);
+
+    const lines = (await res.text()).split("\r\n");
+    assert.equal(lines[0], "netuid,tier");
+    assert.equal(lines.length, 2);
+    assert.equal(lines[1], "7,agent-ready");
   });
 });
 
