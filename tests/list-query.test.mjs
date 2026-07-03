@@ -565,10 +565,7 @@ describe("list-query endpoint pool count range filters (#2587)", () => {
   }
 });
 
-// #2577: the endpoints collection already exposes sort by latency_ms / score but
-// could not threshold on them — the generic list-query rangeFilterRows engine
-// drops non-numeric cells and rows missing the field, so a caller can ask for
-// "endpoints faster than 500ms" with a single ?max_latency_ms=500 query.
+// #2577: endpoints can now threshold on latency_ms / score.
 describe("list-query endpoint latency / score range filters (#2577)", () => {
   const data = {
     endpoints: [
@@ -584,6 +581,15 @@ describe("list-query endpoint latency / score range filters (#2577)", () => {
     const result = applyQueryFilters(
       data,
       query("/api/v1/endpoints?max_latency_ms=500"),
+      "endpoints",
+    );
+    assert.deepEqual(surfaceIds(result), ["fast-rpc"]);
+  });
+
+  test("?min_latency_ms=100&max_latency_ms=500 keeps rows inside the inclusive latency window", () => {
+    const result = applyQueryFilters(
+      data,
+      query("/api/v1/endpoints?min_latency_ms=100&max_latency_ms=500"),
       "endpoints",
     );
     assert.deepEqual(surfaceIds(result), ["fast-rpc"]);
